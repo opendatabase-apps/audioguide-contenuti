@@ -1,5 +1,5 @@
 {
-  "versione": "1.0.3",
+  "versione": "1.0.4",
   "parchi": [
     {
       "id": "joshua_tree",
@@ -8,6 +8,9 @@
       "icona": "🌵",
       "colore": "#3B6D11",
       "coloreSfondo": "#EAF3DE",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/test_fZu3cv8FZdmW1TLdItdIA01",
       "pois": [
         {
           "id": "visitor_center",
@@ -250,6 +253,9 @@
       "icona": "🏔️",
       "colore": "#8B3A1A",
       "coloreSfondo": "#FDF0F0",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/test_5kQ6oHbSb3MmfKB8o9dIA02",
       "pois": [
         {
           "id": "mather_point",
@@ -417,6 +423,9 @@
       "icona": "🌊",
       "colore": "#B05A1A",
       "coloreSfondo": "#FEF3EC",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/test_5kQ5kD3lF0Aa9md8o9dIA03",
       "pois": [
         {
           "id": "upper_entrance",
@@ -582,6 +591,9 @@
       "icona": "🔄",
       "colore": "#185FA5",
       "coloreSfondo": "#EEF4FB",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": null,
       "pois": [
         {
           "id": "horseshoe_overview",
@@ -722,6 +734,9 @@
       "icona": "💧",
       "colore": "#0A6E8A",
       "coloreSfondo": "#E0F0F8",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": null,
       "pois": [
         {
           "id": "glen_canyon_dam",
@@ -863,6 +878,9 @@
       "icona": "🏜️",
       "colore": "#8B3A00",
       "coloreSfondo": "#FAEEDA",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/test_8x214n8FZaaK55X8o9dIA04",
       "pois": [
         {
           "id": "the_mittens",
