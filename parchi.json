@@ -1,5 +1,5 @@
 {
-  "versione": "1.0.2",
+  "versione": "1.0.3",
   "parchi": [
     {
       "id": "joshua_tree",
@@ -34,7 +34,7 @@
             "🚽 Bagni disponibili nel parcheggio",
             "💧 Riempite le borracce qui — poca acqua nel parco",
             "📶 Ultima zona con segnale cellulare prima del parco",
-            "🗺️ Ritirate la mappa cartacea gratuita all'ingresso!"
+            "🗺️ Ritirate la mappa cartacea gratuita all'ingresso"
           ]
         },
         {
