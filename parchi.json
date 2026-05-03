@@ -1,5 +1,5 @@
 {
-  "versione": "1.0.4",
+  "versione": "1.0.5",
   "parchi": [
     {
       "id": "joshua_tree",
@@ -1038,6 +1038,175 @@
             "📅 Prenota il campeggio con mesi di anticipo",
             "🌡️ Le notti sono fredde tutto l'anno — porta sacco a pelo adeguato",
             "📸 Imposta sveglia 30 minuti prima dell'alba per trovare posto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zion_national_park",
+      "nome": "Zion National Park",
+      "sottotitolo": "Parco Nazionale - Utah",
+      "icona": "🏜️",
+      "colore": "#E8A030",
+      "coloreSfondo": "#FDF3EE",
+      "gratuito": false,
+      "prezzo": 35,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "angels_landing",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Angels Landing",
+          "subtitle": "Tappa 1 - Escursione con catene",
+          "icon": "⛓️",
+          "color": "#FFF0E0",
+          "lat": 37.25907,
+          "lng": -112.951006,
+          "type": "trail",
+          "difficulty": "Strenua",
+          "duration": "2-4 ore",
+          "distance": "5.4 miglia",
+          "altitude": "1500 m",
+          "text": "Angels Landing è una delle escursioni diurne più spettacolari al mondo, offrendo viste panoramiche mozzafiato del canyon di Zion. Il sentiero risale il fianco della montagna attraverso una serie di switchback ben costruiti, raggiungendo Scout Lookout dove inizia la sezione con catene metalliche. Da questo punto, i visitatori procedono lungo una stretta cresta rocciosa con catene di acciaio fissate nella roccia per la sicurezza. Il vertice si trova a 5.790 piedi di elevazione, permettendo di dominare l'intero parco con viste spettacolari in tutte le direzioni.\n\nIl sentiero fu originariamente costruito nel 1926 e rappresenta un capolavoro di ingegneria escursionistica. La costruzione richiese l'esplosione della roccia solida per creare il percorso originale. Nel corso dei decenni, il sentiero è stato mantenuto e migliorato per garantire la sicurezza degli escursionisti. Oggi il permesso per la sezione catene costa 6 dollari e limita il numero di visitatori per preservare questa straordinaria esperienza. La storia geologica del sito risale a milioni di anni fa quando la Vergine River iniziò a erodere la roccia arenaria di Navajo, creando questo monolite iconico.\n\nPer un'escursione sicura, iniziate presto al mattino per evitare la folla e garantire il ritorno prima del tramonto. Portate molta acqua, almeno 2-3 litri, in quanto il sentiero è esposto al sole diretto. Non tentate questa escursione durante piogge o condizioni meteo instabili poiché le rocce bagnate sono estremamente scivolose. Indossate scarpe da trekking robuste con buona aderenza e considerate guanti leggeri per proteggere le mani dalle catene calde.",
+          "tips": [
+            "⛅ Partite presto al mattino",
+            "💧 Portate almeno 2-3 litri di acqua",
+            "👟 Scarpe da trekking con buona aderenza"
+          ]
+        },
+        {
+          "id": "the_narrows",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "The Narrows",
+          "subtitle": "Tappa 2 - Trekking nel fiume",
+          "icon": "🌊",
+          "color": "#E8F4F8",
+          "lat": 37.2852,
+          "lng": -112.9477,
+          "type": "water",
+          "difficulty": "Moderata-Difficile",
+          "duration": "3-5 ore",
+          "distance": "9.6 miglia",
+          "altitude": "1200 m",
+          "text": "The Narrows rappresenta un'esperienza unica di trekking in acqua lungo il Virgin River, con pareti rocciose che si elevano fino a 1.000 piedi su entrambi i lati. Il sentiero Riverside Walk porta fino a Temple of Sinawava, dove inizia il vero trekking nel fiume. Da questo punto, gli escursionisti camminano direttamente nel corso d'acqua, seguendo il fiume mentre scorre attraverso il canyon. L'acqua è generalmente fredda e il fondo del fiume è composto da rocce lisce e scivolose, rendendo ogni passo un'avventura. Le pareti di arenaria di Navajo a strapiombo creano uno dei canyon più spettacolari della Terra.\n\nLa geologia di The Narrows racconta la storia di milioni di anni di erosione continua. Il Virgin River ha scavato lentamente il canyon attraverso la roccia arenaria rossa, creando una gola profonda e stretta che si restringe fino a soli 20 piedi di larghezza in alcuni punti. L'arenaria di Navajo, depositatasi circa 200 milioni di anni fa come sabbia marina, è stata sollevata dagli ultimi 80 milioni di anni dalla spinta tettonica e successivamente erosa dal flusso costante d'acqua. I colori delle rocce variano dal rosso al marrone al blu-grigio, dipingendo un quadro geologico straordinario della storia della Terra.\n\nIndossate scarponcini con suola in gomma resistente all'usura per affrontare le rocce lisce sott'acqua. Portate o noleggiate bastoni da trekking per aiutarvi a mantenere l'equilibrio nel fiume corrente. La temperatura dell'acqua rimane fredda tutto l'anno, quindi considerate una muta leggera se siete sensibili al freddo. Verificate sempre le condizioni di piena prima di partire, poiché il canyon può diventare pericoloso durante forti piogge a monte.",
+          "tips": [
+            "🥾 Scarponcini specifici per water trekking",
+            "🥾 Bastoni da trekking per l'equilibrio",
+            "🌧️ Controllate le previsioni di piena"
+          ]
+        },
+        {
+          "id": "great_white_throne",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Great White Throne",
+          "subtitle": "Tappa 3 - Punto panoramico spettacolare",
+          "icon": "👑",
+          "color": "#F0E8FF",
+          "lat": 37.27134,
+          "lng": -112.96589,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "30 minuti",
+          "distance": "3 miglia",
+          "altitude": "1400 m",
+          "text": "Great White Throne è uno dei monoliti più riconoscibili di Zion National Park, un enorme blocco di arenaria che si erge quasi verticalmente dal fondo del canyon. Visibile dal Court of the Patriarchs Viewpoint e raggiungibile via lo scenic drive, questa formazione rocciosa impressiona per la sua purezza del colore bianco e le dimensioni monumentali. L'escursione per raggiungerlo rimane una delle più amate del parco, con viste sempre mutevoli mentre il sole si muove nel cielo. La formazione domina il paesaggio e ricorda a chi la contempla la maestosità della natura e l'insignificanza dell'uomo di fronte a tali dimensioni geologiche.\n\nLa geologia del Great White Throne rappresenta un capolavoro di arenaria di Navajo, depositatasi come dune di sabbia in un mare interno circa 200 milioni di anni fa. Il colore bianco caratteristico proviene dalla composizione principalmente quarzitica della roccia, con percentuali molto basse di ferro e altri minerali coloranti. Nel corso dei milioni di anni, l'erosione differenziale ha asportato la roccia circostante, lasciando in piedi questo monolite solitario. Le pareti verticali sono il risultato della fratturazione naturale della roccia secondo linee di debolezza giaciturali, creando i caratteristici piani paralleli visibili da lontano.\n\nPer la migliore fotografia, visitate al mattino presto quando la luce del sole illumina direttamente le pareti bianche del monolite. Il Court of the Patriarchs Viewpoint offre una prospettiva eccellente senza necessità di escursionismo. Se desiderate avvicinarvi, il sentiero Angels Landing offre viste ancora più drammatiche. Portate un filtro solare ad alta protezione poiché la roccia bianca riflette intensamente i raggi UV. Un binocolo o teleobiettivo vi aiuterà a apprezzare i dettagli della stratificazione rocciosa e della geologia.",
+          "tips": [
+            "📸 Migliore al mattino presto",
+            "🔭 Binocolo per dettagli",
+            "☀️ Protezione solare SPF 50+"
+          ]
+        },
+        {
+          "id": "weeping_rock",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Weeping Rock",
+          "subtitle": "Tappa 4 - Sorgenti naturali e alcova",
+          "icon": "💧",
+          "color": "#E8FFF0",
+          "lat": 37.26789,
+          "lng": -112.95034,
+          "type": "geology",
+          "difficulty": "Facile",
+          "duration": "1 ora",
+          "distance": "0.8 miglia",
+          "altitude": "1300 m",
+          "text": "Weeping Rock è un'alcova naturale nella parete rocciosa del canyon dove l'acqua goccia costantemente dalla roccia, creando un'oasi di vita vegetale in mezzo al deserto. Questo affascinante fenomeno idrogeologico attrae migliaia di visitatori ogni anno che desiderano osservare da vicino il processo di filtrazione dell'acqua attraverso le fratture rocciose. L'acqua che vedi gocciare proviene da precipitazioni che cadono sul plateau superiore di Zion, si infiltra nel terreno e nella roccia, e emerge qui dove incontra una formazione rocciosa impermeabile. L'alcova ospita una lussureggiante vegetazione di felci e muschi, creando un microhabitat completamente diverso dal deserto circostante.\n\nGeologicamente, Weeping Rock rappresenta un punto di contatto tra due strati rocciosi di permeabilità diversa. L'acqua piovana che cade sulla parte superiore del plateau si infiltra nel suolo e nella roccia arenaria di Navajo, penetrando per decine di metri verticali. Quando raggiunge lo strato impermeabile sottostante, nota come Kayenta Formation, l'acqua è costretta a fluire lateralmente finché non trova un'apertura dove emergere. Questo processo di esudazione dell'acqua dal fianco della montagna ha scavato nel corso dei milioni di anni un'alcova caratteristica, offrendo un'aula naturale di lezioni di idrogeologia. I depositi minerali di calcare visibili intorno all'apertura attestano il passaggio continuo dell'acqua ricca di carbonato di calcio.\n\nVisitate Weeping Rock durante la mezza stagione quando il flusso d'acqua è massimo ma il caldo non è estremo. Il sentiero è ben mantenuto e accessibile a persone di tutte le capacità fisiche, anche se le rocce bagnate richiedono cautela. Portate una lente d'ingrandimento per osservare la microfauna e la flora microscopica che prosperano in questo ambiente umido. Fotografate le gocce d'acqua che cadono per catturare la magia di questo luogo unico.",
+          "tips": [
+            "💧 Rocce bagnate, cautela necessaria",
+            "🔬 Lente per osservare la microfauna",
+            "📸 Catturate le gocce d'acqua"
+          ]
+        },
+        {
+          "id": "emerald_pools",
+          "order": 5,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Emerald Pools",
+          "subtitle": "Tappa 5 - Piscine naturali cristalline",
+          "icon": "💎",
+          "color": "#E8FFF8",
+          "lat": 37.27412,
+          "lng": -112.94756,
+          "type": "water",
+          "difficulty": "Facile-Moderata",
+          "duration": "2-3 ore",
+          "distance": "3 miglia",
+          "altitude": "1250 m",
+          "text": "Emerald Pools è una serie di tre piscine naturali alimentate da cascate lungo il Virgin River, offrendo scenari spettacolari e opportunità di immersione nelle acque fredde del parco. Le tre piscine, Lower, Middle e Upper Emerald Pools, sono formate dall'erosione dell'acqua sulla roccia arenaria, creando concavità che si riempiono di acqua cristallina. Il colore smeraldo della piscina inferiore è particolarmente impressionante, causato dalla presenza di alghe e dalla profondità limitata che permette alla luce di riflettersi sul fondo bianco. Queste piscine rappresentano rifugi naturali dove i visitatori possono rinfrescarsi durante i mesi estivi, anche se l'acqua rimane gelida tutto l'anno poiché alimentata da sorgenti fredde e cascate.\n\nLa formazione delle Emerald Pools è il risultato di un processo idrogeologico complesso. L'acqua del Virgin River, carica di sedimenti, scorre continuamente sui massi di granito e arenaria, erodendo lentamente le rocce più tenere e creando vasche naturali. Nel corso dei millenni, questi processi erosivi hanno scavato piscine sempre più profonde. La cascata che alimenta le piscine inferiori cade da un'altezza di circa 40 piedi, creando una spettacolare colonna d'acqua. L'acqua è fredda perché proviene direttamente dalle montagne e non ha tempo di riscaldarsi passando attraverso il canyon ombreggiato. I minerali disciolti nell'acqua, principalmente calcite, mantengono la trasparenza cristallina della piscina.\n\nIndossate una muta o almeno un costume da bagno se intendete fare il bagno, poiché l'acqua è estremamente fredda. Portate sandali robusti o scarpe d'acqua per camminare sulle rocce lisce e scivolose intorno alle piscine. Non saltate dalle rocce a meno che non siate esperti, poiché il fondo può essere più poco profondo di quanto sembra. Rispettate l'ambiente fragile intorno alle piscine evitando di danneggiar la vegetazione. Visitate al mattino presto per evitare la folla e godere della tranquillità naturale del luogo.",
+          "tips": [
+            "🏊 Muta per il nuoto al freddo",
+            "👟 Sandali d'acqua robusti",
+            "⏰ Mattino presto per evitare folla"
+          ]
+        },
+        {
+          "id": "court_patriarchs",
+          "order": 6,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Court of the Patriarchs",
+          "subtitle": "Tappa 6 - Formazioni rocciose iconiche",
+          "icon": "⛰️",
+          "color": "#FFF8E8",
+          "lat": 37.27865,
+          "lng": -112.96012,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "30 minuti",
+          "distance": "2 miglia",
+          "altitude": "1350 m",
+          "text": "Court of the Patriarchs è un punto panoramico eccezionale che offre viste spettacolari di tre formazioni rocciose monumentali nominate Abramo, Isacco e Giacobbe da un pastore metodista nel 1916. Queste tre montagne si elevano maestosamente dal fondo della valle, con il Monte Abramo raggiungendo i 10.128 piedi di elevazione. La loro posizione nel parco le rende visibili da più punti lungo lo Scenic Drive, ma il Court of the Patriarchs Viewpoint offre la prospettiva più drammatica. Nei giorni sereni, il contrasto tra le pareti rocciose rosse e il cielo azzurro crea un'immagine che rimane impressa nella memoria di chi la contempla. Le formazioni sono particolarmente spettacolari durante l'ora d'oro del tramonto quando l'illuminazione laterale evidenzia ogni piega e sfaccettatura della roccia.\n\nGeologicamente, i Tre Patriarchi rappresentano tre picchi della stessa formazione di arenaria di Navajo, ognuno con un'altitudine superiore ai 10.000 piedi. La roccia arenaria, depositatasi circa 190 milioni di anni fa in un ambiente desertico antico, è stata sollevata dalla tettonica a zolle e successivamente sottoposta a erosione differenziale che ha isolato questi tre picchi principali. Le loro forme piramidali sono il risultato di fratture naturali nella roccia che orientano l'erosione secondo piani preferenziali. I colori variano dal rosso scuro al marrone chiaro, dipendenti dalla distribuzione di ossidi di ferro nella roccia. La stratificazione visibile sulle pareti registra il ciclo alternato di erosione e sedimentazione avvenuto per milioni di anni.\n\nIl Court of the Patriarchs Viewpoint è facilmente accessibile dal parcheggio lungo lo Scenic Drive, richiedendo solo una breve passeggiata. Portate una fotocamera con teleobiettivo per catturare i dettagli delle formazioni rocciose. Visitate al mattino quando la luce frontale illumina direttamente le pareti rocciose, o al tramonto per l'effetto dramatico della luce laterale. Un binocolo vi permetterà di osservare la stratificazione geologica e apprezzare la scala monumentale di queste formazioni.",
+          "tips": [
+            "📸 Teleobiettivo consigliato",
+            "🔭 Binocolo per dettagli",
+            "🌅 Tramonto per illuminazione drammatica"
           ]
         }
       ]
