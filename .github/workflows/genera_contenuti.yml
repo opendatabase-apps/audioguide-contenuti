@@ -1,0 +1,104 @@
+name: Genera contenuti audioguide
+
+on:
+  # Avvio manuale dalla UI di GitHub → Actions → "Run workflow"
+  workflow_dispatch:
+    inputs:
+      master:
+        description: 'Master file da processare (lascia vuoto = tutti)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - parchi_master.json
+          - cina_master.json
+      priorita:
+        description: 'Priorità da generare (1=top, 2=media, 3=bassa, vuoto=tutte)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - '1'
+          - '2'
+          - '3'
+      dry_run:
+        description: 'Dry run (mostra cosa genererebbe senza chiamare API)'
+        required: false
+        default: false
+        type: boolean
+
+  # Esecuzione automatica ogni lunedì alle 06:00 UTC
+  # Genera automaticamente le P1 di tutti i master
+  schedule:
+    - cron: '0 6 * * 1'
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360   # max 6 ore (molte destinazioni = molte pause API)
+
+    permissions:
+      contents: write      # per fare il commit di parchi.json e master aggiornati
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: agente/requirements.txt
+
+      - name: Installa dipendenze
+        run: pip install -r agente/requirements.txt
+
+      - name: Genera contenuti
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Costruisci il comando con i parametri opzionali
+          CMD="python agente/genera_contenuti.py"
+
+          if [ -n "${{ github.event.inputs.master }}" ]; then
+            CMD="$CMD --master ${{ github.event.inputs.master }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.priorita }}" ]; then
+            CMD="$CMD --priorita ${{ github.event.inputs.priorita }}"
+          fi
+
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+
+          # Per il cron settimanale genera solo P1 di tutti i master
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            CMD="python agente/genera_contenuti.py --priorita 1"
+          fi
+
+          echo "Comando: $CMD"
+          eval $CMD
+
+      - name: Commit e push aggiornamenti
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add parchi.json parchi_master.json cina_master.json
+
+          # Commit solo se ci sono modifiche
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da committare"
+          else
+            VERSIONE=$(python -c "import json; d=json.load(open('parchi.json')); print(d['versione'])")
+            DESTINAZIONI=$(python -c "import json; d=json.load(open('parchi.json')); print(len(d['parchi']))")
+            git commit -m "feat: aggiorna contenuti v${VERSIONE} — ${DESTINAZIONI} destinazioni [bot]"
+            git push
+            echo "Commit effettuato: v${VERSIONE} con ${DESTINAZIONI} destinazioni"
+          fi

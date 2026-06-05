@@ -1,0 +1,759 @@
+{
+  "versione": "1.0.0",
+  "paese": "Cina",
+  "totale": 34,
+  "aree": [
+    {
+      "id": "beijing",
+      "nome": "Pechino e dintorni"
+    },
+    {
+      "id": "shanghai",
+      "nome": "Shanghai"
+    },
+    {
+      "id": "xian",
+      "nome": "Xi'an e Shaanxi"
+    },
+    {
+      "id": "guilin",
+      "nome": "Guilin e Guangxi"
+    },
+    {
+      "id": "yunnan",
+      "nome": "Yunnan"
+    },
+    {
+      "id": "sichuan",
+      "nome": "Sichuan"
+    },
+    {
+      "id": "jiangsu_zhejiang",
+      "nome": "Jiangsu e Zhejiang"
+    },
+    {
+      "id": "tibet",
+      "nome": "Tibet"
+    },
+    {
+      "id": "hainan",
+      "nome": "Hainan"
+    }
+  ],
+  "destinazioni": [
+    {
+      "id": "grande_muraglia_badaling",
+      "nome": "Grande Muraglia",
+      "nome_completo": "Grande Muraglia — Sezione di Badaling",
+      "paese": "Cina",
+      "area": "beijing",
+      "tipo": "sito_unesco",
+      "lat": 40.3543,
+      "lng": 116.0193,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "muraglia",
+        "UNESCO",
+        "storia",
+        "imperiale",
+        "trekking"
+      ],
+      "status": "completato"
+    },
+    {
+      "id": "citta_proibita",
+      "nome": "Città Proibita",
+      "nome_completo": "Città Proibita — Palazzo Imperiale di Pechino",
+      "paese": "Cina",
+      "area": "beijing",
+      "tipo": "palazzo_imperiale",
+      "lat": 39.9163,
+      "lng": 116.3972,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "imperiale",
+        "UNESCO",
+        "palazzo",
+        "storia",
+        "fotografia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "tempio_del_cielo",
+      "nome": "Tempio del Cielo",
+      "nome_completo": "Tempio del Cielo — Tiantan, Pechino",
+      "paese": "Cina",
+      "area": "beijing",
+      "tipo": "tempio",
+      "lat": 39.8822,
+      "lng": 116.4066,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "tempio",
+        "UNESCO",
+        "cerimonie",
+        "architettura",
+        "parco"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "piazza_tiananmen",
+      "nome": "Piazza Tiananmen",
+      "nome_completo": "Piazza Tiananmen e Mausoleo di Mao",
+      "paese": "Cina",
+      "area": "beijing",
+      "tipo": "piazza_storica",
+      "lat": 39.9054,
+      "lng": 116.3975,
+      "priorita": 1,
+      "gratuito": true,
+      "prezzo": 0,
+      "tag": [
+        "storia",
+        "mao",
+        "icona",
+        "politica",
+        "monumento"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "palazzo_estivo_pechino",
+      "nome": "Palazzo d'Estate",
+      "nome_completo": "Palazzo d'Estate — Yiheyuan, Pechino",
+      "paese": "Cina",
+      "area": "beijing",
+      "tipo": "giardino_imperiale",
+      "lat": 39.9999,
+      "lng": 116.2755,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "giardino",
+        "lago",
+        "imperiale",
+        "UNESCO",
+        "architettura"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "esercito_terracotta",
+      "nome": "Esercito di Terracotta",
+      "nome_completo": "Mausoleo di Qin Shi Huang — Esercito di Terracotta",
+      "paese": "Cina",
+      "area": "xian",
+      "tipo": "sito_archeologico",
+      "lat": 34.3843,
+      "lng": 109.2785,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "archeologia",
+        "imperiale",
+        "guerrieri",
+        "storia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "mura_xian",
+      "nome": "Mura di Xi'an",
+      "nome_completo": "Mura Antiche di Xi'an",
+      "paese": "Cina",
+      "area": "xian",
+      "tipo": "mura_storiche",
+      "lat": 34.2583,
+      "lng": 108.929,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "mura",
+        "Ming",
+        "bicicletta",
+        "torre",
+        "storia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "bund_shanghai",
+      "nome": "Il Bund",
+      "nome_completo": "Il Bund — Lungomari di Shanghai",
+      "paese": "Cina",
+      "area": "shanghai",
+      "tipo": "lungofiume",
+      "lat": 31.2404,
+      "lng": 121.4906,
+      "priorita": 1,
+      "gratuito": true,
+      "prezzo": 0,
+      "tag": [
+        "skyline",
+        "coloniale",
+        "Pudong",
+        "fotografia",
+        "notte"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "giardino_yu",
+      "nome": "Giardino Yu",
+      "nome_completo": "Giardino Yu — Yuyuan, Shanghai",
+      "paese": "Cina",
+      "area": "shanghai",
+      "tipo": "giardino_classico",
+      "lat": 31.2274,
+      "lng": 121.4919,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "giardino",
+        "Ming",
+        "architettura",
+        "bazaar",
+        "tradizionale"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "fiume_li_guilin",
+      "nome": "Fiume Li",
+      "nome_completo": "Crociera sul Fiume Li — Guilin a Yangshuo",
+      "paese": "Cina",
+      "area": "guilin",
+      "tipo": "paesaggio_naturale",
+      "lat": 24.896,
+      "lng": 110.5396,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "karst",
+        "crociera",
+        "fotografia",
+        "natura",
+        "icona"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "campi_riso_longji",
+      "nome": "Terrazze di Longji",
+      "nome_completo": "Terrazze di Riso di Longji — Longsheng",
+      "paese": "Cina",
+      "area": "guilin",
+      "tipo": "paesaggio_agricolo",
+      "lat": 25.7606,
+      "lng": 110.0706,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "terrazze",
+        "riso",
+        "Zhuang",
+        "fotografia",
+        "trekking"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "lijiang_citta_antica",
+      "nome": "Città Antica di Lijiang",
+      "nome_completo": "Città Antica di Lijiang — Yunnan",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "citta_storica",
+      "lat": 26.8721,
+      "lng": 100.2417,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "Naxi",
+        "canali",
+        "montagna",
+        "tradizionale"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "lago_lugu",
+      "nome": "Lago Lugu",
+      "nome_completo": "Lago Lugu — Confine Yunnan-Sichuan",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "lago_montagna",
+      "lat": 27.7276,
+      "lng": 100.7783,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "lago",
+        "Mosuo",
+        "remoto",
+        "natura",
+        "barca"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "shangri_la",
+      "nome": "Shangri-La",
+      "nome_completo": "Shangri-La — Zhongdian, Yunnan",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "citta_tibetana",
+      "lat": 27.8242,
+      "lng": 99.7095,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "Tibet",
+        "monastero",
+        "altitudine",
+        "tradizionale",
+        "natura"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "zhangjiajie",
+      "nome": "Zhangjiajie",
+      "nome_completo": "Parco Nazionale Zhangjiajie — Hunan",
+      "paese": "Cina",
+      "area": "guilin",
+      "tipo": "parco_nazionale",
+      "lat": 29.3243,
+      "lng": 110.4346,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "pilastri_quarzo",
+        "Avatar",
+        "UNESCO",
+        "trekking",
+        "funivia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "jiuzhaigou",
+      "nome": "Jiuzhaigou",
+      "nome_completo": "Valle di Jiuzhaigou — Sichuan",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "parco_nazionale",
+      "lat": 33.26,
+      "lng": 103.914,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "laghi_colorati",
+        "UNESCO",
+        "cascate",
+        "natura",
+        "Tibet"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "chengdu_panda",
+      "nome": "Base Panda di Chengdu",
+      "nome_completo": "Base di Ricerca Panda Gigante — Chengdu",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "riserva_naturale",
+      "lat": 30.7305,
+      "lng": 104.1397,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "panda",
+        "riserva",
+        "fotografia",
+        "bamboo",
+        "fauna"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "monte_emei",
+      "nome": "Monte Emei",
+      "nome_completo": "Monte Emei — Sichuan",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "monte_sacro",
+      "lat": 29.5168,
+      "lng": 103.3283,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "buddhismo",
+        "UNESCO",
+        "tempio",
+        "trekking",
+        "nebbia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "suzhou_giardini",
+      "nome": "Giardini di Suzhou",
+      "nome_completo": "Giardini Classici di Suzhou — Jiangsu",
+      "paese": "Cina",
+      "area": "jiangsu_zhejiang",
+      "tipo": "giardino_classico",
+      "lat": 31.324,
+      "lng": 120.62,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "giardino",
+        "laghetti",
+        "tradizionale",
+        "architettura"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "hangzhou_lago_ovest",
+      "nome": "Lago dell'Ovest",
+      "nome_completo": "Lago dell'Ovest — Hangzhou, Zhejiang",
+      "paese": "Cina",
+      "area": "jiangsu_zhejiang",
+      "tipo": "lago_storico",
+      "lat": 30.259,
+      "lng": 120.1551,
+      "priorita": 2,
+      "gratuito": true,
+      "prezzo": 0,
+      "tag": [
+        "UNESCO",
+        "lago",
+        "pagoda",
+        "romantico",
+        "Marco Polo"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "potala_lhasa",
+      "nome": "Palazzo Potala",
+      "nome_completo": "Palazzo Potala — Lhasa, Tibet",
+      "paese": "Cina",
+      "area": "tibet",
+      "tipo": "palazzo_religioso",
+      "lat": 29.6578,
+      "lng": 91.1174,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "Tibet",
+        "Dalai Lama",
+        "buddhismo",
+        "altitudine"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "huangshan",
+      "nome": "Monte Huangshan",
+      "nome_completo": "Monte Huangshan — Anhui",
+      "paese": "Cina",
+      "area": "jiangsu_zhejiang",
+      "tipo": "monte_naturale",
+      "lat": 30.1344,
+      "lng": 118.1665,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "pini",
+        "nuvole",
+        "fotografia",
+        "trekking"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "pingyao",
+      "nome": "Città Antica di Pingyao",
+      "nome_completo": "Città Antica di Pingyao — Shanxi",
+      "paese": "Cina",
+      "area": "xian",
+      "tipo": "citta_storica",
+      "lat": 37.1897,
+      "lng": 112.1758,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "Ming",
+        "banche",
+        "tradizionale",
+        "mura"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "grande_buddha_leshan",
+      "nome": "Grande Buddha di Leshan",
+      "nome_completo": "Grande Buddha di Leshan — Sichuan",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "monumento",
+      "lat": 29.5447,
+      "lng": 103.77,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "buddha",
+        "scultura",
+        "fiume",
+        "storia"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "dunhuang_mogao",
+      "nome": "Grotte di Mogao",
+      "nome_completo": "Grotte di Mogao — Dunhuang, Gansu",
+      "paese": "Cina",
+      "area": "xian",
+      "tipo": "sito_archeologico",
+      "lat": 40.036,
+      "lng": 94.8065,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "via_seta",
+        "buddhismo",
+        "affreschi",
+        "grotte"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "xishuangbanna",
+      "nome": "Xishuangbanna",
+      "nome_completo": "Xishuangbanna — Yunnan tropicale",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "riserva_naturale",
+      "lat": 22.0091,
+      "lng": 100.7979,
+      "priorita": 3,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "tropicale",
+        "Dai",
+        "elefanti",
+        "foresta",
+        "cultura"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "wulingyuan",
+      "nome": "Wulingyuan",
+      "nome_completo": "Area panoramica di Wulingyuan — Hunan",
+      "paese": "Cina",
+      "area": "guilin",
+      "tipo": "parco_nazionale",
+      "lat": 29.345,
+      "lng": 110.525,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "UNESCO",
+        "quarzo",
+        "sentieri",
+        "natura",
+        "ponte_vetro"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "dali_yunnan",
+      "nome": "Dali",
+      "nome_completo": "Città Antica di Dali — Yunnan",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "citta_storica",
+      "lat": 25.6065,
+      "lng": 100.2676,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "Bai",
+        "lago_Erhai",
+        "montagna",
+        "tradizionale",
+        "mercato"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "sanya_hainan",
+      "nome": "Sanya",
+      "nome_completo": "Sanya — Isola di Hainan",
+      "paese": "Cina",
+      "area": "hainan",
+      "tipo": "citta_balneare",
+      "lat": 18.2524,
+      "lng": 109.5118,
+      "priorita": 3,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "spiaggia",
+        "tropicale",
+        "resort",
+        "Buddha_Nanshan",
+        "snorkeling"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "hong_kong_peak",
+      "nome": "Victoria Peak",
+      "nome_completo": "Victoria Peak — Hong Kong",
+      "paese": "Cina",
+      "area": "shanghai",
+      "tipo": "panorama_urbano",
+      "lat": 22.2759,
+      "lng": 114.1455,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "Hong Kong",
+        "skyline",
+        "tram",
+        "panorama",
+        "notte"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "chongqing_centro",
+      "nome": "Chongqing",
+      "nome_completo": "Chongqing — La città delle nebbie e degli hot pot",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "citta",
+      "lat": 29.563,
+      "lng": 106.5516,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "hot_pot",
+        "nebbia",
+        "citta_montagna",
+        "ciqikou",
+        "yangtze"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "kunming_citta",
+      "nome": "Kunming",
+      "nome_completo": "Kunming — La città della primavera eterna",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "citta",
+      "lat": 25.0453,
+      "lng": 102.7097,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "primavera_eterna",
+        "foresta_pietrificata",
+        "lago_dian",
+        "tempio_dorato",
+        "yunnan"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "yuanyang_terrazze",
+      "nome": "Terrazze di Yuanyang",
+      "nome_completo": "Terrazze di Riso di Yuanyang — Yunnan",
+      "paese": "Cina",
+      "area": "yunnan",
+      "tipo": "paesaggio_agricolo",
+      "lat": 23.1578,
+      "lng": 102.7747,
+      "priorita": 1,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "terrazze_riso",
+        "Hani",
+        "alba",
+        "fotografia",
+        "UNESCO"
+      ],
+      "status": "da_fare"
+    },
+    {
+      "id": "terrazze_te_chengdu",
+      "nome": "Terrazze del Tè",
+      "nome_completo": "Piantagioni di Tè — Area di Chengdu e Leshan",
+      "paese": "Cina",
+      "area": "sichuan",
+      "tipo": "paesaggio_agricolo",
+      "lat": 30.05,
+      "lng": 103.78,
+      "priorita": 2,
+      "gratuito": false,
+      "prezzo": 4.99,
+      "tag": [
+        "tè",
+        "piantagioni",
+        "cultura_sichuan",
+        "escursione",
+        "natura"
+      ],
+      "status": "da_fare"
+    }
+  ]
+}
