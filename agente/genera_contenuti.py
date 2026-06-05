@@ -33,21 +33,31 @@ MASTER_FILES = [
 ]
 
 TIPI_POI = ["viewpoint","trail","oasis","water","culture","geology",
-            "photo","info","temple","palace","market","museum"]
+            "photo","info","temple","palace","market","museum","restaurant","food"]
 
 SCHEMA = """{
-  "id":"snake_case_id","nome":"Nome","sottotitolo":"Tipo - Paese/Città",
-  "paese":"Italia","area":"lombardia","icona":"emoji",
+  "id":"snake_case_id","nome":"Nome","sottotitolo":"Tipo - Paese/Citta",
+  "paese":"Cina","area":"beijing","icona":"emoji",
   "colore":"#C8102E","coloreSfondo":"#FFF5F5","gratuito":false,"prezzo":4.99,
   "stripeLink":"https://buy.stripe.com/placeholder",
-  "pois":[{
-    "id":"poi_snake","order":1,"tours":["short","full","extended"],
-    "name":"Nome POI","subtitle":"Tappa 1 - descrizione","icon":"emoji",
-    "color":"#FFF0E0","lat":45.4,"lng":9.1,"type":"viewpoint",
-    "difficulty":null,"duration":null,"distance":null,"altitude":null,
-    "text":"Par1 narrativo italiano min 80 parole.\\n\\nPar2 storico min 80 parole.\\n\\nPar3 consigli min 80 parole.",
-    "tips":["emoji consiglio 1","emoji consiglio 2","emoji consiglio 3"]
-  }]
+  "pois":[
+    {
+      "id":"poi_principale","order":1,"tours":["short","full","extended"],
+      "name":"Nome Punto di Interesse","subtitle":"Tappa 1 - descrizione breve","icon":"emoji",
+      "color":"#FFF0E0","lat":39.9,"lng":116.4,"type":"viewpoint",
+      "difficulty":null,"duration":null,"distance":null,"altitude":null,
+      "text":"Par1 narrativo italiano min 80 parole.\\n\\nPar2 storico/culturale min 80 parole.\\n\\nPar3 consigli pratici min 80 parole.",
+      "tips":["emoji consiglio 1","emoji consiglio 2","emoji consiglio 3"]
+    },
+    {
+      "id":"dove_mangiare","order":6,"tours":["full","extended"],
+      "name":"Dove mangiare","subtitle":"Cucina locale e ristoranti consigliati","icon":"🍜",
+      "color":"#FFF8E8","lat":39.9,"lng":116.4,"type":"restaurant",
+      "difficulty":null,"duration":"1-2h","distance":null,"altitude":null,
+      "text":"Par1: descrizione della cucina locale e piatti tipici da provare assolutamente, min 80 parole.\\n\\nPar2: 2-3 ristoranti specifici consigliati con nome reale, specialita e fascia di prezzo, min 80 parole.\\n\\nPar3: consigli pratici su orari pasti, come ordinare, etichetta locale, zone dove mangiare, min 80 parole.",
+      "tips":["🍜 Piatto tipico da non perdere","💰 Budget medio per pasto","⏰ Orario migliore","📍 Zona migliore dove mangiare","🗣️ Parola utile in lingua locale"]
+    }
+  ]
 }"""
 
 
@@ -86,15 +96,23 @@ def ids_presenti(dati):
 def cerca_informazioni(client, nome):
     print(f"  [SEARCH] {nome}")
     prompt = (
-        f'Informazioni turistiche dettagliate su "{nome}": posizione, storia, '
-        "8-10 punti di interesse con coordinate GPS lat/lng, orari, prezzi, consigli per turisti italiani."
+        f'Informazioni turistiche complete su "{nome}" per turisti italiani:\n'
+        "1. Posizione geografica, come arrivare, trasporti\n"
+        "2. Storia, cultura, significato del luogo\n"
+        "3. 8-10 punti di interesse principali con coordinate GPS lat/lng precise\n"
+        "4. Orari di apertura, prezzi, prenotazioni necessarie\n"
+        "5. RISTORANTI E CIBO LOCALE: 3-5 ristoranti consigliati nelle vicinanze con nome, specialità, "
+        "fascia di prezzo, indirizzo o zona. Specialità gastronomiche locali da non perdere.\n"
+        "6. ALLOGGI: tipologie di alloggio consigliate nella zona\n"
+        "7. Consigli pratici: periodo migliore, abbigliamento, sicurezza, fuso orario, valuta\n"
+        "8. Itinerari consigliati: tour breve (2-3h), completo (mezza giornata), esteso (giornata intera)"
     )
     r = client.messages.create(
-        model=MODEL, max_tokens=1500,
+        model=MODEL, max_tokens=2000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}]
     )
-    testo = "".join(b.text for b in r.content if b.type == "text")[:4000]
+    testo = "".join(b.text for b in r.content if b.type == "text")[:5000]
     print(f"  [SEARCH OK] {len(testo)} caratteri")
     return testo
 
