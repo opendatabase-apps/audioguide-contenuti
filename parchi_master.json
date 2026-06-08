@@ -5,47 +5,82 @@
     {
       "id": "southwest",
       "nome": "Southwest",
-      "stati": ["Arizona", "Utah", "Nevada", "New Mexico"]
+      "stati": [
+        "Arizona",
+        "Utah",
+        "Nevada",
+        "New Mexico"
+      ]
     },
     {
       "id": "california",
       "nome": "California",
-      "stati": ["California"]
+      "stati": [
+        "California"
+      ]
     },
     {
       "id": "pacific_northwest",
       "nome": "Pacific Northwest",
-      "stati": ["Washington", "Oregon"]
+      "stati": [
+        "Washington",
+        "Oregon"
+      ]
     },
     {
       "id": "rocky_mountains",
       "nome": "Rocky Mountains",
-      "stati": ["Colorado", "Wyoming", "Montana", "Idaho"]
+      "stati": [
+        "Colorado",
+        "Wyoming",
+        "Montana",
+        "Idaho"
+      ]
     },
     {
       "id": "south",
       "nome": "South & Southeast",
-      "stati": ["Tennessee", "North Carolina", "Florida", "Virginia", "Kentucky", "Arkansas"]
+      "stati": [
+        "Tennessee",
+        "North Carolina",
+        "Florida",
+        "Virginia",
+        "Kentucky",
+        "Arkansas"
+      ]
     },
     {
       "id": "northeast",
       "nome": "Northeast",
-      "stati": ["Maine", "Massachusetts", "New York", "Pennsylvania"]
+      "stati": [
+        "Maine",
+        "Massachusetts",
+        "New York",
+        "Pennsylvania"
+      ]
     },
     {
       "id": "midwest",
       "nome": "Midwest & Great Plains",
-      "stati": ["South Dakota", "Minnesota", "Michigan"]
+      "stati": [
+        "South Dakota",
+        "Minnesota",
+        "Michigan"
+      ]
     },
     {
       "id": "hawaii",
       "nome": "Hawaii",
-      "stati": ["Hawaii"]
+      "stati": [
+        "Hawaii"
+      ]
     },
     {
       "id": "alaska",
       "nome": "Alaska",
-      "stati": ["Alaska"]
+      "stati": [
+        "Alaska"
+      ]
     }
   ],
   "parchi": [
@@ -62,7 +97,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["canyon", "geologia", "tramonto", "trekking", "fotografia"],
+      "tag": [
+        "canyon",
+        "geologia",
+        "tramonto",
+        "trekking",
+        "fotografia"
+      ],
       "status": "in_sviluppo"
     },
     {
@@ -78,8 +119,14 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["canyon", "trekking", "narrows", "angels_landing", "fotografia"],
-      "status": "da_fare"
+      "tag": [
+        "canyon",
+        "trekking",
+        "narrows",
+        "angels_landing",
+        "fotografia"
+      ],
+      "status": "completato"
     },
     {
       "id": "yellowstone",
@@ -88,14 +135,20 @@
       "stato": "Wyoming",
       "area": "rocky_mountains",
       "tipo": "national_park",
-      "lat": 44.4280,
+      "lat": 44.428,
       "lng": -110.5885,
       "visitatori_2024": 4740000,
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["geyser", "fauna", "geotermale", "old_faithful", "bison"],
-      "status": "da_fare"
+      "tag": [
+        "geyser",
+        "fauna",
+        "geotermale",
+        "old_faithful",
+        "bison"
+      ],
+      "status": "completato"
     },
     {
       "id": "yosemite",
@@ -110,8 +163,15 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["cascate", "granito", "el_capitan", "half_dome", "sequoie", "fotografia"],
-      "status": "da_fare"
+      "tag": [
+        "cascate",
+        "granito",
+        "el_capitan",
+        "half_dome",
+        "sequoie",
+        "fotografia"
+      ],
+      "status": "completato"
     },
     {
       "id": "rocky_mountain",
@@ -126,8 +186,14 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["montagna", "fauna", "trail_ridge_road", "alci", "fiori_alpini"],
-      "status": "da_fare"
+      "tag": [
+        "montagna",
+        "fauna",
+        "trail_ridge_road",
+        "alci",
+        "fiori_alpini"
+      ],
+      "status": "completato"
     },
     {
       "id": "acadia",
@@ -142,8 +208,14 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["costa", "montagna", "cadillac_mountain", "tide_pools", "ciclismo"],
-      "status": "da_fare"
+      "tag": [
+        "costa",
+        "montagna",
+        "cadillac_mountain",
+        "tide_pools",
+        "ciclismo"
+      ],
+      "status": "completato"
     },
     {
       "id": "olympic",
@@ -158,8 +230,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["foresta_pluviale", "costa", "montagna", "diversita_ecosistemi"],
-      "status": "da_fare"
+      "tag": [
+        "foresta_pluviale",
+        "costa",
+        "montagna",
+        "diversita_ecosistemi"
+      ],
+      "status": "completato"
     },
     {
       "id": "grand_teton",
@@ -174,8 +251,14 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["montagna", "lago", "fotografia", "fauna", "jackson_hole"],
-      "status": "da_fare"
+      "tag": [
+        "montagna",
+        "lago",
+        "fotografia",
+        "fauna",
+        "jackson_hole"
+      ],
+      "status": "completato"
     },
     {
       "id": "glacier",
@@ -184,14 +267,20 @@
       "stato": "Montana",
       "area": "rocky_mountains",
       "tipo": "national_park",
-      "lat": 48.6960,
-      "lng": -113.7180,
+      "lat": 48.696,
+      "lng": -113.718,
       "visitatori_2024": 3200000,
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["ghiacciai", "going_to_the_sun", "trekking", "orsi", "montagna"],
-      "status": "da_fare"
+      "tag": [
+        "ghiacciai",
+        "going_to_the_sun",
+        "trekking",
+        "orsi",
+        "montagna"
+      ],
+      "status": "completato"
     },
     {
       "id": "great_smoky_mountains",
@@ -206,7 +295,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["foresta", "nebbia", "fauna", "cascate", "autunno"],
+      "tag": [
+        "foresta",
+        "nebbia",
+        "fauna",
+        "cascate",
+        "autunno"
+      ],
       "status": "da_fare"
     },
     {
@@ -217,12 +312,18 @@
       "area": "california",
       "tipo": "national_park",
       "lat": 33.8734,
-      "lng": -115.9010,
+      "lng": -115.901,
       "visitatori_2024": 2990000,
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["deserto", "rocce", "arrampicata", "cielo_stellato", "cactus"],
+      "tag": [
+        "deserto",
+        "rocce",
+        "arrampicata",
+        "cielo_stellato",
+        "cactus"
+      ],
       "status": "completato"
     },
     {
@@ -232,13 +333,19 @@
       "stato": "Utah",
       "area": "southwest",
       "tipo": "national_park",
-      "lat": 37.5930,
+      "lat": 37.593,
       "lng": -112.1871,
       "visitatori_2024": 2100000,
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["hoodoos", "tramonto", "neve", "astronomia", "fotografia"],
+      "tag": [
+        "hoodoos",
+        "tramonto",
+        "neve",
+        "astronomia",
+        "fotografia"
+      ],
       "status": "da_fare"
     },
     {
@@ -254,7 +361,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["archi_naturali", "delicate_arch", "fotografia", "tramonto", "geologia"],
+      "tag": [
+        "archi_naturali",
+        "delicate_arch",
+        "fotografia",
+        "tramonto",
+        "geologia"
+      ],
       "status": "da_fare"
     },
     {
@@ -264,13 +377,19 @@
       "stato": "Utah",
       "area": "southwest",
       "tipo": "national_park",
-      "lat": 38.2000,
-      "lng": -109.9000,
+      "lat": 38.2,
+      "lng": -109.9,
       "visitatori_2024": 870000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["canyon", "colorado_river", "island_in_the_sky", "trekking", "4x4"],
+      "tag": [
+        "canyon",
+        "colorado_river",
+        "island_in_the_sky",
+        "trekking",
+        "4x4"
+      ],
       "status": "da_fare"
     },
     {
@@ -286,7 +405,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["waterpocket_fold", "geologia", "frutteti", "petroglifi"],
+      "tag": [
+        "waterpocket_fold",
+        "geologia",
+        "frutteti",
+        "petroglifi"
+      ],
       "status": "da_fare"
     },
     {
@@ -302,7 +426,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["navajo", "mittens", "cinema", "fotografia", "tramonto"],
+      "tag": [
+        "navajo",
+        "mittens",
+        "cinema",
+        "fotografia",
+        "tramonto"
+      ],
       "status": "completato"
     },
     {
@@ -318,7 +448,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["slot_canyon", "luce", "fotografia", "navajo", "arenaria"],
+      "tag": [
+        "slot_canyon",
+        "luce",
+        "fotografia",
+        "navajo",
+        "arenaria"
+      ],
       "status": "completato"
     },
     {
@@ -334,7 +470,12 @@
       "priorita": 1,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["colorado_river", "fotografia", "tramonto", "geologia"],
+      "tag": [
+        "colorado_river",
+        "fotografia",
+        "tramonto",
+        "geologia"
+      ],
       "status": "completato"
     },
     {
@@ -344,13 +485,19 @@
       "stato": "Arizona",
       "area": "southwest",
       "tipo": "national_recreation_area",
-      "lat": 36.9380,
-      "lng": -111.4840,
+      "lat": 36.938,
+      "lng": -111.484,
       "visitatori_2024": 4000000,
       "priorita": 1,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["lago", "houseboat", "diga", "canyon", "acqua"],
+      "tag": [
+        "lago",
+        "houseboat",
+        "diga",
+        "canyon",
+        "acqua"
+      ],
       "status": "completato"
     },
     {
@@ -366,7 +513,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["deserto", "badwater", "dune", "caldo_estremo", "zabriskie_point"],
+      "tag": [
+        "deserto",
+        "badwater",
+        "dune",
+        "caldo_estremo",
+        "zabriskie_point"
+      ],
       "status": "da_fare"
     },
     {
@@ -382,7 +535,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["sequoie_giganti", "general_sherman", "canyon", "foresta"],
+      "tag": [
+        "sequoie_giganti",
+        "general_sherman",
+        "canyon",
+        "foresta"
+      ],
       "status": "da_fare"
     },
     {
@@ -398,7 +556,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["sequoie_costiere", "foresta", "nebbia", "costa"],
+      "tag": [
+        "sequoie_costiere",
+        "foresta",
+        "nebbia",
+        "costa"
+      ],
       "status": "da_fare"
     },
     {
@@ -414,7 +577,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["isole", "snorkeling", "fauna_marina", "kayak"],
+      "tag": [
+        "isole",
+        "snorkeling",
+        "fauna_marina",
+        "kayak"
+      ],
       "status": "da_fare"
     },
     {
@@ -430,7 +598,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["lago_vulcanico", "blu_intenso", "wizard_island", "neve"],
+      "tag": [
+        "lago_vulcanico",
+        "blu_intenso",
+        "wizard_island",
+        "neve"
+      ],
       "status": "da_fare"
     },
     {
@@ -440,13 +613,19 @@
       "stato": "Washington",
       "area": "pacific_northwest",
       "tipo": "national_park",
-      "lat": 46.8800,
+      "lat": 46.88,
       "lng": -121.7269,
       "visitatori_2024": 1500000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["vulcano", "ghiacciai", "fiori_alpini", "paradise", "trekking"],
+      "tag": [
+        "vulcano",
+        "ghiacciai",
+        "fiori_alpini",
+        "paradise",
+        "trekking"
+      ],
       "status": "da_fare"
     },
     {
@@ -462,7 +641,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["ghiacciai", "montagna", "wilderness", "remoto"],
+      "tag": [
+        "ghiacciai",
+        "montagna",
+        "wilderness",
+        "remoto"
+      ],
       "status": "da_fare"
     },
     {
@@ -478,7 +662,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["vulcano", "eruzione", "storia", "geologia", "crater"],
+      "tag": [
+        "vulcano",
+        "eruzione",
+        "storia",
+        "geologia",
+        "crater"
+      ],
       "status": "da_fare"
     },
     {
@@ -494,7 +684,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["pueblo_ancestrali", "cliff_dwellings", "archeologia", "storia_nativa"],
+      "tag": [
+        "pueblo_ancestrali",
+        "cliff_dwellings",
+        "archeologia",
+        "storia_nativa"
+      ],
       "status": "da_fare"
     },
     {
@@ -510,7 +705,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["dune", "creek", "montagna", "unico", "sandboarding"],
+      "tag": [
+        "dune",
+        "creek",
+        "montagna",
+        "unico",
+        "sandboarding"
+      ],
       "status": "da_fare"
     },
     {
@@ -526,7 +727,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["canyon_profondo", "geologia", "buio", "trekking"],
+      "tag": [
+        "canyon_profondo",
+        "geologia",
+        "buio",
+        "trekking"
+      ],
       "status": "da_fare"
     },
     {
@@ -542,7 +748,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["alligatori", "mangrovie", "birdwatching", "canoa", "acqua"],
+      "tag": [
+        "alligatori",
+        "mangrovie",
+        "birdwatching",
+        "canoa",
+        "acqua"
+      ],
       "status": "da_fare"
     },
     {
@@ -558,7 +770,13 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["isola_remota", "forte", "snorkeling", "ferry", "storia"],
+      "tag": [
+        "isola_remota",
+        "forte",
+        "snorkeling",
+        "ferry",
+        "storia"
+      ],
       "status": "da_fare"
     },
     {
@@ -574,7 +792,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["skyline_drive", "foresta", "autunno", "cascate", "fauna"],
+      "tag": [
+        "skyline_drive",
+        "foresta",
+        "autunno",
+        "cascate",
+        "fauna"
+      ],
       "status": "da_fare"
     },
     {
@@ -590,7 +814,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["grotta", "speleologia", "sistema_piu_lungo", "tour_guidato"],
+      "tag": [
+        "grotta",
+        "speleologia",
+        "sistema_piu_lungo",
+        "tour_guidato"
+      ],
       "status": "da_fare"
     },
     {
@@ -606,7 +835,14 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["foresta", "nebbia", "fauna", "cascate", "autunno", "appalachian"],
+      "tag": [
+        "foresta",
+        "nebbia",
+        "fauna",
+        "cascate",
+        "autunno",
+        "appalachian"
+      ],
       "status": "da_fare"
     },
     {
@@ -622,7 +858,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["spiaggia", "faro", "ciclismo", "whale_watching", "estate"],
+      "tag": [
+        "spiaggia",
+        "faro",
+        "ciclismo",
+        "whale_watching",
+        "estate"
+      ],
       "status": "da_fare"
     },
     {
@@ -638,7 +880,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["icona", "storia", "new_york", "immigrazione", "ferry"],
+      "tag": [
+        "icona",
+        "storia",
+        "new_york",
+        "immigrazione",
+        "ferry"
+      ],
       "status": "da_fare"
     },
     {
@@ -654,7 +902,12 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["cascate", "icona", "maid_of_the_mist", "confine_canada"],
+      "tag": [
+        "cascate",
+        "icona",
+        "maid_of_the_mist",
+        "confine_canada"
+      ],
       "status": "da_fare"
     },
     {
@@ -670,7 +923,13 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["presidenti", "scultura", "black_hills", "storia", "america"],
+      "tag": [
+        "presidenti",
+        "scultura",
+        "black_hills",
+        "storia",
+        "america"
+      ],
       "status": "da_fare"
     },
     {
@@ -686,7 +945,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["formazioni_rocciose", "fossili", "fauna", "prateria", "bison"],
+      "tag": [
+        "formazioni_rocciose",
+        "fossili",
+        "fauna",
+        "prateria",
+        "bison"
+      ],
       "status": "da_fare"
     },
     {
@@ -702,7 +967,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["grotta", "boxwork", "bison", "tour_guidato"],
+      "tag": [
+        "grotta",
+        "boxwork",
+        "bison",
+        "tour_guidato"
+      ],
       "status": "da_fare"
     },
     {
@@ -712,13 +982,19 @@
       "stato": "Michigan",
       "area": "midwest",
       "tipo": "national_park",
-      "lat": 48.0000,
-      "lng": -88.8340,
+      "lat": 48.0,
+      "lng": -88.834,
       "visitatori_2024": 25000,
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["isola", "wilderness", "alci", "lupi", "remoto"],
+      "tag": [
+        "isola",
+        "wilderness",
+        "alci",
+        "lupi",
+        "remoto"
+      ],
       "status": "da_fare"
     },
     {
@@ -734,7 +1010,12 @@
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["vulcano_attivo", "lava", "kilauea", "chain_of_craters"],
+      "tag": [
+        "vulcano_attivo",
+        "lava",
+        "kilauea",
+        "chain_of_craters"
+      ],
       "status": "da_fare"
     },
     {
@@ -750,7 +1031,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["vulcano", "alba", "crater", "maui", "astronomia"],
+      "tag": [
+        "vulcano",
+        "alba",
+        "crater",
+        "maui",
+        "astronomia"
+      ],
       "status": "da_fare"
     },
     {
@@ -761,12 +1048,18 @@
       "area": "alaska",
       "tipo": "national_park",
       "lat": 63.3333,
-      "lng": -150.5010,
+      "lng": -150.501,
       "visitatori_2024": 590000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["montagna_piu_alta", "wilderness", "fauna", "aurora_boreale", "bus_tour"],
+      "tag": [
+        "montagna_piu_alta",
+        "wilderness",
+        "fauna",
+        "aurora_boreale",
+        "bus_tour"
+      ],
       "status": "da_fare"
     },
     {
@@ -782,7 +1075,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["ghiacciai", "fiordi", "orche", "puffin", "barca"],
+      "tag": [
+        "ghiacciai",
+        "fiordi",
+        "orche",
+        "puffin",
+        "barca"
+      ],
       "status": "da_fare"
     },
     {
@@ -793,12 +1092,18 @@
       "area": "southwest",
       "tipo": "blm",
       "lat": 34.8697,
-      "lng": -111.7610,
+      "lng": -111.761,
       "visitatori_2024": 3000000,
       "priorita": 1,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["rocce_rosse", "spirituale", "vortex", "trekking", "fotografia"],
+      "tag": [
+        "rocce_rosse",
+        "spirituale",
+        "vortex",
+        "trekking",
+        "fotografia"
+      ],
       "status": "da_fare"
     },
     {
@@ -814,7 +1119,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["legno_pietrificato", "painted_desert", "fossili", "route66"],
+      "tag": [
+        "legno_pietrificato",
+        "painted_desert",
+        "fossili",
+        "route66"
+      ],
       "status": "da_fare"
     },
     {
@@ -830,7 +1140,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["saguaro_cactus", "tucson", "deserto_sonora", "tramonto"],
+      "tag": [
+        "saguaro_cactus",
+        "tucson",
+        "deserto_sonora",
+        "tramonto"
+      ],
       "status": "da_fare"
     },
     {
@@ -846,7 +1161,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["dune_bianche", "gesso", "unico", "tramonto", "sledding"],
+      "tag": [
+        "dune_bianche",
+        "gesso",
+        "unico",
+        "tramonto",
+        "sledding"
+      ],
       "status": "da_fare"
     },
     {
@@ -862,7 +1183,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["grotta", "pipistrelli", "stalattiti", "big_room"],
+      "tag": [
+        "grotta",
+        "pipistrelli",
+        "stalattiti",
+        "big_room"
+      ],
       "status": "da_fare"
     },
     {
@@ -878,7 +1204,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["montagna_texas", "reef_fossile", "trekking", "remoto"],
+      "tag": [
+        "montagna_texas",
+        "reef_fossile",
+        "trekking",
+        "remoto"
+      ],
       "status": "da_fare"
     },
     {
@@ -894,7 +1225,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["rio_grande", "chisos", "deserto_chihuahuan", "remoto", "dark_sky"],
+      "tag": [
+        "rio_grande",
+        "chisos",
+        "deserto_chihuahuan",
+        "remoto",
+        "dark_sky"
+      ],
       "status": "da_fare"
     },
     {
@@ -910,7 +1247,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["rafting", "ponte", "trekking", "roccia", "gorge"],
+      "tag": [
+        "rafting",
+        "ponte",
+        "trekking",
+        "roccia",
+        "gorge"
+      ],
       "status": "da_fare"
     },
     {
@@ -926,7 +1269,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["guerra_civile", "storia", "battlefield", "lincoln", "memorial"],
+      "tag": [
+        "guerra_civile",
+        "storia",
+        "battlefield",
+        "lincoln",
+        "memorial"
+      ],
       "status": "da_fare"
     },
     {
@@ -937,12 +1286,18 @@
       "area": "northeast",
       "tipo": "national_historical_park",
       "lat": 39.9489,
-      "lng": -75.1500,
+      "lng": -75.15,
       "visitatori_2024": 3200000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["costituzione", "liberty_bell", "fondatori", "philadelphia", "storia"],
+      "tag": [
+        "costituzione",
+        "liberty_bell",
+        "fondatori",
+        "philadelphia",
+        "storia"
+      ],
       "status": "da_fare"
     },
     {
@@ -958,7 +1313,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["vulcano", "geotermale", "lago", "meno_visitato"],
+      "tag": [
+        "vulcano",
+        "geotermale",
+        "lago",
+        "meno_visitato"
+      ],
       "status": "da_fare"
     },
     {
@@ -974,7 +1334,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["condor", "rocce_vulcaniche", "caverne", "trekking"],
+      "tag": [
+        "condor",
+        "rocce_vulcaniche",
+        "caverne",
+        "trekking"
+      ],
       "status": "da_fare"
     },
     {
@@ -984,13 +1349,19 @@
       "stato": "Nevada",
       "area": "southwest",
       "tipo": "national_recreation_area",
-      "lat": 36.1540,
-      "lng": -114.7340,
+      "lat": 36.154,
+      "lng": -114.734,
       "visitatori_2024": 6000000,
       "priorita": 2,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["lago", "hoover_dam", "las_vegas", "acqua", "barca"],
+      "tag": [
+        "lago",
+        "hoover_dam",
+        "las_vegas",
+        "acqua",
+        "barca"
+      ],
       "status": "da_fare"
     },
     {
@@ -1000,13 +1371,19 @@
       "stato": "Nevada",
       "area": "southwest",
       "tipo": "blm",
-      "lat": 36.0160,
+      "lat": 36.016,
       "lng": -114.7377,
       "visitatori_2024": 1000000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["diga", "engineering", "colorado_river", "las_vegas", "storia"],
+      "tag": [
+        "diga",
+        "engineering",
+        "colorado_river",
+        "las_vegas",
+        "storia"
+      ],
       "status": "da_fare"
     },
     {
@@ -1022,7 +1399,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["slot_canyon", "wave", "trekking", "remoto", "fotografia"],
+      "tag": [
+        "slot_canyon",
+        "wave",
+        "trekking",
+        "remoto",
+        "fotografia"
+      ],
       "status": "da_fare"
     },
     {
@@ -1033,12 +1416,17 @@
       "area": "southwest",
       "tipo": "national_monument",
       "lat": 37.6017,
-      "lng": -109.9800,
+      "lng": -109.98,
       "visitatori_2024": 130000,
       "priorita": 3,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["ponti_naturali", "dark_sky", "astronomia", "canyon"],
+      "tag": [
+        "ponti_naturali",
+        "dark_sky",
+        "astronomia",
+        "canyon"
+      ],
       "status": "da_fare"
     },
     {
@@ -1049,12 +1437,17 @@
       "area": "southwest",
       "tipo": "national_monument",
       "lat": 37.0779,
-      "lng": -110.9640,
+      "lng": -110.964,
       "visitatori_2024": 85000,
       "priorita": 2,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["ponte_naturale", "navajo_sacro", "barca", "lake_powell"],
+      "tag": [
+        "ponte_naturale",
+        "navajo_sacro",
+        "barca",
+        "lake_powell"
+      ],
       "status": "da_fare"
     },
     {
@@ -1070,7 +1463,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["navajo", "cliff_dwellings", "canyon", "white_house", "guida_obbligatoria"],
+      "tag": [
+        "navajo",
+        "cliff_dwellings",
+        "canyon",
+        "white_house",
+        "guida_obbligatoria"
+      ],
       "status": "da_fare"
     },
     {
@@ -1081,12 +1480,17 @@
       "area": "southwest",
       "tipo": "national_monument",
       "lat": 35.5617,
-      "lng": -111.3870,
+      "lng": -111.387,
       "visitatori_2024": 200000,
       "priorita": 3,
       "gratuito": true,
       "prezzo": 0,
-      "tag": ["pueblo_ancestrali", "sinagua", "campi_lavici", "storia_nativa"],
+      "tag": [
+        "pueblo_ancestrali",
+        "sinagua",
+        "campi_lavici",
+        "storia_nativa"
+      ],
       "status": "da_fare"
     },
     {
@@ -1102,7 +1506,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["cliff_dwelling", "sinagua", "archeologia", "verde_valley"],
+      "tag": [
+        "cliff_dwelling",
+        "sinagua",
+        "archeologia",
+        "verde_valley"
+      ],
       "status": "da_fare"
     },
     {
@@ -1112,13 +1521,18 @@
       "stato": "California",
       "area": "california",
       "tipo": "national_monument",
-      "lat": 37.8970,
+      "lat": 37.897,
       "lng": -122.5811,
       "visitatori_2024": 1000000,
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["sequoie_costiere", "san_francisco", "foresta", "silenzio"],
+      "tag": [
+        "sequoie_costiere",
+        "san_francisco",
+        "foresta",
+        "silenzio"
+      ],
       "status": "da_fare"
     },
     {
@@ -1134,7 +1548,13 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["faro", "balene", "tule_elk", "spiaggia", "nebbia"],
+      "tag": [
+        "faro",
+        "balene",
+        "tule_elk",
+        "spiaggia",
+        "nebbia"
+      ],
       "status": "da_fare"
     },
     {
@@ -1150,7 +1570,12 @@
       "priorita": 2,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["dune", "lago_michigan", "spiaggia", "vista_panoramica"],
+      "tag": [
+        "dune",
+        "lago_michigan",
+        "spiaggia",
+        "vista_panoramica"
+      ],
       "status": "da_fare"
     },
     {
@@ -1166,7 +1591,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["grotte_ghiaccio", "fari", "kayak", "lago_superiore"],
+      "tag": [
+        "grotte_ghiaccio",
+        "fari",
+        "kayak",
+        "lago_superiore"
+      ],
       "status": "da_fare"
     },
     {
@@ -1182,7 +1612,12 @@
       "priorita": 3,
       "gratuito": false,
       "prezzo": 4.99,
-      "tag": ["laghi", "aurora_boreale", "houseboat", "canada_confine"],
+      "tag": [
+        "laghi",
+        "aurora_boreale",
+        "houseboat",
+        "canada_confine"
+      ],
       "status": "da_fare"
     }
   ]

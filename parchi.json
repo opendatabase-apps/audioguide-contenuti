@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.0",
+  "versione": "2.0.8",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -4577,6 +4577,1414 @@
             "🦋 Rare specie di farfalle",
             "🌲 Boschi lussureggianti",
             "💧 Portare 2 litri d'acqua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zion",
+      "nome": "Zion National Park",
+      "sottotitolo": "Parco Nazionale - Utah, USA",
+      "paese": "Stati Uniti",
+      "area": "Utah",
+      "icona": "🏜️",
+      "colore": "#C8102E",
+      "coloreSfondo": "#FFF5F5",
+      "gratuito": false,
+      "prezzo": 35.0,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "angels_landing",
+          "order": 1,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Angels Landing",
+          "subtitle": "Tappa 1 - L'escursione più iconica del parco",
+          "icon": "⛰️",
+          "color": "#FFE8D1",
+          "lat": 37.2653,
+          "lng": -112.2633,
+          "type": "viewpoint",
+          "difficulty": "difficile",
+          "duration": "4-5h",
+          "distance": "8.7 km",
+          "altitude": "580 m",
+          "text": "Angels Landing rappresenta uno dei trekking più celebri degli Stati Uniti e offre viste panoramiche che lasciano senza fiato. Il sentiero sale attraverso formazioni rocciose straordinarie di arenaria Navajo, seguendo il percorso che vi porta fino a 1.350 metri di altitudine. Gli ultimi 270 metri del percorso richiedono catene di sicurezza fissate alle rocce, aggiungendo un elemento di adrenalina all'esperienza. La salita finale premia gli escursionisti con vedute a 360 gradi del Zion Canyon e dei suoi magnifici muri di roccia rossa e arancione.\n\nQuesta montagna prende il nome dalla visione dei pionieri mormoni che la vedevano come il luogo dove gli angeli scendevano sulla Terra. La formazione geologica risale a circa 180 milioni di anni fa quando la zona era coperta da dune di sabbia. I Paiute, popolo nativo della regione, conoscevano bene questi sentieri molto prima dell'arrivo dei coloni europei. Nel 1920, il sentiero è stato formalmente tracciato e da allora è diventato una meta ambita dai trekker di tutto il mondo.\n\nPartite presto al mattino per evitare le folle e il calore eccessivo durante il giorno. Portate almeno 2-3 litri di acqua per persona, occhiali da sole e protezione solare. Le catene sono più sicure se indossate scarpe da trekking robuste con buon grip. Il sentiero può essere pericoloso dopo pioggia o neve. Consultate i ranger per le condizioni attuali del sentiero. Non tentate questa escursione se soffrite di vertigini.",
+          "tips": [
+            "⛰️ Le catene sono essenziali negli ultimi 270 m",
+            "🌅 Partite al tramonto per viste spettacolari",
+            "💧 Portate molta acqua, minimo 2 litri",
+            "⏰ Iniziate entro le 8:00 del mattino",
+            "🚫 Pericoloso se bagnato o con neve"
+          ]
+        },
+        {
+          "id": "narrows_hike",
+          "order": 2,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "The Narrows",
+          "subtitle": "Tappa 2 - Camminate nell'acqua attraverso canyon strettissimi",
+          "icon": "💧",
+          "color": "#D1E8FF",
+          "lat": 37.2981,
+          "lng": -112.2847,
+          "type": "water",
+          "difficulty": "moderato",
+          "duration": "2-6h",
+          "distance": "16 km",
+          "altitude": "200 m",
+          "text": "The Narrows è un'esperienza unica dove il Virgin River scorre attraverso un canyon profondo e strettissimo, costringendovi a camminare direttamente nell'acqua fresca. Le pareti rocciose si ergono verticalmente fino a 1.000 metri, creando un ambiente quasi surreale dove il cielo è visibile solo come una sottile striscia blu tra i muri. Questa è un'avventura veramente immersiva che combina hiking e nuoto, perfetta per chi desidera qualcosa di diverso dai tradizionali sentieri di montagna. L'acqua è fredda ma rinfrescante, e la sensazione di essere circondati da rocce antiche è straordinaria.\n\nIl canyon è stato formato da milioni di anni di erosione del Virgin River, il quale ha incessantemente tagliato attraverso la roccia Navajo. I geologi considerano questo uno degli esempi più spettacolari di erosione idrica negli Stati Uniti. I Paiute utilizzavano questo canyon per viaggiare e scambiare merci, mentre i pionieri mormoni scoprirono il sentiero nel XIX secolo. Oggi, The Narrows rimane una delle attrazioni più fotografate di Zion ed è diventato un simbolo della bellezza selvaggia del parco.\n\nÈ obbligatorio indossare scarpe specifiche per il water trekking con buona aderenza. Noleggiate i bastoni da trekking all'ingresso per aiutarvi nella corrente. Controllate le previsioni meteorologiche: le piogge anche a monte possono causare flash flood pericolosi. Non fate questa escursione dopo pioggia. Portate un cambio di vestiti in uno zaino impermeabile. La stagione migliore è da giugno a settembre quando l'acqua è più calda.",
+          "tips": [
+            "💧 Noleggiate scarpe e bastoni al visitor center",
+            "🌧️ Evitate dopo pioggia per rischio piene",
+            "🧥 Portate costume e asciugamano",
+            "❄️ L'acqua è fredda, ideale in estate",
+            "🚫 Vietato durante allerta meteo"
+          ]
+        },
+        {
+          "id": "canyon_overlook",
+          "order": 3,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Canyon Overlook Trail",
+          "subtitle": "Tappa 3 - Panorama spettacolare con poco sforzo",
+          "icon": "🔭",
+          "color": "#FFE8D1",
+          "lat": 37.2442,
+          "lng": -112.2361,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1h",
+          "distance": "1.6 km",
+          "altitude": "150 m",
+          "text": "Il Canyon Overlook Trail è il sentiero perfetto per chi ha poco tempo ma vuole comunque godere di viste straordinarie di Zion. Questo breve percorso di poco più di un chilometro offre panorami mozzafiato del Zion Canyon, dell'East Temple e della formazione rocciosa del Streaked Wall. Il sentiero serpeggia attraverso rocce rosse con curve affascinanti, e il panorama finale è meritato dopo il breve ma piacevole salita. Molti visitatori lo scelgono come alternativa perfetta ai sentieri più lunghi e faticosi.\n\nQuesto percorso rappresenta una via d'accesso importante alla geologia di Zion, dove potete osservare direttamente le diverse strati di roccia che compongono il paesaggio. La formazione rocciosa visibile dal belvedere risale a milioni di anni fa e racconta la storia dei mari antichi che coprivano questa regione. Il punto di vista è stato uno dei preferiti dei primi visitatori del parco nel XIX secolo, che rimanevano affascinati dalla maestosità delle pareti di arenaria. Gli artisti e i fotografi amano questo punto per le sue straordinarie qualità estetiche.\n\nIl sentiero è ben marcato e facile da seguire per visitatori di tutte le età. È aperto tutto l'anno poiché non attraversa il Virgin River. Portate comunque 1-2 litri d'acqua e protezione solare. Il mattino presto offre la migliore illuminazione fotografica. Non è necessario prenota shuttle; il parcheggio all'East Entrance è solitamente meno affollato. Perfetto per famiglie con bambini o chi ha mobilità ridotta.",
+          "tips": [
+            "🚶 Sentiero facile e veloce, ideale per famiglie",
+            "📸 Miglior luce fotografica al tramonto",
+            "🅿️ Parcheggio ampio all'East Entrance",
+            "💧 Portate comunque acqua e protezione solare",
+            "🕐 Non affollato nelle prime ore del mattino"
+          ]
+        },
+        {
+          "id": "weeping_rock",
+          "order": 4,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Weeping Rock",
+          "subtitle": "Tappa 4 - Roccia che lacrimava d'acqua",
+          "icon": "🌿",
+          "color": "#D1FFD1",
+          "lat": 37.2658,
+          "lng": -112.2658,
+          "type": "geology",
+          "difficulty": "moderato",
+          "duration": "1h",
+          "distance": "1.6 km",
+          "altitude": "80 m",
+          "text": "Weeping Rock era una delle attrazioni naturali più affascinanti di Zion National Park, dove l'acqua filtrava attraverso la roccia porosa della formazione Navajo, creando un'atmosfera magica e mistica. L'acqua che 'piangeva' dalla roccia forniva nutrimento a un ecosistema unico con piante rare e appese al muro di roccia, creando un ambiente quasi da giardino sospeso. Questo fenomeno geologico si verifica quando l'acqua piovana si infiltra attraverso la roccia permeabile, si accumula sopra uno strato impermeabile e fuoriesce dal lato della montagna. Il sentiero che conduce a Weeping Rock era una delle passeggiate più piacevoli del parco.\n\nNel settembre 2019, una caduta massiccia di roccia ha temporaneamente chiuso questo sito storico, evidenziando la natura dinamica dei paesaggi naturali e l'erosione continua che plasma il parco. Gli effetti del cambiamento climatico e dell'aumento dei cicli di congelamento-scongelamento hanno accelerato il distacco della roccia. Nonostante questa tragedia naturale, il luogo rimane un importante insegnamento su come la natura sia costantemente in trasformazione. I ranger di Zion continuano a monitorare le condizioni geologiche di questo e altri siti.\n\nPrima di visitare, controllate con i ranger se il sentiero è aperto, poiché potrebbe essere chiuso per motivi di sicurezza dovuti al rischio di cadute di roccia. Se è aperto, indossate sempre un casco e state attenti ai detriti rocciosi. Seguite i consigli dei ranger sulla sicurezza. Questo è un ottimo punto di osservazione per comprendere l'idrogeologia di Zion e come l'acqua modella il paesaggio nel tempo. Portate la macchina fotografica per catturare gli ecosistemi unici di questa roccia.",
+          "tips": [
+            "⚠️ Controllate apertura con i ranger prima di partire",
+            "🪨 Rischio caduta rocce, portate casco",
+            "💦 Ecosistema unico con piante rare",
+            "📸 Ottimo per fotografia naturalistica",
+            "🕐 Più tranquillo al tramonto"
+          ]
+        },
+        {
+          "id": "springdale_town",
+          "order": 5,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Springdale - Città Gateway",
+          "subtitle": "Tappa 5 - Servizi, alloggi e atmosfera di avventura",
+          "icon": "🏘️",
+          "color": "#FFE8D1",
+          "lat": 37.2635,
+          "lng": -112.2956,
+          "type": "info",
+          "difficulty": null,
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": null,
+          "text": "Springdale è la pittoresca cittadina gateway che sorge all'ingresso sud di Zion National Park, fungendo da perfetto base per esplorare il parco. Situata lungo il Virgin River, la città offre una splendida vista dei monoliti rossi e arancioni del parco mentre passeggia lungo le sue vie principali. Springdale è stata sviluppata come meta turistica a partire dai primi anni del XX secolo quando il parco divenne facilmente accessibile. Oggi, con una popolazione di circa 500 residenti, mantiene un'atmosfera autentica e accogliente malgrado l'afflusso di visitatori. Le strade alberate e i negozi locali creano un'atmosfera che rispecchia la storia della frontiera americana.\n\nLa storia di Springdale è intimamente legata allo sviluppo del turismo a Zion. Quando il parco fu istituito nel 1919, le famiglie locali iniziarono a costruire cottage e pensioni per ospitare i visitatori. Nel corso dei decenni, la città ha evoluto la sua infrastruttura mantenendo il suo carattere storico. Oggi è un vivace centro creativo con gallerie d'arte, musei e spazi culturali. La cittadina ha abbracciato il turismo sostenibile, diventando un modello di sviluppo responsabile vicino ai parchi nazionali. Le comunità locali mantengono forti legami con il parco e la terra.\n\nSprungdale è perfetto per soggiorni di una o più notti. Ci sono numerosi hotel, bed and breakfast e ristoranti ottimi. Parcheggiate gratuitamente o a basso costo e prendete la navetta gratuita per il parco. Il centro città è completamente pedonale e facilmente accessibile per passeggiate pomeridiane. Gli orari dei negozi sono generalmente dalle 9:00 alle 21:00. Prima di visitare il parco, procuratevi mappe dettagliate e informazioni presso gli uffici turistici di Springdale. La cittadina ha anche una stazione di sicurezza sociale per emergenze.",
+          "tips": [
+            "🏨 Prenota alloggi con anticipo in alta stagione",
+            "🚐 Navetta gratuita per il parco da Springdale",
+            "🍽️ Ristoranti e caffè ottimi nel centro",
+            "🛍️ Negozi di artigianato locale e attrezzature trekking",
+            "🅿️ Parcheggio a pagamento ma conveniente"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 37.263,
+          "lng": -112.295,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina di Zion riflette l'eredità del West americano e la cultura mormone dello Utah. Piatti tipici includono carne di selvaggina, trota fresca dal Virgin River, e piatti a base di mais locale. La cucina southwestern unisce sapori messicani con ingredienti americani, creando piatti unici e saporiti. Potrete assaggiare Navajo fry bread (pane fritto navajo), chili speziato, tagliata di bistecca preparata secondo tradizioni locali e verdure fresche coltivate negli orti della regione. I dessert includono pecan pie e cobbler di frutta selvatica. La maggior parte dei ristoranti offre piatti vegetariani di qualità crescente negli ultimi anni.\n\nTra i ristoranti consigliati troviamo: Oscars Cafe a Springdale (a budget medio di $12-18 per pasto) specializzato in colazione copiosissima e smoothie rinfrescanti; Red Rock Grill all'interno dello Zion Lodge (fascia alta, $25-40) offre cucina southwestern di qualità con vista incredibile; Thai Sushi & Teriyaki a Springdale (budget $10-16) serve ottima cucina asiatica; Bit & Spur a Springdale (budget $15-25) è il famoso ristorante di steakhouse con specialità di carne locale e ambiente rustico autentico.\n\nI pasti principali si consumano generalmente a colazione (6:30-10:00), pranzo (11:30-13:30) e cena (17:00-21:00). I ristoranti di Springdale accettano carte di credito ma è bene avere contanti per mance. Le prenotazioni sono consigliate durante l'alta stagione (primavera e autunno). I migliori posti per mangiare con vista sul parco sono nel centro di Springdale o presso lo Zion Lodge all'interno del parco. L'area intorno al Visitor Center ha diverse opzioni di picnic e fast food per chi vuole risparmiare tempo.",
+          "tips": [
+            "🥩 Carne di selvaggina e trota locale da non perdere",
+            "💰 Budget medio $15-25 a pasto nei buoni ristoranti",
+            "⏰ Cena presto tra le 17:00-19:00 per trovare tavoli",
+            "📍 Springdale ha miglior scelta rispetto al parco",
+            "🍺 Birre locali dello Utah da provare assolutamente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellowstone",
+      "nome": "Yellowstone National Park",
+      "sottotitolo": "Parco Naturale - Wyoming, Montana, Idaho, USA",
+      "paese": "USA",
+      "area": "Wyoming",
+      "icona": "🌋",
+      "colore": "#D4AF37",
+      "coloreSfondo": "#FFF8DC",
+      "gratuito": false,
+      "prezzo": 35.0,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "old_faithful",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Old Faithful Geyser",
+          "subtitle": "Tappa 1 - Il geyser più celebre di Yellowstone",
+          "icon": "⛲",
+          "color": "#E8F4F8",
+          "lat": 44.4605,
+          "lng": -110.8281,
+          "type": "geology",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": 2389,
+          "text": "Old Faithful è il geyser più famoso del parco e uno dei fenomeni naturali più regolari al mondo. Ogni 60-110 minuti, questa straordinaria formazione geotermica erutta lanciando in aria una colonna di acqua bollente alta fino a 50 metri. L'eruzione dura tipicamente 2-4 minuti ed è uno spettacolo che ha affascinato milioni di visitatori sin dal 1870. La prevedibilità delle eruzioni lo rende perfetto per i turisti che desiderano assistere a questo meraviglia della natura senza dover aspettare ore. Intorno a Old Faithful si estende l'Upper Geyser Basin, un'area ricca di altre caratteristiche geotermiche altrettanto impressionanti.\n\nIl nome \"Faithful\" (fedele) è stato assegnato proprio per l'affidabilità delle eruzioni regolari. Questo geyser si è formato grazie all'interazione complessa tra l'acqua superficiale che penetra nel terreno, incontra rocce vulcaniche estremamente calde a circa 400 metri di profondità, e viene riscaldata fino a temperature superiori ai 200°C. La pressione dell'acqua surriscaldata costruisce tensione finché non avviene l'esplosione spettacolare. Old Faithful rappresenta uno dei migliori esempi di attività geotermica attiva sulla Terra e attrae circa 2 milioni di visitatori ogni anno.\n\nPer il miglior esperimento, arriva 15-20 minuti prima dell'ora prevista di eruzione consultando il Visitor Center. Porta scarpe comode poiché dovrai camminare su terreni accidentati. Durante i mesi estivi da giugno ad agosto, le file possono essere lunghe, quindi considera di visitare nelle primissime ore del mattino o al tramonto. Indossa strati di abbigliamento perché l'acqua fredda spruzzata può bagnarti. Proteggiti dal sole con crema solare e cappello. Non avvicinarti al geyser oltre i sentieri designati: l'acqua è tossica e può causare gravi ustioni.",
+          "tips": [
+            "⛲ Eruzioni ogni 60-110 minuti prevedibili",
+            "📱 Controlla orari al Visitor Center",
+            "👟 Porta scarpe resistenti e impermeabili",
+            "☀️ Proteggersi dal sole intenso",
+            "🌅 Visita al tramonto per meno folla"
+          ]
+        },
+        {
+          "id": "grand_prismatic_spring",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Grand Prismatic Spring",
+          "subtitle": "Tappa 2 - La più grande sorgente termica nordamericana",
+          "icon": "💎",
+          "color": "#E0F4FF",
+          "lat": 44.4733,
+          "lng": -110.8433,
+          "type": "geology",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "800m",
+          "altitude": 2322,
+          "text": "Grand Prismatic Spring è non soltanto la più grande sorgente calda di Yellowstone, ma anche la più grande del Nord America e la terza più grande del mondo con un diametro di circa 112 metri e una profondità di almeno 49 metri. Quella che rende questa sorgente straordinariamente affascinante è la sua tavolozza di colori che varia dal blu profondo al centro, al verde, giallo e rosso verso i bordi. Questi incredibili colori non sono dovuti a minerali come molti credono, bensì al comportamento della luce e agli organismi microscopici termofili chiamati batteri e alghe. L'acqua al centro è troppo calda per la vita e appare di un blu intenso simile al Lago di Como in Italia, mentre negli strati più freddi verso il bordo prosperano microorganismi che contengono pigmenti rossastri e giallastri.\n\nLa temperatura dell'acqua al centro raggiunge i 189°F (87°C), rendendola un ambiente ostile per la maggior parte della vita terrestre ma paradiso per organismi estremofili. Questa sorgente termica scarica ogni giorno circa 560 galloni d'acqua al secondo nel Firehole River. La vista migliore di Grand Prismatic Spring si ottiene dal sentiero panoramico sopraelevato di Grand Prismatic Overlook Trail che offre una prospettiva dall'alto della piscina, permettendoti di apprezzare pienamente la vastità e i colori intensi. Senza questo punto di vista elevato, la grandezza della sorgente è difficile da percepire dal livello del suolo dove la profondità delle acque torbide impedisce di vederne il fondo.\n\nIl migliore momento per fotografare è tra le 10 del mattino e le 2 del pomeriggio quando il sole è alto nel cielo e illumina direttamente i colori dell'acqua. Porta una macchina fotografica o smartphone con batteria carica perché questa è una delle location fotografiche più straordinarie di Yellowstone. Il sentiero a livello del suolo è più facile ma offre viste limitate, mentre l'Overlook Trail comporta una salita di circa 150 metri e richiede 45 minuti di escursione leggera. Non avvicinarti all'acqua: è tossica e pericolosamente calda. In inverno, il vapore crea un'atmosfera mistica e affascinante, specialmente al tramonto quando il sole immerge il vapore di colori arancioni e rosa.",
+          "tips": [
+            "📸 Fotografa dal Grand Prismatic Overlook Trail",
+            "⏰ Ore 10-14 per migliore illuminazione",
+            "👟 Escursione leggera di 45 minuti",
+            "🌡️ Acqua tossica: non toccare",
+            "🎥 Drone utile per foto aeree (se permesso)"
+          ]
+        },
+        {
+          "id": "mammoth_hot_springs",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Mammoth Hot Springs",
+          "subtitle": "Tappa 3 - Formazioni di travertino terrazzate spettacolari",
+          "icon": "🏔️",
+          "color": "#F0E8D8",
+          "lat": 44.9726,
+          "lng": -110.7024,
+          "type": "geology",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "3.2km",
+          "altitude": 2239,
+          "text": "Mammoth Hot Springs rappresenta uno dei paesaggi geotermici più straordinari al mondo, dove acque ricche di minerali emergono dalle viscere della terra e depositano travertino creando formazioni terrazzate di bellezza quasi irreale. Queste bianchissime terrazze ricordano cascate congelate di marmo bianco che scendono lungo il fianco della montagna. A differenza di altre sorgenti di Yellowstone ricche di silice, Mammoth Hot Springs contiene travertino, un carbonato di calcio che crea queste strutture mineralogiche uniche. Le terrazze cambiano continuamente: alcuni bacini si asciugano mentre altri si riempiono di acqua bollente, creando un paesaggio dinamico e sempre sorprendente dove nulla rimane uguale da un anno all'altro.\n\nIl complesso di Mammoth Hot Springs consiste di due aree principali: le Terrazze Superiori (Upper Terraces) e le Terrazze Inferiori (Lower Terraces). L'acqua che alimenta queste formazioni raggiunge temperature di 71°C e percola attraverso rocce carbonatiche depositate 50 milioni di anni fa. Mentre l'acqua fluisce e scorre attraverso le varie terrazze, la perdita di anidride carbonica provoca la precipitazione del travertino, creando depositazioni di circa 2 tonnellate al giorno. Mammoth si trova a 2.239 metri di altitudine presso l'ingresso Nord del parco, dove si trovava anche l'antico Fort Yellowstone costruito dai militari nel 1886. La visita a Mammoth ti offre non solo geologia affascinante ma anche una finestra sulla storia militare del parco.\n\nPercorri il Mammoth Hot Springs Terrace Trail, un sentiero che si dipana tra le terrazze bianche e le acque colorate. Il percorso può essere fatto interamente o in parte, e la difficoltà è bassa anche se comporta alcune salite. Porta scarpe con buona aderenza perché le rocce di travertino lisce bagnate dall'acqua calda possono essere scivolose. Non toccare l'acqua che è estremamente calda: temperature superiori a 65°C possono causare ustioni gravi in pochi secondi. Visita durante la stagione calda per vedere l'acqua blu turchese nei bacini; in inverno le terrazze si ghiacciano creando un'atmosfera completamente diversa ma altrettanto magica. Proteggersi dal sole riflesso dalle superfici bianche di travertino che possono causare scottature.",
+          "tips": [
+            "🥾 Scarpe con buona presa antiscivolo",
+            "🌡️ Acqua bollente: stare a distanza sicura",
+            "📷 Travertino riflette luce intensa",
+            "🚶 Terrace Trail facile, circa 2km",
+            "❄️ Inverno offre scenari glaciali diversi"
+          ]
+        },
+        {
+          "id": "grand_canyon_yellowstone",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Grand Canyon dello Yellowstone",
+          "subtitle": "Tappa 4 - Canyon spettacolare con cascate maestose",
+          "icon": "🏜️",
+          "color": "#FFE8D0",
+          "lat": 44.7314,
+          "lng": -110.4961,
+          "type": "viewpoint",
+          "difficulty": "moderato",
+          "duration": "3-4h",
+          "distance": "2.5km",
+          "altitude": 2349,
+          "text": "Il Grand Canyon dello Yellowstone è un capolavoro di erosione fluviale dove il Fiume Yellowstone si è scavato un passaggio attraverso rocce vulcaniche multicolori creando uno dei canyon più spettacolari dell'America del Nord. Il canyon si estende per oltre 30 chilometri di lunghezza, con pareti che raggiungono profondità di 370 metri e che espongono strati di roccia gialla, rosa, rossa e marrone che risalgono a milioni di anni fa. Due cascate dominano il paesaggio: la Cascata Inferiore (Lower Falls) con i suoi 94 metri di altezza è quasi due volte più alta delle Cascate del Niagara, mentre la Cascata Superiore (Upper Falls) scende per 32 metri. La forza di queste cascate ha scavato progressivamente il canyon nel corso di milioni di anni, creando uno degli spettacoli naturali più impressionanti di Yellowstone.\n\nLa geologia del canyon rivela una storia affascinante di vulcanismo e erosione. Le rocce colorate non sono dovute solamente agli strati minerali ma anche all'ossidazione del ferro contenuto nelle rocce vulcaniche. Durante l'ultima glaciazione, quando il clima era molto più freddo, l'erosione del ghiaccio ha contribuito ulteriormente a formare le pareti verticali del canyon. Il fiume Yellowstone continua a fluire attraverso il canyon con una velocità variabile, più veloce durante la stagione del disgelo primaverile quando l'acqua proveniente dalla fusione della neve gonfia il corso d'acqua. Dalle varie piattaforme panoramiche è possibile apprezzare la maestosità della natura in tutta la sua forza primordiale.\n\nVisita gli Artist Point e Uncle Tom's Trail per vedute spettacolari delle cascate. L'Artist Point offre una vista panoramica classica del canyon e della Cascata Inferiore, il posto perfetto per fotografie. L'Uncle Tom's Trail è un sentiero impegnativo con 328 gradini che scende nel canyon verso la base della Cascata Inferiore, un'esperienza avventurosa ma non per deboli di cuore. Altre opzioni includono il facile Brink of the Lower Falls Trail e il panoramico Canyon Rim Trail del South Rim. Porta molta acqua perché l'escursionismo può essere faticoso nelle giornate calde. Il momento migliore per visitare è la mattina presto prima che la nebbia delle cascate occupi il canyon. Indossa abbigliamento a strati poiché può fare freddo nei pressi delle cascate anche in estate. La visibilità cambia drammaticamente secondo le condizioni meteorologiche: giorni soleggiati rivelano pienamente i colori delle rocce.",
+          "tips": [
+            "🥾 Scarpe da trekking robuste per sentieri accidentati",
+            "💧 Acqua abbondante: sentieri lunghi e faticosi",
+            "📸 Artist Point per fotografie iconiche",
+            "🌅 Visita all'alba per meno folla",
+            "⚠️ Uncle Tom's Trail: 328 scalini, non per tutti"
+          ]
+        },
+        {
+          "id": "lamar_valley",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Lamar Valley - America's Serengeti",
+          "subtitle": "Tappa 5 - Fauna selvatica e panorami selvaggi",
+          "icon": "🦌",
+          "color": "#E8F8E8",
+          "lat": 44.8922,
+          "lng": -110.3358,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 2296,
+          "text": "Lamar Valley, situata nel nord-est del Parco Nazionale di Yellowstone, è ampiamente riconosciuta come l'America's Serengeti per la sua straordinaria abbondanza e varietà di fauna selvatica. Questa valle aperta e relativamente pianeggiante offre una visibilità eccellente per osservare animali nel loro habitat naturale senza ostacoli. Puoi spottare bisonti massicci che pascolano tranquillamente, mandrie di alci maestosi specialmente durante il tramonto, branchi di lupi grigi che sono stati reintrodotti nel parco nel 1995, orsi grizzly che cercano cibo, e una varietà di uccelli rapaci che perlustrano il cielo. La valle è particolarmente spettacolare in primavera ed estate quando gli animali si concentrano intorno ai fiumi per l'acqua fresca e le praterie fiorite offrono abbondante nutrimento.\n\nLa storia di Lamar Valley è strettamente intrecciata con la reintroduzione dei lupi grigi in Yellowstone, un evento trasformativo avvenuto nel 1995-1996 che ha ripristinato l'equilibrio ecologico dell'intero ecosistema. Prima della reintroduzione, i lupi erano stati completamente eliminati dal parco all'inizio del 1900 per proteggere il bestiame domestico. La loro assenza ha permesso alla popolazione di cervi di crescere incontrollatamente, il che ha devastato la vegetazione. Il ritorno dei lupi ha arrestato l'espansione dei cervi e ha ricreato la complessa trama alimentare naturale. Oggi, Lamar Valley è il luogo migliore del parco per osservare comportamenti predatori e le dinamiche della catena alimentare in azione, rendendola destinazione imprescindibile per wildlife photographers e naturalist.\n\nIl modo migliore per esplorare Lamar Valley è percorrere la Lamar Valley Road in auto lentamente, fermandosi frequentemente a vari pullout scenici dove altri visitatori spesso si fermano perché hanno avvistato animali. Porta binocoli o telescopio fotografico perché gli animali selvaggi mantengono distanza dalle strade e sono difficili da fotografare a zoom normale. Le ore migliori per l'osservazione della fauna sono l'alba (6-9 del mattino) e il tramonto (18-20:30) quando gli animali sono più attivi e il sole basso illumina magnificamente il paesaggio. In inverno, quando la neve copre le alte quote, gli animali scendono a Lamar Valley dove il terreno più basso rimane più accessibile. Porta vestiti caldi anche in estate perché la valle è esposta al vento e al freddo, specialmente di notte. Rispetta la distanza di sicurezza da tutti gli animali selvaggi: almeno 25 metri dai cervi e bisonti, e almeno 100 metri dai lupi e orsi.",
+          "tips": [
+            "🔭 Binocoli essenziali per osservare animali a distanza",
+            "🌅 Alba e tramonto per miglior avvistamento fauna",
+            "📸 Obiettivo zoom per fotografie wildlife",
+            "🧥 Vestiti a strati, vento può sorprendere",
+            "⚠️ Distanza minima 25m da alce/bisonte, 100m da lupi/orsi"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 44.5543,
+          "lng": -110.8328,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina della regione di Yellowstone riflette le tradizioni occidentali americane con particolare enfasi su carni selvagge, pesce di acqua dolce e ingredienti locali. I piatti tipici che dovresti assolutamente provare includono lo steak di bisonte (bison steak), una carne magra e saporita che è stata il nutrimento dei nativi americani per millenni, l'alce (elk) che ha una consistenza più tenera del manzo e un sapore leggermente più selvatico, e il salmone (salmon) pescato nei fiumi locali. I ristoranti della zona servono questi piatti preparati in modo autentico, spesso arrostiti alla griglia o affumicati. Assicurati di provare anche le specialità locali come la trota di Yellowstone e gli spezzatini ricchi di verdure di stagione. Per colazione, i pancake con sciroppo d'acero puro e bacon affumicato sono standard e deliziosi. Le insalate fresche con verdure di fattoria locale sono sorprendentemente saporite data l'altitudine e le stagioni brevi.\n\nTra i ristoranti consigliati, il Lake Yellowstone Hotel Dining Room offre una vista sul lago Yellowstone mentre servono bistecche di alta qualità, pesce di acqua dolce e piatti tradizionali occidentali in un ambiente elegante; budget medio 35-50 dollari per persona. L'Old Faithful Inn Dining Room è ubicato dentro il celebre Old Faithful Inn del 1903, uno degli edifici più iconici dell'America, e serve eccellenti bistecche di alce e bisonte con atmosfera storica affascinante; costo medio 40-55 dollari. Per un'esperienza più casual, il Roosevelt Lodge Roughrider Dining Room propone un menu robusto con specialità grigliate al fuoco di legna, costolette di bisonte e piatti da cowboy autentico in un ambiente rustico di frontiera; prezzo medio 25-40 dollari. Tutti questi ristoranti sono situati dentro il parco e richiedono prenotazioni durante l'alta stagione (giugno-agosto).\n\nGli orari dei pasti negli Stati Uniti sono diversi dall'Italia: colazione (breakfast) è servita dalle 6 alle 10, pranzo (lunch) dalle 11 alle 14, cena (dinner) dalle 17 alle 21. Molti ristoranti nel parco chiudono durante i mesi invernali, quindi verifica gli orari di apertura stagionali. Quando ordini, ricorda che le porzioni americane sono generalmente molto più generose di quelle italiane: un piatto principale può tranquillamente sfamare due persone medie. Il servizio è veloce e cortese, e il cameriere vi approccerà per prendere l'ordine dopo che vi siete seduti. L'etichetta locale richiede di mantenere conversazioni a volume moderato nei ristoranti eleganti. La bevanda più comune è l'acqua fredda con ghiaccio servita gratuitamente. Per pagare, dovrai chiedere il conto (check) al cameriere o aspettare che ti porti il terminale per la carta di credito. Le migliori zone dove mangiare nel parco sono il villaggio di Old Faithful con molteplici opzioni, la zona intorno al Lake Yellowstone per ristoranti eleganti, e il Mammoth area se ami l'atmosfera storica. Se stai visitando da West Yellowstone, il centro della città ha numerosi ristoranti di qualità con prezzi leggermente inferiori rispetto alle opzioni dentro il parco.",
+          "tips": [
+            "🦬 Steak di bisonte da provare assolutamente",
+            "📞 Prenota cena con anticipo in alta stagione",
+            "⏰ Cena inizia alle 17:00, molto presto rispetto all'Italia",
+            "💰 Porzioni enormi: può bastare un piatto per due persone",
+            "🥩 Elk (alce) dal sapore selvatico delizioso"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yosemite",
+      "nome": "Yosemite National Park",
+      "sottotitolo": "Parco Nazionale - California, USA",
+      "paese": "Stati Uniti",
+      "area": "California",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F5",
+      "gratuito": false,
+      "prezzo": 35.0,
+      "stripeLink": "https://buy.stripe.com/yosemite_audioguide_it",
+      "pois": [
+        {
+          "id": "yosemite_valley_viewpoint",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Yosemite Valley",
+          "subtitle": "Tappa 1 - Il cuore del parco",
+          "icon": "🏔️",
+          "color": "#E8F4E8",
+          "lat": 37.7436,
+          "lng": -119.5783,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": null,
+          "distance": null,
+          "altitude": null,
+          "text": "Yosemite Valley è il cuore pulsante del parco nazionale, una depressione glaciale a forma di U circondata da scogliere granitiche di straordinaria bellezza. Qui si concentrano alcuni dei più iconici scenari della Terra: El Capitan si erge imponente a 1.100 metri, Half Dome domina all'estremità orientale, e le cascate si lanciano giù dalle pareti rocciose. La valle offre viste mozzafiato da quasi ogni punto, con sentieri accessibili che permettono anche ai meno allenati di apprezzare la magnificenza del paesaggio. Durante la primavera e l'inizio dell'estate, le cascate raggiungono il massimo volume d'acqua, regalando spettacoli visivi indimenticabili sotto il sole californiano.\n\nLa formazione geologica della valle risale a circa 10 milioni di anni fa, quando enormi placche di granito iniziarono a sollevarsi nella Sierra Nevada. Durante le ere glaciali successive, ghiacciai massicci scavarono la valle, levigando le rocce e creando le forme caratteristiche che vediamo oggi. John Muir, il leggendario naturalista scozzese che ha dedicato la vita a Yosemite, descriveva la valle come un santuario naturale dove la forza bruta della natura e la serenità convivono in perfetto equilibrio. Nel 1864, Abraham Lincoln firmò lo Yosemite Grant Act, primo atto federale di conservazione ambientale, piantando il seme dell'idea moderna di parchi nazionali.\n\nPer visitare al meglio Yosemite Valley, consiglio di arrivare presto al mattino per evitare la folla e sfruttare la luce migliore per le fotografie. La valle è attraversata da piste ciclabili ben mantenute e i free shuttle bus gratuiti la percorrono regolarmente, eliminando la necessità di cercare parcheggio. Se desideri una visione d'insieme, il Tunnel View offre una prospettiva spettacolare, mentre per chi ama camminare, il sentiero Valley Loop Trail (circa 12 km) permette di esplorare la valle da diversi punti di vista. In inverno la neve copre le cime, creando un'atmosfera quasi fiabesca.",
+          "tips": [
+            "🚌 Usa i free shuttle bus gratuiti per muoverti",
+            "📸 Miglior luce al tramonto da Tunnel View",
+            "🥾 Valley Loop Trail per panorami completi"
+          ]
+        },
+        {
+          "id": "el_capitan_granite",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "El Capitan",
+          "subtitle": "Tappa 2 - Il monolite di granito più maestoso",
+          "icon": "🧗",
+          "color": "#F0E8D8",
+          "lat": 37.7328,
+          "lng": -119.6377,
+          "type": "geology",
+          "difficulty": null,
+          "duration": null,
+          "distance": null,
+          "altitude": null,
+          "text": "El Capitan è una delle formazioni rocciose più spettacolari del pianeta: un monolite di granito che si eleva verticalmente per oltre 1.100 metri (3.600 piedi) dal suolo della valle, raggiungendo un'altezza equivalente a quattro Empire State Building impilati uno sull'altro. Questa enorme parete liscia e grigia attrae scalatori da tutto il mondo che affrontano sfide che possono durare da poche ore fino a diversi giorni di arrampicata continua. Anche per chi non è scalatore, osservare El Capitan dal basso, con i piccoli puntini di colore che rappresentano i climber attaccati alla roccia, trasmette un senso di vertigine e ammirazione per l'audacia umana. La vista dalla El Capitan Picnic Area consente di osservare comodamente questa meraviglia naturale e, con binocoli, è possibile vedere i dettagli degli scalatori al lavoro.\n\nGeologicamente, El Capitan è composto da granito cristallino formatosi circa 100 milioni di anni fa dal raffreddamento del magma sotterraneo. Durante le ere glaciali, i ghiacciai scavarono intorno a questa immensa roccia, isolandola e levigandone le superfici laterali, ma la sua enorme durezza le permise di resistere all'erosione. La parete verticale di El Capitan è uno dei luoghi preferiti dai geologi per studiare le fratture naturali e la composizione del granito. Nel 1958, Warren Harding realizzò la prima ascensione completata, stabilendo uno dei record più celebri dell'arrampicata sportiva mondiale. Da allora, la roccia è diventata simbolo della sfida umana contro la natura.\n\nDa fotografo, il miglior punto di vista è dalla El Capitan Picnic Area, accessibile a piedi dal parcheggio principale. Se sei visitatore comune, dedica almeno 20-30 minuti a osservare e fotografare questa meraviglia. Durante le giornate nuvolose, El Capitan assume un aspetto drammatico con nuvole che si avvolgono intorno alla cima. Se visiti in primavera, potresti vedere cascate d'acqua scendere lungo le crepe della roccia dopo lo scioglimento della neve. È consigliato visitare all'alba per avere luce morbida e meno turisti, oppure al tramonto quando il granito assume tonalità dorate.",
+          "tips": [
+            "🔭 Binocoli utili per vedere gli scalatori",
+            "📷 Migliore illuminazione al mattino presto",
+            "⏰ Visita almeno 30 minuti"
+          ]
+        },
+        {
+          "id": "half_dome_icon",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Half Dome",
+          "subtitle": "Tappa 3 - L'icona più riconoscibile di Yosemite",
+          "icon": "⛰️",
+          "color": "#E8DCF0",
+          "lat": 37.7354,
+          "lng": -119.533,
+          "type": "geology",
+          "difficulty": null,
+          "duration": null,
+          "distance": null,
+          "altitude": null,
+          "text": "Half Dome è probabilmente la forma geologica più iconica e riconoscibile di Yosemite, un'enorme cupola di granito che si eleva a 2.693 metri di altitudine, con una faccia quasi perfettamente verticale che precipita 1.440 metri verso la valle sottostante. Fotografato milioni di volte, è diventato il simbolo di Yosemite a livello mondiale e appare sui loghi, francobolli e cartoline. Visto dalla Yosemite Valley, sembra che il vertice sia stato tagliato netto da una lama gigantesca, creando il profilo caratteristico \"mezza cupola\" che ha generato il suo nome. Il contrasto tra la cupola arrotondata superiore e la parete rocciosa verticale crea una silhouette estremamente riconoscibile, particolarmente affascinante al tramonto quando il granito si illumina di rosa e oro.\n\nLa formazione di Half Dome è un esempio straordinario di come i processi geologici plasmino il paesaggio nel corso di milioni di anni. Il granito che compone Half Dome si è cristallizzato circa 100 milioni di anni fa dal magma sotterraneo raffreddato. Durante le ultime ere glaciali, un ghiacciaio massiccio scese dalla catena montuosa della Sierra Nevada, erodendo una valle a forma di U e levigando le rocce circostanti. Tuttavia, Half Dome aveva una caratteristica speciale: veniva drenato da un ghiacciaio su un lato, il che creò l'erosione asimmetrica che oggi vediamo. Nel 1875, George Anderson realizzò la prima ascensione della cima usando chiodi e corde, e oggi è una meta ambita per gli arrampicatori seri dotati di un permesso speciale.\n\nIl modo migliore per ammirare Half Dome senza una spedizione di arrampicata è fotografarlo da vari punti della valle. Glacier Point, situato a 2.200 metri di altitudine, offre una vista quasi al livello degli occhi della cupola, creando una prospettiva unica. Mirror Lake, particolarmente nella prima metà dell'anno quando contiene acqua sufficiente, riflette Half Dome in modo spettacolare. Per una vista classica, il sentiero Four Mile Trail offre una pendenza di 2.400 piedi su soli 4,8 miglia, culminando a Glacier Point. Se preferisci una passeggiata più tranquilla, il percorso South Rim Trail offre vedute panoramiche senza l'ascesa faticosa. Visita al mattino per luce nitida, oppure al tramonto per i colori warmth.",
+          "tips": [
+            "🔭 Vista spettacolare da Glacier Point",
+            "🪞 Riflesso perfetto a Mirror Lake in primavera",
+            "📷 Tramonto regala colori dorati alla roccia"
+          ]
+        },
+        {
+          "id": "yosemite_falls",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Yosemite Falls",
+          "subtitle": "Tappa 4 - La cascata più alta del Nord America",
+          "icon": "💧",
+          "color": "#D8E8F0",
+          "lat": 37.7456,
+          "lng": -119.593,
+          "type": "water",
+          "difficulty": "moderate",
+          "duration": "2-3h",
+          "distance": "12 km",
+          "altitude": 740,
+          "text": "Yosemite Falls è la cascata più alta del Nord America con un salto totale di 739 metri (2.425 piedi), quasi due volte e mezzo più alta di Niagara. In realtà è un sistema complesso di tre sezioni: Upper Yosemite Fall (435 m), Middle Cascades (206 m) e Lower Yosemite Fall (98 m). In primavera e inizio estate, quando il ghiaccio della Sierra Nevada si scioglie, il flusso d'acqua è massimo e la cascata crea un ruggito tonante udibile a grande distanza, con nuvole di spray che salgono fino a 60 metri d'altezza. La forza dell'acqua che precipita è tale che il vento disperde molta dell'acqua prima che raggiunga il fondo, creando arcobaleni incantevoli nelle giornate soleggiate. In alcuni momenti della giornata, il sole attraversa lo spray creando effetti luminosi spettacolari. Durante l'estate tarda e l'autunno, il flusso diminuisce notevolmente fino a quasi prosciugarsi, ma la cascata mantiene comunque una bellezza selvaggia.\n\nYosemite Falls si forma dove il Yosemite Creek, che drena un'area di 46 miglia quadrate, incontra il margine della valle. L'acqua viene deviata dal gradino creato dall'erosione glaciale millenaria. Gli strati di roccia che formano la cascata sono costituiti principalmente da granito e metasedimenti, caratterizzati da strati di quarzite e scisto. Nel corso di milioni di anni, l'erosione ha creato questo ambiente straordinario dove l'acqua trova una strada ripida verso la valle. I geologi studiano attentamente questa area perché fornisce informazioni preziose su come i ghiacciai plasmano le valli montane. La cascata è stata una fonte di ispirazione per artisti e scrittori, incluso Thomas Cole che la dipinse nel 1855.\n\nPer visitare Yosemite Falls, esiste un sentiero apposito che parte dal Lower Falls Trailhead. Il Lower Yosemite Fall Trail è una passeggiata facile di 1,5 km (3,7 km andata e ritorno) che conduce alla base della cascata inferiore in circa 30-40 minuti. Se sei più allenato e hai più tempo, il Yosemite Falls Trail raggiunge il colmo tra le cascate superiore e media, coprendo 12 km in 5-7 ore. Vai presto al mattino in primavera per vedere il massimo flusso d'acqua. Porta sempre una giacca impermeabile perché lo spray raggiunge anche i visitatori sulla strada verso il ponte di osservazione. Quando il sole è alle spalle (pomeriggio-sera), gli arcobaleni sono più visibili nello spray.",
+          "tips": [
+            "💧 Massimo flusso a maggio-giugno dalla neve",
+            "🌈 Arcobaleni nello spray con sole alle spalle",
+            "👕 Giacca impermeabile consigliata"
+          ]
+        },
+        {
+          "id": "glacier_point_panorama",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Glacier Point",
+          "subtitle": "Tappa 5 - Il panorama più spettacolare del parco",
+          "icon": "👁️",
+          "color": "#F0E8DC",
+          "lat": 37.7186,
+          "lng": -119.5795,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": 2195,
+          "text": "Glacier Point si eleva a 2.195 metri di altitudine e offre il panorama più completo e spettacolare di tutto Yosemite. Da questo punto d'osservazione situato sul margine sud della valle, puoi abbracciare con uno sguardo quasi tutti i principali attrattivi del parco: Half Dome si erge quasi al tuo livello visivo, El Capitan domina all'orizzonte, le cascate di Yosemite schizzano dalla parete opposta, e il Matterhorn Peak emerge lontano a nord-est. Il nome \"Glacier Point\" ricorda i tempi glaciali quando dalle spalle di questa montagna scendevano immensi ghiacciai. Sebbene oggi non rimangono ghiacciai sulla parete, le tracce della loro esistenza sono ovunque: la forma a U della valle sottostante, le rocce levigate e i laghi glaciali sono testimonianze silenziose di milioni di anni di scultura ghiacciata. Dalla piattaforma d'osservazione protetta, puoi contemplare questo panorama senza distrazioni.\n\nGeologicamente, Glacier Point rappresenta un osservatorio privilegiato della Sierra Nevada. La roccia su cui stai in piedi è costituita da granito cristallino resistente formatosi circa 100 milioni di anni fa. Guardando verso la valle sottostante, puoi osservare direttamente come i ghiacciai hanno scavato una depressione a forma di U, levigando le rocce laterali e creando i ripidi pendii che vedi. Half Dome in particolare è un capolavoro dell'erosione glaciale asimmetrica. I rilievi del terreno intorno a Glacier Point mostrano anche le evidenze di morene glaciali, cioè ammucchiamenti di roccia deposte dai ghiacciai durante la loro ritirata. Gli scienziati hanno datato gli strati di roccia e identificato almeno quattro cicli glaciali principali negli ultimi 3 milioni di anni.\n\nPer raggiungere Glacier Point, devi percorrere una strada in salita di 32 km da Yosemite Valley, un tragitto affascinante attraverso diverse zone di vegetazione. L'accesso è generalmente aperto da metà maggio a inizio novembre, chiuso in inverno per neve. Se hai poco tempo, il semplice tragitto in auto e la sosta di 30 minuti vale già la pena. Se hai più tempo, il sentiero Four Mile Trail scende dalla valle fino a Glacier Point (o il contrario in salita) offrendoti una prospettiva cambiante del paesaggio man mano che perdi quota. Al tramonto, Glacier Point diventa un luogo magico con il sole che illumina le pareti di granito di tonalità dorate. Porta una giubba: anche in estate può fare freddo a questa altitudine.",
+          "tips": [
+            "🚗 Strada chiusa in inverno, aperta da maggio",
+            "🌅 Tramonto tinge di oro il granito di Half Dome",
+            "🧥 Porta una giubba anche d'estate"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 37.7436,
+          "lng": -119.5783,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina di Yosemite riflette la tradizione californiana con ingredienti freschi e piatti ispirati alla natura. Nelle zone interne del parco troverai opzioni di ristorazione che vanno dal casual al sofisticato, anche se gli ultimi anni hanno visto riduzioni dovute a vicissitudini organizzative. I piatti tipici americani si basano su carni di qualità (bistecche, hamburger), pesce fresco della costa californiana (salmone, halibut), e verdure di stagione provenienti dagli orti locali. Molti ristoranti sottolineano l'uso di ingredienti locali e sostenibili. Una specialità da non perdere è la Sierra trout, la trota di montagna pescata nei torrenti circostanti, preparata semplicemente per esaltare il sapore delicato. Gli insalate sono generose e colorate, spesso accompagnate da condimenti innovativi. Per chi ama i dolci, le torte ai frutti di bosco raccolti localmente sono irresistibili, così come il wild berry pie, tortino alle bacche selvagge.\n\nTra i ristoranti consigliati in Yosemite Valley, il The Ahwahnee Dining Room è un'istituzione elegante situato nell'omonimo hotel storico, con ampie vetrate che affacciano sulla valle e servizio fine dining con piatti sofisticati a base di ingredienti californiani; il prezzo è elevato (cena 40-80 euro a persona), ma l'esperienza è indimenticabile. Yosemite Valley Lodge Food Court offre opzioni più casuali e convenienti (10-20 euro) con una varietà che accontenta quasi tutti: hamburger, pizza, piatti vegetariani e asiatici. Curry Village Pizza Deck, aperto principalmente in primavera-estate, serve ottima pizza in uno stile informale (15-25 euro). Per chi vuole un'esperienza più autentica, Degnan's Café nel Yosemite Village offre sandwiches, insalate e caffè di buona qualità (8-18 euro), con posto a sedere sia interno che esterno.\n\nI consigli pratici sono essenziali per mangiare bene a Yosemite. Innanzitutto, i pasti sono serviti con orari specifici: colazione generalmente dalle 7:00-10:30, pranzo 11:30-14:00, cena 17:00-20:00. La maggior parte dei ristoranti dentro il parco sono gestiti da Aramark, quindi assicurati di controllare gli orari aggiornati presso il visitor center. Consiglio di mangiare durante le ore di punta per evitare sorprese di chiusura. Se visiti in settimana hai meno attese rispetto ai weekend. L'etichetta è casual, non è richiesto abbigliamento formale anche al Ahwahnee, sebbene molti visitatori preferiscano cambiarsi dopo una giornata di escursionismo. Non aspettarti cucina italiana tradizionale: la California ha i propri standard culinari. Se hai esigenze dietetiche speciali (vegetariano, vegano, senza glutine), avvisa il personale. La pratica di portare il proprio picnic è molto comune a Yosemite: puoi acquistare alimenti al general store del villaggio e mangiare in uno dei numerosi picnic area.",
+          "tips": [
+            "🍽️ Prenotare il Ahwahnee per cena, se possibile",
+            "⏰ Orari pasti rigidi: 7-10 colazione, 11.30-14 pranzo",
+            "🥗 Insalate generose e piatti vegetariani ben offerti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rocky_mountain",
+      "nome": "Rocky Mountain National Park",
+      "sottotitolo": "Parco Nazionale - Colorado, USA",
+      "paese": "Stati Uniti",
+      "area": "Colorado",
+      "icona": "🏔️",
+      "colore": "#8B4513",
+      "coloreSfondo": "#FFF8F0",
+      "gratuito": false,
+      "prezzo": 35.0,
+      "stripeLink": "https://buy.stripe.com/rocky_mountain_park",
+      "pois": [
+        {
+          "id": "trail_ridge_road",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Trail Ridge Road",
+          "subtitle": "Tappa 1 - Strada panoramica sopra il limite degli alberi",
+          "icon": "🛣️",
+          "color": "#FFE4B5",
+          "lat": 40.3765,
+          "lng": -105.6436,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 3719,
+          "text": "Trail Ridge Road è una delle strade più spettacolari d'America, salendo fino a 3.719 metri di altitudine con ben dieci miglia di percorso sopra il limite degli alberi. Questa autostrada panoramica attraversa il parco da nord a sud, regalando viste straordinarie sulla Continental Divide e su decine di picchi alpini innevati. Durante il tragitto, i visitatori passano attraverso diversi ecosistemi, dalle foreste di conifere alle tundre alpine, osservando il paesaggio trasformarsi gradualmente mentre salgono in quota. Le finestre dell'auto si riempiono di panorami mozzafiato ad ogni curva, con visibilità che può raggiungere fino a 160 chilometri in giornate limpide.\n\nLa strada fu costruita durante gli anni Trenta dal Civilian Conservation Corps, rappresentando un capolavoro di ingegneria storica che ha reso accessibili questi remoti paesaggi alpini. Il progetto richiedeva enormi sfide tecniche per attraversare il terreno montuoso difficile, e oggi rimane un tributo al lavoro e alla dedizione di coloro che l'hanno costruita. La strada è aperta generalmente da fine maggio a metà ottobre, quando le condizioni meteorologiche lo permettono, poiché durante l'inverno le nevicate abbondanti rendono il transito impossibile per mesi. Trail Ridge Road rappresenta una pietra miliare nella storia del turismo nei parchi nazionali americani.\n\nPer visitare Trail Ridge Road, è consigliabile partire presto al mattino per evitare il traffico pomeridiano e per godere delle migliori condizioni di visibilità. Portate abbigliamento a strati poiché la temperatura diminuisce significativamente con l'altitudine, spesso di circa 3-5 gradi ogni 300 metri di salita. Parcheggiate ai numerosi pullover panoramici per scattare foto e fare escursioni brevi. Il rifornimento di carburante non è disponibile sulla strada, quindi assicuratevi di partire con il serbatoio pieno. Visitate l'Alpine Visitor Center a 3.600 metri per informazioni dettagliate sull'ecosistema alpino e la fauna locale.",
+          "tips": [
+            "🚗 Guida consigliata: 2-3 ore",
+            "❄️ Aperta fine maggio - metà ottobre",
+            "📸 Fermate panoramiche ogni 5-10 km",
+            "🧥 Portate abbigliamento pesante anche d'estate",
+            "⛽ Rifornite carburante prima di partire"
+          ]
+        },
+        {
+          "id": "bear_lake_emerald",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Bear Lake e i Tre Laghi Alpini",
+          "subtitle": "Tappa 2 - Escursione ai laghi cristallini sotto Hallett Peak",
+          "icon": "💧",
+          "color": "#E0F2F7",
+          "lat": 40.3132,
+          "lng": -105.6482,
+          "type": "water",
+          "difficulty": "moderato",
+          "duration": "3-4h",
+          "distance": 12,
+          "altitude": 2883,
+          "text": "Bear Lake è il punto di partenza per uno dei percorsi escursionistici più affascinanti del parco, dove tre laghi alpini successivi creano un'esperienza indimenticabile nel cuore della natura selvaggia. Dal parcheggio di Bear Lake, a 2.883 metri di altitudine, il sentiero sale gradualmente attraverso una fitta foresta di abeti subalpini e pini, con occasionali scorci del paesaggio circostante che aumentano l'anticipazione. Inizialmente si raggiunge Nymph Lake, il primo dei tre laghi, circondato da boschi densi e riflessi perfetti sulle acque tranquille. Continuando, il sentiero diventa più impegnativo mentre sale verso Dream Lake, situato in una circo glaciale con viste spettacolari su Hallett Peak e la Continental Divide. Emerald Lake, il terzo e più alto, si trova a una quota ancora maggiore e offre il panorama più drammatico dell'intera escursione.\n\nQuesti laghi rappresentano perfetti esempi di morfologia glaciale, creati migliaia di anni fa dall'erosione dei ghiacciai durante l'Epoca Glaciale. Le acque cristalline, colorate di blu intenso e verde smeraldo dai minerali glaciali disciolti, riflettono i picchi circostanti creando scene da cartolina. Hallett Peak, che domina il panorama a 3.867 metri, è particolarmente maestoso quando riflesso sulle acque tranquille di Emerald Lake al tramonto. Lungo il percorso, potrete osservare la vegetazione caratteristica dell'ambiente alpino, inclusi salici nani, graminacee alpine e fiori selvaggi che sbocciano da giugno ad agosto con colori brillanti che contrastano con le rocce grigie.\n\nPer questa escursione, partite al mattino presto per evitare l'affollamento e per avere il massimo tempo a disposizione. Il sentiero è ben segnalato ma ha tratti ripidi verso Emerald Lake, quindi portate acqua abbondante e snack energetici. Indossate scarpe da trekking robuste con buona aderenza poiché il terreno può essere roccioso e instabile. La migliore stagione per visitare è da giugno a settembre, quando la neve si è sciolta dai sentieri. Venite preparati per il tempo variabile con una giacca impermeabile, poiché i temporali alpini possono svilupparsi rapidamente nel pomeriggio. Fate attenzione agli orsi: non lasciate cibo incustodito e fate rumore mentre camminate per evitare incontri a sorpresa.",
+          "tips": [
+            "🥾 Sentiero ben segnalato ma faticoso",
+            "💦 Portate almeno 2 litri d'acqua",
+            "📷 Migliore luce al tramonto su Emerald Lake",
+            "🐻 Attenti agli orsi, fate rumore camminando",
+            "⏰ Partenza consigliata alle 7:00 del mattino"
+          ]
+        },
+        {
+          "id": "longs_peak",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Longs Peak",
+          "subtitle": "Tappa 3 - Conquista del picco più alto del parco a 4.346 metri",
+          "icon": "⛰️",
+          "color": "#D3D3D3",
+          "lat": 40.2557,
+          "lng": -105.5917,
+          "type": "trail",
+          "difficulty": "difficile",
+          "duration": "10-12h",
+          "distance": 26,
+          "altitude": 4346,
+          "text": "Longs Peak è il picco dominante del Rocky Mountain National Park e uno dei monti più iconici delle Montagne Rocciose, elevandosi a 4.346 metri di altitudine. L'escursione è una delle più leggendarie negli Stati Uniti, affrontata ogni anno da migliaia di alpinisti che desiderano conquistare questa vetta mitica. Il sentiero parte dal parcheggio a 2.995 metri e sale attraverso diversi ambienti ecologici, inizialmente attraversando una foresta di abeti e pini, poi emergendo nelle zone alpine aperte con viste sempre più spettacolari man mano che l'altitudine aumenta. Il sentiero è lungo 26 chilometri andata e ritorno, un impresa di resistenza che richiede una partenza molto prima dell'alba per completarla prima del crepuscolo.\n\nLa geografia di Longs Peak è affascinante: la montagna è composta principalmente da granito precambriano, una roccia antichissima di miliardi di anni. Durante l'ultima era glaciale, i ghiacciai hanno modellato la sua forma caratteristica, creando il \"Keyhole\", una nicchia rocciosa iconica che segna il passaggio dalla salita iniziale alla fase finale della scalata. Superato il Keyhole a circa 4.207 metri, il percorso diventa più esposto e richiede arrampicamento scrambling su rocce nude, offrendo viste vertiginose sui versanti a strapiombo. Dalla vetta, in giornate limpide, è possibile vedere fino a 160 chilometri di distanza, con la Continental Divide che si estende in tutte le direzioni e decine di altri picchi visibili sotto le vostre spalle.\n\nQuesta escursione non deve essere intrapresa alla leggera e richiede una preparazione fisica eccellente e un'acclimatazione adeguata all'altitudine. Partite molto prima dell'alba, idealmente alle 3:00 o 4:00 del mattino, poiché è essenziale completare la salita prima del pomeriggio quando i temporali alpini si formano frequentemente. Portate abbondante acqua, snack ad alto contenuto calorico, una giacca impermeabile, un cappello e protezione solare poiché l'esposizione ai raggi UV è intensa ad alta altitudine. Controllate le previsioni meteorologiche il giorno prima e non tentate la salita se ci sono temporali in vista. La migliore stagione è luglio-agosto, quando le condizioni sono più stabili. Coppie di guanti da rock climbing sono consigliate per i tratti scrambling finale.",
+          "tips": [
+            "🌅 Partenza consigliata alle 3:00-4:00 AM",
+            "⛰️ Percorso lungo 26 km - 10-12 ore",
+            "⚡ Scendete prima del pomeriggio per evitare temporali",
+            "💪 Richiede eccellente preparazione fisica",
+            "🏔️ Migliore periodo: luglio-agosto"
+          ]
+        },
+        {
+          "id": "moraine_park",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Moraine Park",
+          "subtitle": "Tappa 4 - Prateria panoramica con viste sulla Continental Divide",
+          "icon": "🌲",
+          "color": "#F0E68C",
+          "lat": 40.3456,
+          "lng": -105.6234,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": 3,
+          "altitude": 2621,
+          "text": "Moraine Park è una vasta e affascinante prateria alpina nel cuore del Rocky Mountain National Park, caratterizzata da un panorama aperto e pittoresco dominato dalle maestose cime della Continental Divide. Questo prato, formato da morene glaciali durante l'ultima era glaciale, si estende per diverse centinaia di ettari e offre uno dei panorami più fotogenici del parco, particolarmente al tramonto quando la luce dorata illumina i picchi innevati sullo sfondo. La prateria è attraversata dal fiume Big Thompson, che crea meandri sinuosi e zone umide dove è frequente avvistare fauna selvatica. La vegetazione della prateria varia con le stagioni: in primavera e estate esplode di fiori selvatici colorati, in autunno gli aspen gialli creano contrasti affascinanti con il fogliame verde scuro dei coniferi.\n\nMoraine Park rappresenta un ecosistema di grande valore ecologico ed è un sito privilegiato per l'osservazione della fauna. Gli alci sono particolarmente comuni in questa zona, soprattutto all'alba e al tramonto, quando emergono dalle foreste circostanti per pascolare nei prati umidi. È anche possibile avvistare cervoli, lepri con le zampe schiacciate, marmotte alpine, e occasionalmente coyote. Gli uccelli abbondano, inclusi aquile calve, falchi rossi, e varie specie di uccelli canori. La geologia del sito mostra chiaramente le prove dell'azione glaciale: le morene laterali sono visibili sui lati della prateria, e l'andamento del terreno ondulato rivela il percorso del ghiacciaio che una volta occupava questa valle.\n\nPer visitare Moraine Park, prendete la strada Moraine Park Loop Drive, una strada panoramica di circa 13 chilometri che offre numerosi parcheggi e punti di osservazione. Se desiderate una passeggiata più immersiva, il Moraine Park Nature Trail è un facile sentiero circolare di 3 chilometri che attraversa la prateria e offre interpretazioni naturalistiche lungo il percorso. La migliore ora per visitare è al tramonto, quando la luce è più calda e gli animali selvatici sono più attivi. Portate binocoli per l'osservazione della fauna e una macchina fotografica con zoom telescopico per scattare foto a distanza. In primavera e inizio estate, le zanzare possono essere intense vicino alle zone umide, quindi applicate repellente per insetti. Il parcheggio a Moraine Park è gratuito e generalmente disponibile, anche se può riempirsi durante le giornate di picco stagionale.",
+          "tips": [
+            "🌅 Migliore ora: tramonto per fauna e luce",
+            "🦌 Alci frequentemente visibili all'alba/tramonto",
+            "📷 Zoom telescopico consigliato per fotografia",
+            "🦟 Zanzare in primavera/inizio estate",
+            "🚗 Loop drive di 13 km con 7 pullover"
+          ]
+        },
+        {
+          "id": "wild_basin",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Wild Basin",
+          "subtitle": "Tappa 5 - Zona selvaggia con cascate e laghi remoti",
+          "icon": "🌊",
+          "color": "#E6F3FF",
+          "lat": 40.1789,
+          "lng": -105.5612,
+          "type": "water",
+          "difficulty": "moderato",
+          "duration": "4-6h",
+          "distance": 10,
+          "altitude": 2652,
+          "text": "Wild Basin è una regione selvaggia e remota nel sud-est del Rocky Mountain National Park, caratterizzata da una fitta foresta primigenia, numerose cascate cristalline e laghi nascosti che offrono un'esperienza di trekking più tranquilla e meno affollata rispetto ad altre aree del parco. L'accesso principale è attraverso la piccola cittadina di Allenspark via Highway 7, e il sentiero principale sale gradualmente lungo il Wilde Basin Creek attraverso una foresta di abeti e pini. Mentre salgono, gli escursionisti incontrano una serie di cascate spettacolari, inclusa Meadow Mountain Falls, Pawnee Falls e Cascade Falls, che durante la stagione dello scioglimento primaverile sono particolarmente maestose e ruggiscono con forza impressionante. La bellezza selvaggia di Wild Basin è preservata dal fatto che è meno pubblicizzata rispetto ad altre sezioni del parco, il che significa meno visitatori e un'atmosfera più intima con la natura.\n\nLa geologia di Wild Basin racconta una storia di formazione glaciale antico e un'erosione continua dell'acqua. Le cascate sono create dalle variazioni di durezza della roccia sottostante e dal ritmo del deflusso dell'acqua che corrode lentamente la roccia. I laghi alpini a quota più elevata, come Pawnee Lake e Thunder Lake, sono circondati da pareti rocciose verticali e boschi di conifere nani, creando paesaggi di rara bellezza selvaggia. L'ecosistema di Wild Basin ospita un'ampia varietà di fauna, inclusi orsi neri, alci, cervi muli, castori, lontre di fiume e una varietà impressionante di uccelli. Durante il trekking, è possibile scoprire habitat completamente diversi a brevi distanze: da prati umidi a foreste dense a zone alpine aperte.\n\nPer escursionare a Wild Basin, iniziate presto al mattino poiché il parcheggio all'ingresso è limitato e può riempirsi rapidamente durante l'alta stagione. Il sentiero è ben mantenuto ma ha tratti rocciosi e radici esposte, quindi indossate scarpe da trekking robuste. Portate una giacca impermeabile, poiché questa zona tende a ricevere più precipitazioni rispetto ad altre parti del parco a causa della topografia locale. Fate attenzione agli orsi: non lasciate cibo incustodito e considerate di portare uno spray orso come precauzione ulteriore. La migliore stagione è da giugno a settembre, quando i sentieri sono liberi da neve e le cascate sono ancora impressionanti anche se non al picco primaverile. Questo è un luogo eccellente per chi cerca solitudine e bellezza selvaggia autentica.",
+          "tips": [
+            "🚙 Parcheggio limitato - partite presto",
+            "💦 Cascate spettacolari durante scioglimento primaverile",
+            "🐻 Portate spray orso - zona selvaggia remota",
+            "🥾 Sentiero roccioso - scarpe robuste consigliate",
+            "🌦️ Più piovoso che altre zone del parco"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale, ristoranti consigliati e piatti da provare",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 40.3762,
+          "lng": -105.5226,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina della regione di Estes Park e del Colorado è una miscela affascinante di tradizioni culinarie americane occidentali, cucina Montana-style e influenze locali. I piatti tipici includono la carne di cervo e alce, carni alla brace affumicate lentamente, trota fresca di montagna cotta in padella, e specialità locali come il chili Colorado fatto con carne di manzo e peperoni rossi secchi. I ristoranti della zona offrono una varietà di cucine, da piatti western rustici con steakhouse autentiche a opzioni più raffinate che utilizzano ingredienti locali. I piatti a base di selvaggina sono particolarmente apprezzati e rappresentano il vero sapore della montagna del Colorado. Non mancate di provare il pane di mais fatto in casa, i fagioli cotti in stile western e le torte alle mele con gelato della zona, che rappresentano i sapori autentici della cucina rurale americana.\n\nTra i ristoranti consigliati nella zona di Estes Park, \"The Sink\" è un'istituzione locale storica situata nel cuore della città, famosa per i suoi burger gourmet, birre artigianali locali e atmosfera accogliente di taverna montagna. \"Lonigan's Saloon\" offre steakhouse di alta qualità con un'atmosfera autentica western, servendo carni alla brace eccezionali e specialità di selvaggina locale, con prezzi medi di 25-40 dollari a persona per piatti principali. \"Nani & Red's\" è un ristorante più elegante che serve cucina americana contemporanea con enfasi su ingredienti locali di qualità, insalate fresche e piatti creativi, con un prezzo medio di 20-35 dollari a persona. Tutti questi stabilimenti accettano prenotazioni e hanno menu abbondanti adatti a diverse preferenze dietetiche. Per un'esperienza più casual, il \"Estes Park Brewery\" offre pizza, focaccia e piatti leggeri accompagnati da birre artigianali prodotte localmente.\n\nI pasti nella regione seguono orari americani standard: colazione dalle 7:00 alle 11:00, pranzo dalle 11:30 alle 14:00, cena dalle 17:30 alle 21:30. Molti ristoranti rimangono aperti fino a tardi durante l'alta stagione estiva. Per ordinare al ristorante, usate la frase semplice \"Un tavolo per [numero] persone, per favore\" o \"Table for [number], please\". L'etichetta locale è informale e rilassata, anche nei ristoranti più eleganti. La mancia è obbligatoria negli Stati Uniti, con 15-20% della fattura prima delle tasse essendo la norma. Le migliori zone dove mangiare sono lungo la Main Street di Estes Park, dove troverete una concentrazione di ristoranti di qualità con atmosfere diverse, dai classici saloon western ai ristoranti contemporanei. Durante l'alta stagione estiva, visitate i ristoranti negli orari di morbida richiesta (13:00-17:00 e dopo le 21:00) per evitare lunghe attese. Molti ristoranti offrono also \"happy hour\" con sconti su bevande e appetizer nel tardo pomeriggio.",
+          "tips": [
+            "🥩 Specialità: Steak, Cervo, Trota di montagna",
+            "🍺 Birra artigianale locale da provare",
+            "💰 Budget medio: 20-40 dollari a persona",
+            "⏰ Migliore orario: colazione 8:00-10:00, cena dopo 20:00",
+            "📍 Main Street Estes Park - migliore zona ristoranti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acadia",
+      "nome": "Acadia National Park",
+      "sottotitolo": "Parco Nazionale - Maine, USA",
+      "paese": "Stati Uniti",
+      "area": "Mount Desert Island",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F7",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "cadillac_mountain",
+          "order": 1,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Cadillac Mountain",
+          "subtitle": "Tappa 1 - La montagna più alta della costa atlantica",
+          "icon": "⛰️",
+          "color": "#E8F4E8",
+          "lat": 44.3508,
+          "lng": -68.2238,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "8.4 km",
+          "altitude": "470 m",
+          "text": "Cadillac Mountain si innalza maestoso a 1.530 piedi, rappresentando il punto più alto lungo l'intera costa atlantica degli Stati Uniti. Questo picco iconica di Acadia offre panorami spettacolari che abbracciano Mount Desert Island, l'oceano Atlantico e le isole circostanti. La strada panoramica che raggiunge il vertice serpeggia tra foreste di abeti e betulle, regalando viste sempre più affascinanti a ogni curva. Dal vertice, nelle giornate limpide, è possibile scorgere la costa del Maine che si estende verso nord e sud, creando un'atmosfera di sublime isolamento nonostante la vicinanza della civiltà.\n\nIl nome deriva dall'esploratore francese Antoine de la Mothe Cadillac, che navigatione queste acque nel XVII secolo. Cadillac Mountain è celebre quale primo luogo negli USA dove è possibile osservare l'alba da ottobre al 6 marzo, grazie alla sua posizione orientale e alla sua altitudine. Durante i mesi invernali, migliaia di visitatori si svegliano prima dell'alba per salire al vertice e assistere al momento magico in cui il sole emerge dall'orizzonte marino, tingendo il cielo di sfumature rosa e arancioni. Questo fenomeno astronomico affascina fotografi e naturalisti da tutto il mondo.\n\nLa strada asfaltata fino al vertice rende Cadillac accessibile a quasi tutti i visitatori, inclusi anziani e famiglie con bambini piccoli. È consigliabile arrivare al parcheggio almeno 30 minuti prima dell'alba nei mesi invernali, poiché gli spazi riempiono rapidamente. Portare abbigliamento caldo stratificato, in quanto le temperature sono significativamente più basse in cima. Durante l'estate, la strada verso la vetta può diventare molto trafficata; è meglio visitare durante le ore meno affollate o in bassa stagione.",
+          "tips": [
+            "🌅 Miglior orario: alba invernale (ott-mar) per primo sole USA",
+            "📸 Portare fotocamera con grandangolo per panorami",
+            "🧥 Vestirsi a strati: 10-15°C più freddo che in basso"
+          ]
+        },
+        {
+          "id": "jordan_pond",
+          "order": 2,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Jordan Pond",
+          "subtitle": "Tappa 2 - Specchio d'acqua con viste mozzafiato",
+          "icon": "💎",
+          "color": "#E0F4FF",
+          "lat": 44.3383,
+          "lng": -68.2917,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "3-4h",
+          "distance": "7.2 km",
+          "altitude": "54 m",
+          "text": "Jordan Pond è un lago glaciale straordinariamente cristallino situato nel cuore di Acadia, famoso per le sue acque trasparenti che riflettono perfettamente i Bubbles, due montagne gemelle che si ergono dalle sue sponde settentrionali. Questo specchio d'acqua di 187 acri offre una delle viste più fotografate del parco: il riflesso delle montagne sulle acque immobili crea un'immagine surreale di simmetria e bellezza naturale. Il percorso circolare intorno al lago di 7,2 chilometri è uno dei trekking più popolari di Acadia, adatto a escursionisti di tutti i livelli grazie al terreno relativamente pianeggiante.\n\nJordan Pond prende il nome da Jordan, un residente del XVIII secolo, sebbene la vera storia del luogo risale ai ghiacciai dell'era Pleistocene che scavarono questa depressione profonda tra le montagne circostanti. Durante i secoli successivi, il lago divenne un luogo di riunione importante per i Wabanaki e i primi coloni europei, che lo utilizzavano per la pesca e il trasporto. Nel XIX e XX secolo, il lago attirò artisti della Scuola della Schiena di Hudson, che catturavano la drammatica bellezza paesaggistica su tela. Ancora oggi, il lago mantiene la sua importanza culturale e ecologica, supportando una varietà di flora e fauna lacustri.\n\nIl percorso Jordan Pond Loop è ben mantenuto e ben segnalato, rendendolo ideale per famiglie. È possibile completare l'intero anello o fare una passeggiata più breve fino alla Cascade Brook Trail. Portare acqua a sufficienza, poiché ci sono pochi punti di ristoro lungo il percorso. Le migliori viste fotografiche si ottengono da nord, dai Bubbles, soprattutto durante le ore mattutine quando la luce radente crea contrasti drammatici. Durante l'autunno, i colori delle foglie si riflettono nel lago, creando un spettacolo cromatico indimenticabile.",
+          "tips": [
+            "📷 Migliore prospettiva fotografica: Bubbles Trail a nord",
+            "🍂 Periodo migliore: settembre-ottobre per i colori autunnali",
+            "💧 Portare almeno 2 litri d'acqua per persona"
+          ]
+        },
+        {
+          "id": "thunder_hole",
+          "order": 3,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Thunder Hole",
+          "subtitle": "Tappa 3 - Caverna marina con spettacoli di onde impressionanti",
+          "icon": "🌊",
+          "color": "#F0E8FF",
+          "lat": 44.3158,
+          "lng": -68.1792,
+          "type": "geology",
+          "difficulty": null,
+          "duration": "30-45 min",
+          "distance": null,
+          "altitude": null,
+          "text": "Thunder Hole è una formazione geologica spettacolare scavata dall'azione erosiva del mare nelle rocce granitiche della costa di Acadia. Si tratta di una stretta caverna marina di circa 40 piedi di profondità che durante le mareggiate e i mari agitati produce un suono fragoroso simile a un tuono quando le onde si infrangono con violenza all'interno. Questo fenomeno acustico straordinario, da cui prende il nome il luogo, può essere udito anche dalle piattaforme di osservazione situate sulla scogliera soprastante. Quando le condizioni oceaniche sono perfette, le onde rimbalzano dalla caverna con tale forza che a volte l'acqua e la schiuma vengono espulse verso l'esterno, creando una fontana naturale affascinante.\n\nThunder Hole ha una lunga storia documentata come attrazione turistica sin dal XIX secolo, quando i visitatori in carrozza facevano il viaggio dalla città di Bar Harbor per assistere a questo spettacolo naturale. I geologi spiegano che la caverna si è formata attraverso l'esposizione selettiva di fratture nelle rocce granitiche, dove l'acqua marina penetra e l'azione erosiva accelera il processo di allargamento. Le rocce granulari di Thunder Hole appartengono a una catena montuosa erosa che è stata depositata circa 380 milioni di anni fa e successivamente rimodellata dai ghiacciai durante l'epoca glaciale.\n\nIl miglior momento per visitare Thunder Hole è durante le maree alte e quando le condizioni del mare sono agitate, di solito da settembre a marzo. Controllare il calendario delle maree prima della visita sul sito ufficiale del parco. Le piattaforme di osservazione forniscono accesso sicuro al sito, ma prestare attenzione poiché le rocce possono essere scivolose. Indossare scarpe con buona aderenza e stare attenti durante i mesi invernali quando il ghiaccio può coprire le superfici. Una giacca a vento è essenziale, in quanto il vento oceanico è intenso.",
+          "tips": [
+            "🌊 Miglior orario: marea alta durante mareggiate (set-mar)",
+            "📅 Controllare previsioni meteo prima di partire",
+            "⚠️ Non scavalcare le barriere di sicurezza sulle scogliere"
+          ]
+        },
+        {
+          "id": "park_loop_road",
+          "order": 4,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Park Loop Road",
+          "subtitle": "Tappa 4 - Strada panoramica di 43 km con scenari mozzafiato",
+          "icon": "🚗",
+          "color": "#FFF0E0",
+          "lat": 44.3533,
+          "lng": -68.2105,
+          "type": "photo",
+          "difficulty": null,
+          "duration": "4-5h",
+          "distance": "43 km",
+          "altitude": "0-470 m",
+          "text": "La Park Loop Road è una celebre strada panoramica circolare di 43 chilometri che serpeggia attraverso il cuore di Acadia National Park, offrendo accesso ai principali punti di interesse e belvedere del parco. Costruita nei primi decenni del XX secolo, questa strada è stata progettata per permettere ai visitatori di sperimentare la diversità paesaggistica di Acadia senza necessità di lunghe escursioni a piedi. Il percorso inizia dalla Hulls Cove Visitor Center e procede in senso antiorario, attraversando foreste di abeti e betulle, costeggiando scogliere oceaniche e passando davanti a spiagge rocciose e laghi glaciali. Numerose piazzole di sosta e sentieri brevi consentono ai visitatori di fermarsi e esplorare a proprio piacimento.\n\nLa storia della Park Loop Road è intimamente legata allo sviluppo di Acadia come meta turistica nazionale. All'inizio del XX secolo, il parco era raramente visitato a causa della mancanza di infrastrutture stradali adeguate. Tra il 1920 e il 1930, sotto la direzione del National Park Service e con finanziamenti federali, la strada fu costruita con una superficie asfaltata di alta qualità, una novità considerevole per quell'epoca. La strada divenne il modello per altre strade panoramiche di parchi nazionali negli Stati Uniti. Oggi, rimane una delle strade panoramiche più affascinanti del paese e attrae milioni di visitatori ogni anno.\n\nLa migliore esperienza sulla Park Loop Road si ottiene percorrendola lentamente, fermandosi frequentemente a punti di interesse segnalati. La sezione settentrionale, che include la salita a Cadillac Mountain e il passaggio da Thunder Hole, è particolarmente scenica. Durante l'autunno, il fogliame colora le montagne circostanti di rossi, arancioni e gialli brillanti, rendendo la guida particolarmente spettacolare. Evitare di guidare durante i giorni festivi estivi quando il traffico è intenso. È consigliabile iniziare la visita nel primo pomeriggio per completare il tragitto prima del tramonto.",
+          "tips": [
+            "🚗 Non guidare di notte: illuminazione scarsa su tratti",
+            "🍂 Miglior stagione: settembre-ottobre (colori autunnali)",
+            "⛽ Pieno di carburante: nessuna stazione di servizio dentro il parco"
+          ]
+        },
+        {
+          "id": "sand_beach",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Sand Beach",
+          "subtitle": "Tappa 5 - Unica spiaggia sabbiosa del parco",
+          "icon": "🏖️",
+          "color": "#FFFACD",
+          "lat": 44.3388,
+          "lng": -68.1833,
+          "type": "water",
+          "difficulty": null,
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": null,
+          "text": "Sand Beach è la sola spiaggia sabbiosa vera e propria all'interno di Acadia National Park, una particolarità rara lungo la costa rocciosa del Maine. La spiaggia si estende per circa 290 metri ed è composta da sabbia mista a frammenti di conchiglie e particelle minerali trasportate dai ghiacciai durante l'era glaciale. Nonostante il nome, la sabbia è finissima e i granelli brillano al sole, creando un effetto quasi surreale in contrasto con le scogliere di granito che la circondano. L'acqua dell'oceano atlantico che bagna la spiaggia rimane fredda tutto l'anno, con temperature che variano da 4-7°C in inverno a 13-15°C in estate, il che rende il nuoto un'attività breve ma rinfrescante.\n\nSand Beach ha una storia affascinante che risale ai periodi glaciali quando i ghiacciai erosero il paesaggio circostante e deposero materiali sedimentari nelle depressioni costiere. Nel XIX secolo, la spiaggia era una meta preferita da artisti e scrittori romantici che apprezzavano la sua bellezza selvaggia e incontaminata. Durante il XX secolo, la spiaggia si guadagnò la reputazione di essere la più bella spiaggia del Maine settentrionale e attirò visitatori da tutto il nord-est americano. La ricerca geologica moderna ha scoperto che la spiaggia continua a evolversi, con lo spostamento della sabbia dovuto alle correnti oceaniche e alle tempeste stagionali. Curiosamente, alcuni anni la spiaggia si allarga e altri anni si restringe notevolmente.\n\nSand Beach offre diverse attività ricreative oltre al nuoto: è possibile fare lunghe passeggiate lungo la riva raccogliendo conchiglie e pietre levigate dalle onde. Il sentiero da Sand Beach alla caverna di Beehive Mountain Trail offre viste drammatiche della costa e della spiaggia sottostante. Il parcheggio a Sand Beach è limitato e si riempie rapidamente durante l'estate; è consigliabile arrivare presto al mattino o tardi nel pomeriggio. Portare un accappatoio e un cambio di vestiti, poiché l'acqua è gelida anche in estate. Le docce d'acqua dolce sono disponibili presso la struttura del parcheggio per risciacquarsi dopo il nuoto.",
+          "tips": [
+            "🌊 Acqua gelida: massimo 15°C anche in estate",
+            "🏊 Migliore ora: pomeriggio (ore 15-17) per acqua più calda",
+            "🧂 Portare doccia e asciugamano per dopo il bagno"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🦞",
+          "color": "#FFF8E8",
+          "lat": 44.3908,
+          "lng": -68.204,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina del Maine è celebre per le sue aragoste fresche, le vongole, il merluzzo e altri frutti di mare catturati quotidianamente dagli attrezzi da pesca locali. Il piatto più iconico è l'aragosta bollita servita semplicemente con burro fuso, accompagnata da pane tostato. Altrettanto tradizionali sono i clam chowder (zuppa di vongole), generalmente preparati nella versione bianca cremosa del New England anziché in quella rossa del Manhattan. I \"lobster rolls\", panini pieni di carne di aragosta condita con maionese e serviti freddi o caldi, sono una specialità locale che attira visitatori da tutto il mondo. Un'altra delizia locale è il \"haddock sandwich\", filetto di merluzzo fritto e servito nel pane. Durante la stagione estiva, i mirtilli freschi (blueberries) si trovano in abbondanza e vengono utilizzati per preparare dolci, torte e conserve. La birra locale, come quella prodotta dalla Bar Harbor Brewing Company, accompagna perfettamente i piatti di pesce.\n\nBar Harbor, il principale centro urbano vicino ad Acadia, offre una varietà di ristoranti che servono frutti di mare freschi e cucina locale. Tra i più rinomati: **Galyn's Restaurant** è un istituzione dagli anni '80, noto per i piatti di aragosta preparati con tecniche tradizionali, prezzi medi €20-35 a persona; **Blaze** è un ristorante di pesce contemporaneo che offre menu degustazione con abbinamenti di vini, prezzi €30-50 a persona; **Jordans Restaurant** è un'istituzione locale dove i pescatori frequentano per la colazione e dove è possibile gustare aragoste fresche a prezzi ragionevoli, €15-30 a persona. Tutti questi ristoranti richiedono prenotazioni durante l'estate, soprattutto a cena.\n\nI pasti principali negli USA seguono orari diversi dall'Italia: colazione (breakfast) dalle 6 alle 10, pranzo (lunch) dalle 11.30 alle 14, cena (dinner) dalle 17 alle 22. I ristoranti più affollati sono tra le 18 e le 20. È comune dare la mancia del 15-20% sul conto se il servizio è incluso (verificare il conto). Nella zona di Bar Harbor, i migliori ristoranti di pesce si trovano lungo Main Street e nel porto storico. Per budget limitati, le cantine di aragosta (lobster pounds) servono aragoste fresche a prezzi migliori rispetto ai ristoranti formali. La parola italiana \"aragosta\" corrisponde a \"lobster\", mentre \"calamaro\" è \"squid\". Portare un abbigliamento appropriato: i ristoranti upscale richiedono scarpe chiuse e abiti ordinati.",
+          "tips": [
+            "🦞 Aragosta fresca: specialità da provare assolutamente",
+            "💰 Budget medio: €20-40 per pasto a persona",
+            "⏰ Cena presto: 17-19 per evitare lunghe code di attesa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olympic",
+      "nome": "Olympic National Park",
+      "sottotitolo": "Parco Nazionale - Washington, USA",
+      "paese": "Stati Uniti",
+      "area": "Washington",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F3",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "hurricane_ridge",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Hurricane Ridge",
+          "subtitle": "Tappa 1 - Panorama montano e belvedere alpino",
+          "icon": "⛰️",
+          "color": "#E8F4F0",
+          "lat": 48.0069,
+          "lng": -123.7166,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "1.6 mi",
+          "altitude": "1598m",
+          "text": "Hurricane Ridge rappresenta uno dei belvederi più spettacolari dell'intero parco, raggiungibile percorrendo una strada panoramica di 29 chilometri da Port Angeles. A quota 1.598 metri, il panorama si estende sulle cime glaciate delle Montagne Olimpiche fino all'Oceano Pacifico in giorni sereni. La cresta ventosa offre viste a 360 gradi e numerosi punti fotografici. Durante l'estate, la zona esplode di fiori alpini selvatici creando un paesaggio che sembra dipinto. Il visitatore si trova letteralmente al di sopra delle nuvole, con un'esperienza quasi mistica e surreale che ripaga ampiamente il viaggio.\n\nLa storia geologica di Hurricane Ridge affonda le radici in milioni di anni di attività tettonica e glaciazione. Le Montagne Olimpiche si sono formate attraverso complessi processi di subduzione e sollevamento, mentre i ghiacciai pleistocenici hanno scolpito i caratteristici picchi e le valli a U che dominano il paesaggio. I 32 ghiacciai ancora presenti nel parco rappresentano i maggiori della catena montuosa. Durante l'ultima era glaciale, il ghiaccio copriva questa intera regione con uno spessore impressionante. Osservando dalle spalle di Hurricane Ridge, è possibile tracciare i solchi lasciati dal ghiaccio nella roccia sottostante, una testimonianza silenziosa di forze geologiche inimmaginabili.\n\nPer visitare Hurricane Ridge è consigliabile partire presto al mattino per evitare il diradamento della visibilità nel pomeriggio dovuto alle nuvole. Porta giacca antivento anche in estate, poiché le temperature calano significativamente in quota. La strada chiude frequentemente in inverno per nevicate, quindi verifica le condizioni prima di partire. Percorri il sentiero di Hurricane Hill, facile e ben mantenuto, che offre viste ancora più spettacolari. La visita migliore è tra luglio e settembre quando la strada è garantita aperta e i fiori alpini raggiungono il massimo splendore.",
+          "tips": [
+            "🌤️ Visita al tramonto per colori spettacolari",
+            "🧥 Porta sempre una giacca a vento",
+            "📸 Porta obiettivo grandangolare per foto",
+            "❄️ Verifica apertura strada in inverno",
+            "⏰ Partenza presto mattina consigliata"
+          ]
+        },
+        {
+          "id": "hoh_rain_forest",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Hoh Rain Forest",
+          "subtitle": "Tappa 2 - Foresta pluviale temperata primordiale",
+          "icon": "🌲",
+          "color": "#D5E8D4",
+          "lat": 47.8367,
+          "lng": -124.1717,
+          "type": "geology",
+          "difficulty": "facile",
+          "duration": "2-4h",
+          "distance": "0.8-17.3 mi",
+          "altitude": "100-200m",
+          "text": "La Hoh Rain Forest è una delle foreste pluviali temperate meglio conservate al mondo, un ecosistema preistorico che affascina il visitatore con la sua incredibile biodiversità e atmosfera quasi magica. Varcando il cancello del Visitor Center, ci si immerge letteralmente in un mondo verde dove alberi giganteschi di Sitka spruce e western hemlock si alzano verso il cielo soffocando la luce del sole. Il sottobosco esplode di muschio, felci, licheni e funghi che ricoprono ogni superficie, creando un paesaggio spettrale e affascinante. L'umidità satifica è quasi tangibile, il suolo spugnoso cede sotto i piedi e il silenzio è rotto solo dal canto degli uccelli e dal mormorio dei torrenti. Camminare in questa foresta significa toccare un frammento del Pleistocene ancora intatto, un'esperienza spirituale per chi ama la natura incontaminata.\n\nLa Hoh Rain Forest deve la sua esistenza ai patterns meteorologici unici della costa del Pacifico nord-occidentale. I venti carichi di umidità proveniente dall'Oceano si scontrano con le Montagne Olimpiche, depositando fino a 3.600 millimetri di pioggia annuali. Questo clima umido e temperato ha creato un ecosistema di altissima produttività biologica dove la vegetazione cresce rigogliosa tutto l'anno. Gli alberi morenti rimangono in piedi per decenni come ospiti per licheni e muschi, mentre quelli caduti marciscono lentamente sul suolo, fornendo nutrienti per generazioni di nuovi alberi. Questo ciclo ininterrotto di morte e rinascita crea una complessità ecologica straordinaria con migliaia di specie interdipendenti che tessono una rete biologica incredibilmente intricata.\n\nPer esplorare la Hoh Rain Forest, inizia dal facile sentiero Hall of Mosses, un anello di 1,3 chilometri che attraversa il cuore della foresta. Se desideri una vera avventura, il Hoh River Trail si estende per 28 chilometri fino al Blue Glacier. Visita con umidità e pazienza, indossando strati di abbigliamento perché il tempo cambia rapidamente. Rispetta la flora fragile non calpestando la vegetazione laterale. Il Visitor Center fornisce informazioni preziose sulla geologia e l'ecologia locali. I periodi migliori sono maggio-settembre quando i sentieri sono completamente percorribili e il clima è meno piovoso.",
+          "tips": [
+            "🌧️ Pioggia frequente, porta impermeabile",
+            "👟 Scarpe con buon grip consigliate",
+            "📚 Scopri il ciclo di morte e rinascita degli alberi",
+            "🦌 Possibilità di avvistare alci e cervi",
+            "🍄 Affascinanti funghi luminescenti in autunno"
+          ]
+        },
+        {
+          "id": "lake_crescent",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Lake Crescent",
+          "subtitle": "Tappa 3 - Lago glaciale e sentieri panoramici",
+          "icon": "💧",
+          "color": "#D4E6F1",
+          "lat": 48.0231,
+          "lng": -123.7844,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "1.8-5 mi",
+          "altitude": "600m",
+          "text": "Il Lake Crescent è un capolavoro della scultura glaciale, un lago cristallino incuneato tra le pendici rivestite di foresta delle Montagne Olimpiche. Formatosi durante l'ultima era glaciale, il lago raggiunge profondità superiori a 180 metri in alcuni punti, con acque così limpide da permettere visibilità fino a 60 piedi di profondità. Il contrasto tra l'azzurro intenso dell'acqua, il verde scuro della foresta di conifere e il riflesso dei picchi montuosi crea un'immagine che rimane indelebile nella memoria. Attorno al lago si snodano sentieri bellissimi attraverso foreste primordiali dove alberi millenari forniscono ombra costante. Sulla sponda orientale sorge il pittoresco Lodge storico costruito nel 1915, aggiungendo un elemento di charme nostalgico al paesaggio naturale straordinario.\n\nLa geologia del Lake Crescent racconWta una storia affascinante di movimenti tettonici e azione glaciale. Il lago si trova in una depressione strutturale creata da faglie che hanno sollevato le montagne circostanti mentre deprimevano la valle centrale. Durante le glaciazioni pleistoceniche, enormi lingue di ghiaccio hanno scavato questa depressione preesistente, approfondendola ulteriormente e levigando le pareti rocciose. Quando il ghiaccio si ritirò, 12.000 anni fa, il bacino si riempì d'acqua creando questo lago straordinario. Le acque gelide mantengono una temperatura costante anche in estate, preservando l'equilibrio termico delicato che sustenta popolazioni di specie acquatiche specializzate, incluse due varietà di trota endemica del lago.\n\nPer sfruttare al meglio Lake Crescent, percorri il sentiero di Marymere Falls, una breve passeggiata di 1,8 chilometri che conduce a una cascata incantevole di 27 metri. Se preferisci una vista lacustre, il sentiero di Mount Storm King offre panorami spettacolari dal pendio della montagna. Puoi affittare canoe e kayak presso il Lodge per esplorare l'acqua dal livello del lago. La pesca è permessa per la trota di lago, ma solo con licenza Washington. Il periodo migliore è tarda primavera ed estate quando il meteo è stabile e i sentieri interamente accessibili.",
+          "tips": [
+            "🚣 Canoe e kayak disponibili a noleggio",
+            "🐟 Pesca trota con licenza permessa",
+            "🏔️ Mount Storm King offre vista migliore",
+            "❄️ Acqua gelida anche in estate",
+            "🌲 Foresta primaria intorno al lago"
+          ]
+        },
+        {
+          "id": "sol_duc_hot_springs",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Sol Duc Hot Springs e Cascate",
+          "subtitle": "Tappa 4 - Sorgenti termali e meraviglie idriche",
+          "icon": "♨️",
+          "color": "#F5D6D0",
+          "lat": 48.0019,
+          "lng": -123.8578,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "3-4h",
+          "distance": "1.6-6 mi",
+          "altitude": "500m",
+          "text": "Le Sol Duc Hot Springs rappresentano un'oasi di calore naturale incastonata nella foresta fredda dell'Olympic National Park, un fenomeno geotermico raro nella regione che attira visitatori desiderosi di immergere corpo e anima in acque calde risalenti dalle profondità terrestri. Il complesso risalente ai primi del Novecento comprende tre piscine riscaldate naturalmente, circondate da foresta primaria che crea un contrasto affascinante tra il vapore geotermico e l'aria fresca e umida. L'acqua ricca di minerali mantiene temperature costanti tra i 39 e i 43 gradi Celsius, offrendo un'esperienza termale profondamente rilassante dopo lunghe escursioni. Accanto alle sorgenti termali, il sol Duc River forma una serie di cascate stupende che si tuffano in piscine naturali di roccia levigata, creando un paesaggio che sembra uscito da una favola nordica.\n\nLe sorgenti geotermali del Sol Duc sorgono in conseguenza dell'attività tettonica sottostante e della presenza di magma a profondità relativamente superficiali nella crosta terrestre. L'acqua meteorica che infiltra nel suolo viene riscaldata dal calore geotermico profondo e risale naturalmente seguendo fratture e zone di debolezza nelle rocce. Durante il percorso attraverso strati minerali, l'acqua si arricchisce di solfati, cloruri e altri elementi disciolti, conferendole proprietà termali uniche. I Nativi americani Quileute hanno utilizzato queste sorgenti per migliaia di anni per scopi ceremoniali e curativi. Gli europei scoprirono il sito nel 1912 e costruirono il primo complesso termale, anche se gli edifici originali furono distrutti negli anni Cinquanta e ricostruiti nella forma moderna che vediamo oggi.\n\nPer visitare Sol Duc, prenota un alloggio nel resort o visita giornalmente le piscine pubbliche disponibili generalmente da marzo a novembre. Il sentiero alle Sol Duc Falls è facile e lungo solo 1,6 chilometri, perfetto per famiglie. Se sei più avventuriero, il sentiero di High Divide offre viste spettacolari su tre laghi alpini e raggiunge altezze di 1.700 metri. Porta costume e accappatoio; il resort fornisce asciugamani a pagamento. I periodi migliori sono primavera e autunno quando le folle sono ridotte e il contrasto tra l'acqua calda e l'aria fresca è più piacevole.",
+          "tips": [
+            "🩱 Porta costume da bagno",
+            "🧴 Acqua ricca di minerali benefici",
+            "🥾 Sentiero cascate facile 1.6 km",
+            "🌡️ 39-43°C tutto l'anno",
+            "🏨 Resort con alloggi disponibili"
+          ]
+        },
+        {
+          "id": "rialto_beach",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Rialto Beach e Faraglioni Costieri",
+          "subtitle": "Tappa 5 - Costa selvaggia e sculture rocciose",
+          "icon": "🏖️",
+          "color": "#F0E5D8",
+          "lat": 47.9113,
+          "lng": -124.6356,
+          "type": "viewpoint",
+          "difficulty": "moderato",
+          "duration": "2-3h",
+          "distance": "3.2 mi",
+          "altitude": "0m",
+          "text": "Rialto Beach è una delle spiagge più drammatiche e selvagge della costa del Pacifico nord-occidentale, dove sabbia nera vulcanica incontra i faraglioni stratificati che si alzano come cattedrali naturali dalle acque tumultuose dell'oceano. I sea stacks, formazioni rocciose isolate che si ergono fino a 30 metri dal livello del mare, creano un paesaggio quasi alieno di straordinaria bellezza bruta. La marea bassa rivela un mondo intertidaleintricato dove anemoni di mare, stelle marine, ricci e creature palpitanti si nascondono nelle pozze rocciose tra i faraglioni. Il rumore incessante delle onde che si infrangono contro la roccia vulcanica, lo spray salato che accarezza il viso e l'aria pura dell'oceano creano un'esperienza sensoriale totalizzante. La spiaggia è stata modellata da millenni di erosione marina che continua relentamente, scolpendo nuove forme ogni giorno.\n\nLa geologia di Rialto Beach è dominata da roccia vulcanica del Tertiary, testimonianza di antichissima attività vulcanica marina risalente a 35 milioni di anni fa. I faraglioni sono resti di colate laviche resistenti all'erosione, mentre le rocce circostanti più tenere vengono gradualmente erose dalle onde, creando questi monumenti rocciosi isolati. La sabbia nera deriva dall'erosione della roccia vulcanica basaltica ricca di magnetite, conferendo al sedimento un colore scuro caratteristico. Il processo di erosione differenziale continua oggi: le onde più potenti in inverno scavano canali e cavernetti nella roccia più tenera, mentre i faraglioni più resistenti rimangono in piedi come sentinelle silenziose. La linea di costa si ritira di alcuni centimetri ogni anno, un promemoria della natura impermanente della geografia terrestre.\n\nVisita Rialto Beach durante la bassa marea quando è possibile camminare intorno ai faraglioni e esplorare le pozze di marea ricche di vita marina. Controlla i tempi di marea prima di partire, poiché l'alta marea può intrappolaregli escursionisti. Indossa scarpe con buon grip e sii estremamente cauto sulle rocce muschiose scivolose. Il sentiero di 1,6 chilometri dal parcheggio alla spiaggia è fattibile per la maggior parte dei visitatori. Porta macchina fotografica per catturare i paesaggi drammatici, specialmente al tramonto quando la luce ambrata illumina i faraglioni. Il miglior periodo è aprile-maggio e settembre-ottobre per il meteo più stabile.",
+          "tips": [
+            "🌊 Controlla tabelle maree prima della visita",
+            "🦀 Esplora pozze con creature marine",
+            "📸 Tramonto spettacolare su faraglioni",
+            "🧗 Rocce scivolose, scarpe con grip",
+            "❌ Non accendere fuochi sulla spiaggia"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 47.95,
+          "lng": -123.95,
+          "type": "info",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina della penisola olimpica riflette l'abbondanza di risorse naturali locali, con pesce fresco dell'Oceano Pacifico come protagonista indiscusso insieme ai frutti di mare selvaggi. Il salmone selvaggio è presente in molteplici varietà, da preparazioni affumicate a brodetti sostanziosi. I frutti di mare locali includono granchi Dungeness dolci e succulenti, ostriche, vongole e gamberetti che vengono serviti crudi, al vapore o in elaborati piatti fusion. La cucina riflette anche l'influenza dei Nativi americani Quileute e Makah che hanno abitato questa regione per millenni, con ricette tramandate che enfatizzano la semplicità e il rispetto del prodotto naturale. Gli ingredienti selvatici come funghi localì, bacche di stagione e verdure raccolte dalle foreste circostanti arricchiscono i menù nei ristoranti più consapevoli della tradizione culinaria autentica.\n\nA Port Angeles, il ristorante River's Edge offre pesce e frutti di mare eccezionali in ambiente informale con vista sul porto, specializzandosi in salmone affumicato e brodetto di granchio Dungeness a prezzi moderati (15-30 dollari per piatto principale). The Chestnut Dining Room presso il Domaine Madeleine B&B propone cucina francese classica elevata con ingredienti locali in un'atmosfera intima di lusso (45-75 dollari a persona). A Forks, la Elk Restaurant offre braciole di alce, bistecche e frutti di mare in ambiente rusttico e accogliente con prezzi democratici (12-28 dollari per piatto). Tutti questi locali cercano di valorizzare i produttori locali e la stagionalità, garantendo massima freschezza e genuinità.\n\nI pasti principali nei ristoranti della regione si consumano tipicamente tra le 11:30-13:30 per il pranzo e le 17:30-21:00 per la cena. I ristoranti più piccoli e informali potrebbero chiudere tra i pasti. La gratuità al cameriere non è inclusa nel conto ed è socialmente attesa una percentuale del 15-18% per servizio soddisfacente. Molti ristoranti locali accettano solo carte di credito e contanti, quindi verifica in anticipo. Per gite al parco, procurati lunch box dai negozi di alimentari a Port Angeles o Forks. La zona migliore per mangiare è Port Angeles dove si concentra l'offerta più variegata e di qualità, anche se Forks offre opzioni più autentiche e rustiche.",
+          "tips": [
+            "🐟 Salmone selvaggio è il piatto tipico",
+            "🦀 Granchio Dungeness straordinario",
+            "💰 Budget medio 20-40 dollari pasto",
+            "⏰ Ristoranti chiudono tra 13:30-17:30",
+            "🍽️ Port Angeles ha migliore offerta culinaria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grand_teton",
+      "nome": "Grand Teton National Park",
+      "sottotitolo": "Parco Nazionale - Wyoming, USA",
+      "paese": "Stati Uniti",
+      "area": "Wyoming",
+      "icona": "🏔️",
+      "colore": "#1B4965",
+      "coloreSfondo": "#F0F4F8",
+      "gratuito": false,
+      "prezzo": 9.99,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "jenny_lake",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Jenny Lake",
+          "subtitle": "Tappa 1 - Il lago più affascinante dei Teton",
+          "icon": "💧",
+          "color": "#C8E6F5",
+          "lat": 43.7447,
+          "lng": -110.7549,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "6 km",
+          "altitude": "2347 m",
+          "text": "Jenny Lake è il gioiello del Grand Teton National Park, un specchio d'acqua cristallino incastonato tra maestose vette montagne. Questo affascinante lago alpino, lungo circa 10 chilometri, si estende ai piedi del massiccio del Grand Teton e offre paesaggi di straordinaria bellezza. Le acque color turchese riflettono perfettamente le cime rocciose circostanti, creando scorci fotografici indimenticabili. Il sentiero che costeggia le rive consente una fruizione intima della natura selvaggia, dove è possibile osservare la fauna locale e ascoltare i suoni puri dell'ambiente alpino. La posizione strategica rende Jenny Lake il punto di partenza ideale per esplorare l'intero parco.\n\nStoricamente, Jenny Lake prende il nome da una donna nativa americana, compagna di uno dei primi trapper francesi che esplorarono quest'area nel XIX secolo. Il lago è stato sfruttato durante la corsa all'oro e successivamente divenne una meta turistica alla fine dell'Ottocento. Nel 1929, quando fu istituito il parco nazionale, Jenny Lake acquisì importanza come simbolo della preservazione ambientale americana. La diga costruita a nord ha leggermente modificato il livello delle acque, ma non ha compromesso la bellezza selvaggia del luogo.\n\nPer visitare Jenny Lake al meglio, si consiglia di iniziare dall'accesso sud e percorrere il sentiero costiero che offre viste panoramiche costanti. Un servizio di traghetto (operativo da maggio a ottobre) permette di risparmiare tempo e di accedere alle zone più remote. Portate un buon paio di scarpe da trekking, protezione solare e acqua sufficiente. Il miglior momento per visitare è tra giugno e settembre, quando i sentieri sono completamente liberi da neve. Arrivate presto al mattino per trovare parcheggio e godere della tranquillità prima dell'afflusso di visitatori.",
+          "tips": [
+            "🥾 Percorso anulare di 10 km con viste spettacolari",
+            "📸 Miglior foto al tramonto dal western shore",
+            "🚤 Traghetto disponibile da maggio a ottobre",
+            "⛰️ Difficoltà moderata su terreno roccioso",
+            "❄️ Completamente sgombro da neve da giugno"
+          ]
+        },
+        {
+          "id": "mormon_row",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Mormon Row Historic District",
+          "subtitle": "Tappa 2 - La storia dei pionieri mormoni",
+          "icon": "🏘️",
+          "color": "#E8D4C0",
+          "lat": 43.6444,
+          "lng": -110.6278,
+          "type": "culture",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": "strada panoramica 4 km",
+          "altitude": "2140 m",
+          "text": "Mormon Row rappresenta un affascinante frammento della storia pionieristica americana, dove ancora oggi si conservano le strutture originali costruite dai coloni mormoni tra il 1890 e il 1920. Questo distretto storico è composto da una dozzina di homestead, fattorie e granai in legno perfettamente preservati, testimoni della lotta per la sopravvivenza in un ambiente selvaggio e inospitale. I granai dipinti di rosso brillante, fotografati contro lo sfondo maestoso del Grand Teton, sono diventati un'icona del parco. Passeggiare lungo questa strada storica significa percorrere i sentieri dei pionieri, ammirando le abitazioni in legno che raccontano storie di determinazione, family life e adattamento al territorio.\n\nI coloni mormoni giunsero in Jackson Hole negli ultimi decenni dell'Ottocento, spinti dalla volontà di costruire comunità autosufficienti. Fondarono il villaggio di Jackson nel 1888 e iniziarono a stabilirsi lungo quello che oggi è Mormon Row. Queste famiglie praticavano l'agricoltura, l'allevamento e la caccia, sviluppando tecniche innovative per coltivare le terre ad alta quota. Nel 1929, quando fu creato il parco nazionale, molti residenti furono incentivati a vendere le loro proprietà al governo federale. Tuttavia, alcuni degli edifici più importanti sono stati preservati come patrimonio storico vivente. La comunità di Mormon Row rappresenta un capitolo cruciale della storia dell'insediamento del West americano.\n\nLa visita a Mormon Row è una piacevole esperienza a piedi o in auto lungo la strada loop. Il punto di vista più celebre per fotografare i granai storici è nella parte nord del distretto, dove le strutture si stagliano perfettamente contro le montagne sullo sfondo. Non perdete la John Moulton Barn, il granaio più fotografato dell'America. Gli edifici, anche se storici, non sono aperti al pubblico interno, ma possono essere osservati da vicino dagli esterni. Visitate preferibilmente al tramonto, quando la luce dorata illumina i granai in legno rosso. Portate binocoli per osservare i dettagli architettonici da lontano.",
+          "tips": [
+            "📸 John Moulton Barn: l'icona fotografica del parco",
+            "🌅 Luce migliore al tramonto tra giugno e agosto",
+            "🚶 Percorso loop facilmente accessibile in auto",
+            "📚 Centro visitatori con storia dettagliata dei coloni",
+            "🦬 Frequente avvistamento di bisonti nella zona"
+          ]
+        },
+        {
+          "id": "jackson_lake",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Jackson Lake",
+          "subtitle": "Tappa 3 - Il più grande specchio d'acqua del parco",
+          "icon": "🏞️",
+          "color": "#B8E0F0",
+          "lat": 43.8558,
+          "lng": -110.6083,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "2-4h",
+          "distance": "vari sentieri",
+          "altitude": "2438 m",
+          "text": "Jackson Lake è il più grande bacino d'acqua del Grand Teton National Park, uno straordinario specchio cristallino che si estende per oltre 100 chilometri quadrati tra le montagne circostanti. Formatosi durante il ritiro del grande ghiacciaio quaternario, il lago è stato successivamente ampliato dalla costruzione della diga nel 1916, raggiungendo una profondità massima di 80 metri. Le sue acque di un blu intenso contrastano meravigliosamente con i picchi rocciosi che si riflettono perfettamente sulla superficie. Lungo le sponde si sviluppano sentieri variegati che permettono di esplorare diversi ecosistemi: dalle foreste di lodgepole pine alle rive sassose dove è possibile osservare la fauna locale nei loro habitat naturali. La bellezza selvaggia di Jackson Lake rappresenta il cuore pulsante dell'ecosistema del parco.\n\nJackson Lake ha un'importanza storica cruciale per lo sviluppo di Jackson Hole e del Wyoming nord-occidentale. La costruzione della diga Jackson Lake rappresentò un intervento umano significativo nel 1911-1916, progettato per fornire acqua per l'irrigazione agricola della valle. Nel 1929, quando il parco fu istituito, la diga rimase integrata all'interno dei confini protetti, testimoniando l'equilibrio tra conservazione ambientale e utilizzo delle risorse idriche. Il lago ha permesso lo sviluppo della comunità di Colter Bay, oggi centro importante per i servizi ai visitatori. Durante il secolo scorso, Jackson Lake è diventato un'attrazione turistica di primo piano, attraendo pescatori, barcaioli e amanti della natura da tutto il mondo.\n\nPer sfruttare al meglio Jackson Lake, si consiglia di noleggiare una barca o una canoa presso Colter Bay Village per esplorare le sponde remote e le isole. Il sentiero Oxbow Bend Loop (4,8 km) offre viste eccezionali sul lago e sul Monte Moran. Per chi ama la pesca, le acque di Jackson Lake sono ricche di trote di lago e cutthroat. Campeggiare presso uno dei numerosi campground intorno al lago permette di godere di sunsets spettacolari. La stagione migliore è luglio-agosto, quando tutte le strutture sono aperte. Portate protezione solare robusta, il riflesso sull'acqua intensifica l'UV. Non bevete l'acqua del lago anche se sembra cristallina: giardia può essere presente.",
+          "tips": [
+            "🎣 Pesca di trout cutthroat e lake trout eccellente",
+            "🚤 Noleggio barche e canoe a Colter Bay",
+            "⛺ 5 campground intorno al perimetro del lago",
+            "🏔️ Vista Mont Moran riflessa perfettamente sull'acqua",
+            "🦌 Avvistamenti di alci all'alba e tramonto"
+          ]
+        },
+        {
+          "id": "oxbow_bend",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Oxbow Bend",
+          "subtitle": "Tappa 4 - Lo spot fotografico più iconico d'America",
+          "icon": "📸",
+          "color": "#D4E8E8",
+          "lat": 43.8392,
+          "lng": -110.5783,
+          "type": "photo",
+          "difficulty": null,
+          "duration": "1h",
+          "distance": null,
+          "altitude": "2347 m",
+          "text": "Oxbow Bend è il punto di osservazione più fotografato del Grand Teton National Park e forse uno dei più celebri spot fotografici di tutta l'America Settentrionale. Questo nome descrittivo si riferisce alla curva serpeggiante del Snake River, che forma un'ansa a ferro di cavallo proprio di fronte alle maestose vette del Monte Moran. La composizione naturale è semplicemente perfetta: in primo piano le acque riflettenti del fiume in una morbida curva, sullo sfondo le vette innevate che si specchiano nelle acque tranquille, mentre il cielo montano completa lo scenario con tonalità variabili. Decine di fotografi professionisti e dilettanti si posizionano qui ogni giorno con i loro cavalletti per catturare la stessa prospettiva iconica. La facilità di accesso dal parcheggio (a pochi passi dal punto di osservazione) rende questo luogo perfetto anche per chi non è disposto a lunghe escursioni.\n\nOxbow Bend ha acquisito significato storico e culturale attraverso decenni di fotografia paesaggistica. Il punto di osservazione è stato reso celebre da numerosi fotografi, inclusi gli autori di riviste National Geographic e grandi libri di fotografia americana. La configurazione geometrica del paesaggio, con il fiume che forma una curva naturale perfetta davanti al Monte Moran, è stata oggetto di studi sulla composizione fotografica. Nel corso del '900, Oxbow Bend è diventato un pellegrinaggio obbligatorio per fotografi amatori e professionisti da tutto il mondo. La semplicità della visita (nessun trekking richiesto) ha permesso a milioni di persone di apprezzare direttamente la bellezza selvaggia del parco, rendendolo uno dei luoghi più visitati del Grand Teton.\n\nPer ottenere la miglior fotografia ad Oxbow Bend, arrivate all'alba quando il cielo assume tonalità pastello e l'aria è calma, riducendo le onde del fiume. Il riflesso perfetto del Monte Moran sulle acque è più evidente nelle prime ore del mattino e al tramonto. Portatevi un treppiede robusto e lenti polarizzanti per ridurre i riflessi. La primavera (maggio-giugno) offre la miglior illuminazione e il flusso d'acqua del fiume è massimo grazie allo scioglimento della neve. Parcheggio disponibile a soli 50 metri dal punto di osservazione. Durante i mesi estivi, arrivate prima delle 8 del mattino per trovare spazio. Non toccate le sponde fragili e risvegliate il territorio fauna locale con rumore eccessivo.",
+          "tips": [
+            "🌅 Alba ideale per fotografie con luce dorata",
+            "📷 Treppiede consigliato per esposizioni lunghe",
+            "🔍 Lenti polarizzanti per ridurre riflessi",
+            "⏰ Arrivo prima delle 8 AM in alta stagione",
+            "🦫 Avvistamenti di castori al crepuscolo"
+          ]
+        },
+        {
+          "id": "signal_mountain",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Signal Mountain Summit Road",
+          "subtitle": "Tappa 5 - La strada panoramica con panorami a 360 gradi",
+          "icon": "🛣️",
+          "color": "#E8D8C8",
+          "lat": 43.7994,
+          "lng": -110.5892,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1.5h",
+          "distance": "strada 8.3 km",
+          "altitude": "2811 m",
+          "text": "Signal Mountain Summit Road è una affascinante strada panoramica di montagna, lunga circa 8 chilometri, che risale i fianchi di Signal Mountain con una serie di curve affascinanti e viste progressive che si aprono sempre più sul territorio sottostante. Questa strada privata a pedaggio permette ai visitatori di raggiungere due belvedere principali: Jackson Point Overlook e Signal Point, da cui si gode una vista a 360 gradi sulla Jackson Hole valley, sulle Montagne Griggie a ovest e sulle Teton Range a nord e est. La salita regale consente di apprezzare i diversi ecosistemi montani: dalle foreste di lodgepole pine ai prati alpini con wildflowers in estate. Da questi punti di osservazione privilegiati, la prospettiva della geography cambia completamente, offrendo una comprensione tridimensionale del paesaggio circostante impossibile da ottenere dal fondo della valle.\n\nSignal Mountain prende il suo nome dalla pratica storica dei nativi americani Shoshone e altri popoli di accendere fuochi su questa vetta per comunicare con insediamenti distanti. I segnali di fumo visibili da decine di chilometri di distanza costituivano una forma di comunicazione essenziale prima dell'era dei mezzi moderni. Nel XIX secolo, i trapper e i cacciatori di pellicce riconobbero l'importanza strategica di questa posizione elevata per l'orientamento e la sorveglianza del territorio. La strada moderna fu costruita negli anni '20, trasformando la montagna in una destinazione turistica accessibile. Nel 1929, quando fu istituito il parco nazionale, Signal Mountain Summit Road divenne una delle principali attrazioni per auto-tour, permettendo ai visitatori senza capacità escursionistiche di apprezzare le viste panoramiche.\n\nLa Signal Mountain Summit Road è aperta solitamente da metà maggio a metà ottobre, a seconda delle condizioni meteorologiche e della neve residua. La strada è ben mantenuta e sicura, anche se stretta in alcuni tratti con tornanti pronunciati. Si consiglia di portare il pieno di carburante prima di salire, poiché lungo la strada non ci sono servizi. Il tempo di salita dipende dal vostro ritmo, ma normalmente occorrono 20-30 minuti di guida. I due belvedere permettono di parcheggiare e scattare fotografie. Il miglior momento per visitare è tra le 16 e le 18, quando la luce dorata illumina le valli sottostanti. In caso di temporali improvvisi, la strada diventa pericolosa: controllate le condizioni meteo prima di partire.",
+          "tips": [
+            "⛰️ Vista a 360° da Jackson Point Overlook",
+            "☁️ Condizioni meteo cambiano rapidamente in quota",
+            "🚗 Strada stretta con tornanti: guida attenta richiesta",
+            "🌅 Luce dorata dal tardo pomeriggio ideale",
+            "❄️ Chiusa da novembre a maggio per neve"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati nel parco e dintorni",
+          "icon": "🍽️",
+          "color": "#F5E8D0",
+          "lat": 43.7738,
+          "lng": -110.604,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": "2347 m",
+          "text": "La cucina del Wyoming rappresenta una tradizione culinaria Western autentica, fortemente influenzata dalla storia dei cowboy, dei ranch e della caccia. I piatti tipici includono la carne di bisonte e alce (elk), considerati simboli della fauna selvatica dell'Ovest americano. Uno dei piatti più iconici è lo steak di bisonte, servito spesso con patate al forno e verdure rustiche. La trota fresca, pescata nelle acque di Jackson Lake e nei fiumi locali, è un'altra specialità imprescindibile da provare, generalmente preparata al forno o saltata in padella con burro. I ristoranti locali offrono una reinterpretazione moderna della cucina Western, elevandola a livello gourmet mantenendo l'autenticità dei sapori. I formaggi artigianali e i pani biologici locali completano un'esperienza culinaria che affonda le radici nella tradizione pioneer.\n\nTra i ristoranti consigliati nel perimetro del parco e nella vicina Jackson: il Jackson Lake Lodge Mural Room (situato dentro il parco, focalizzato su piatti Western con vista panoramica sul lago, fascia medio-alta, 35-50 USD a persona); Jenny Lake Lodge Dining Room (esclusivo per ospiti del lodge, cucina raffinata con ingredienti locali, prenotazione obbligatoria, 60-80 USD); il The Blue Lion a Jackson (bistro sofisticato con cucina creativa americana, specialità in carni locali, 40-60 USD); Snake River Grill a Jackson (eccellente per cene d'atmosfera, menu stagionale, 45-70 USD); e Dornan's Chuckwagon a Moose (cucina barbecue autentica in stile ranch, esterno informale, 20-35 USD per pasto completo).\n\nPer l'organizzazione pratica, ricordate che i pasti nel Wyoming seguono orari americani: colazione tra 7-10 AM, pranzo 12-13:30, cena 18-21. I ristoranti dentro il parco hanno orari ristretti e chiudono più presto rispetto a quelli di Jackson town. Prenotate in anticipo, specialmente in alta stagione (luglio-agosto), quando i locali più rinomati si riempiono rapidamente. Per il pranzo veloce durante le escursioni, i picnic sono fortemente consigliati: portatevi sandwiches, frutta e acqua abbondante. A Jackson, la vita notturna è vivace e numerosi bar offrono cocktail di qualità. Evitate di bere acqua non filtrata dal rubinetto nel parco (giardia intestinale).",
+          "tips": [
+            "🦬 Carne di bisonte e alce: specialità da non perdere",
+            "🐟 Trota fresca pescata localmente nei fiumi",
+            "💰 Budget medio: 40-60 USD a persona cena sit-down",
+            "⏰ Cena presto (18-19) per evitare lunghe code",
+            "🥤 Birra artigianale locale Snake River: da assaggiare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glacier",
+      "nome": "Glacier National Park",
+      "sottotitolo": "Parco Nazionale - Montana, USA",
+      "paese": "Stati Uniti",
+      "area": "Montana",
+      "icona": "🏔️",
+      "colore": "#2E5090",
+      "coloreSfondo": "#F0F4F8",
+      "gratuito": false,
+      "prezzo": 9.99,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "going_to_the_sun_road",
+          "order": 1,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Going-to-the-Sun Road",
+          "subtitle": "Tappa 1 - La strada panoramica più spettacolare",
+          "icon": "🛣️",
+          "color": "#E8F0F8",
+          "lat": 48.57,
+          "lng": -113.71,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "3-5h",
+          "distance": "80km",
+          "altitude": "2026m",
+          "text": "La Going-to-the-Sun Road è una strada panoramica leggendaria che si snoda attraverso il cuore del Glacier National Park per oltre 50 miglia, offrendo viste mozzafiato ad ogni curva. Costruita tra il 1921 e il 1932, questa strada è un capolavoro di ingegneria che si arrampica lungo pendii ripidi, attraversa foreste primordiali e raggiunge il Logan Pass a 6.646 piedi di altitudine. Durante il tragitto, potrai ammirare laghi glaciali di un blu cristallino, cascate tumultuose e picchi innevati che sembrano toccare il cielo. La strada rappresenta il connettore principale tra il versante ovest e quello est del parco, permettendo ai visitatori di sperimentare la straordinaria diversità biologica e paesaggistica del Glacier in un unico affascinante percorso.\n\nQuesta strada iconica ha una storia affascinante legata allo sviluppo del turismo americano nel ventesimo secolo. Durante gli anni '20 e '30, il National Park Service e la Great Northern Railway hanno collaborato per creare una strada che permettesse ai viaggiatori di accedere alle meraviglie naturali del parco. La costruzione ha richiesto ingegno straordinario, con operai che hanno dovuto scavare attraverso roccia solida e costruire viadotti sospesi sopra gole vertiginose. Oggi, la Going-to-the-Sun Road è considerata una delle opere stradali più belle del Nord America e attrae centinaia di migliaia di visitatori ogni anno che desiderano sperimentare la bellezza selvaggia del Glacier.\n\nLa strada è solitamente aperta dalla metà di giugno a settembre, con date specifiche dipendenti dalle condizioni meteorologiche e dalla rimozione della neve. Si consiglia di partire presto al mattino, preferibilmente prima delle 9:00, poiché il parcheggio a Logan Pass si riempie rapidamente. Guida con cautela, poiché la strada presenta curve strette e tornanti impegnativi, specialmente verso il Logan Pass. Porta una macchina fotografica, indumenti a strati poiché la temperatura diminuisce significativamente con l'altitudine, e rifornisciti di benzina prima di iniziare. Non sono disponibili servizi di carburante lungo la strada, quindi pianifica il tuo viaggio di conseguenza.",
+          "tips": [
+            "🚗 Partire prima delle 8:00 del mattino",
+            "📸 Portare macchina fotografica con batteria carica",
+            "🧥 Indumenti a strati (freddo in altura)"
+          ]
+        },
+        {
+          "id": "logan_pass",
+          "order": 2,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Logan Pass",
+          "subtitle": "Tappa 2 - Il punto più alto e i sentieri escursionistici",
+          "icon": "⛰️",
+          "color": "#F0F8F0",
+          "lat": 48.5703,
+          "lng": -113.7108,
+          "type": "viewpoint",
+          "difficulty": "moderato",
+          "duration": "2-4h",
+          "distance": "4.8km",
+          "altitude": "2026m",
+          "text": "Il Logan Pass è il punto culminante della Going-to-the-Sun Road e uno dei passaggi montani più affascinanti del Nord America, situato a 6.646 piedi di altitudine nella catena montuosa delle Montagne Rocciose. Da qui, lo sguardo spazia in tutte le direzioni su paesaggi alpini incontaminati, con picchi aguzzi, circhi glaciali e valli profonde che si estendono a perdita d'occhio. Il paesaggio è caratterizzato da vegetazione alpina bassa, pietre lisce levigate dai ghiacciai e una sensazione di isolamento e grandiosità che tocca l'anima di ogni visitatore. Durante le giornate limpide, la visibilità può raggiungere decine di chilometri, permettendo di ammirare alcune delle vette più importanti del parco come Mount Cleveland e Mount Jackson.\n\nIl Logan Pass ha un significato storico e culturale profondo per i popoli nativi americani, in particolare per la tribù dei Piedi Neri, che utilizzavano i passage montani per il commercio e la caccia ai bighorn. Il luogo prende il nome da John Logan, un capo della tribù Blackfoot che era noto per la sua saggezza e il suo coraggio. Durante il ventesimo secolo, il Logan Pass è diventato un simbolo dell'impegno americano nella conservazione delle terre selvagge e nell'accesso pubblico ai parchi nazionali. Il Logan Pass Visitor Center, costruito in pietra locale con uno stile architettonico che si armonizza con l'ambiente circostante, offre esposizioni educative sulla geologia glaciale, la flora e la fauna alpina, e la storia naturale della regione.\n\nL'escursione più popolare da Logan Pass è l'Hidden Lake Overlook Trail, un percorso di 4,8 chilometri andata e ritorno che sale gradualmente verso un belvedere panoramico dove è possibile avvistare capre di montagna (mountain goats) e bighorn sheep nel loro habitat naturale. Il sentiero è ben mantenuto e accessibile anche per escursionisti di livello medio. Durante i mesi estivi, il Visitor Center rimane aperto con personale del National Park Service disponibile per fornire informazioni, consigli sui sentieri e avvertenze sulla sicurezza. Ricorda di portare abbondante acqua, protezione solare ad alto fattore, e una giacca impermeabile poiché il tempo può cambiare rapidamente in alta montagna. I parcheggi sono estremamente limitati; se il parcheggio è pieno, utilizza il servizio di navetta gratuito disponibile durante l'alta stagione.",
+          "tips": [
+            "🐐 Avvistamento capre di montagna quasi garantito",
+            "⏰ Visitare prima del tramonto per luce dorata",
+            "💧 Portare almeno 2 litri d'acqua per persona"
+          ]
+        },
+        {
+          "id": "lake_mcdonald",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Lake McDonald",
+          "subtitle": "Tappa 3 - Il lago più grande e affascinante",
+          "icon": "💧",
+          "color": "#E8F4F8",
+          "lat": 48.3844,
+          "lng": -113.9503,
+          "type": "water",
+          "difficulty": null,
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": "914m",
+          "text": "Il Lake McDonald è il lago più grande e profondo del Glacier National Park, con una lunghezza di 10 miglia, una larghezza fino a un miglio e una profondità massima di 472 piedi, rendendolo un gigante glaciale dalle proporzioni impressionanti. Le acque del lago, di un blu cristallino grazie alla glacial flour (farina glaciale) che galleggia in sospensione, creano un contrasto visivo straordinario con le montagne circostanti coperte di foresta e le cime innevate sullo sfondo. Lungo le sponde del lago si trovano cedri rossi giganti e altre conifere che conferiscono al luogo un'atmosfera quasi fiabesca. Durante i mesi estivi, il lago rimane abbastanza freddo per scoraggiare il nuoto prolungato, ma le sue acque cristalline sono perfette per kayaking, paddle boarding, canottaggio e fotografia paesaggistica che catturerà i vostri ricordi per sempre.\n\nLa formazione del Lake McDonald risale a circa 10.000 anni fa, quando i ghiacciai dell'era glaciale si ritirarono lasciando dietro di sé depressioni profonde che si riempirono d'acqua. La geologia del bacino è complessa, con rocce precambriane vecchie di oltre un miliardo di anni che emergono dalle sponde. Durante gli scavi del ruscello, i geologi hanno scoperto che la roccia corrisponde alle Belt Rocks, una formazione geologica estremamente antica. Il lake McDonald ha sempre attirato cercatori di bellezza naturale, artisti e letterati durante il ventesimo secolo. È stato immortalato in numerose fotografie dai celebri fotografi paesaggisti e ha ispirato scrittori che cercavano di catturare l'essenza selvaggia del West americano. I nativi americani utilizzavano il lago come fonte di alimentazione e per i trasporti.\n\nLa Glacier Park Boat Company offre gite in barca di un'ora e mezzo intorno al lago, durante le quali le guide esperte raccontano la storia naturale e culturale della zona, nonché i segreti degli animali selvatici che abitano il parco. Se preferite un'esperienza più avventurosa e solitaria, potete noleggiare kayak, canoe o paddle board presso il McDonald Lake Boat Rental. La spiaggia presso il Lodge offre un accesso facile all'acqua e aree picnic attrezzate. Si consiglia di visitare durante le prime ore del mattino quando il lago è calmo, il cielo è limpido e le montagne si riflettono perfettamente sulla superficie dell'acqua, creando una fotografia perfetta. Porta indumenti di ricambio poiché il vento può alzarsi improvvisamente nel pomeriggio.",
+          "tips": [
+            "🚣 Noleggiare kayak per esplorare in libertà",
+            "📸 Foto più belle al tramonto",
+            "🌞 Acqua molto fredda (adatta solo a coraggiosi)"
+          ]
+        },
+        {
+          "id": "many_glacier_area",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Many Glacier Area",
+          "subtitle": "Tappa 4 - La Svizzera d'America con ghiacciai e laghi",
+          "icon": "❄️",
+          "color": "#F0F0F8",
+          "lat": 48.395,
+          "lng": -113.6253,
+          "type": "geology",
+          "difficulty": "moderato",
+          "duration": "4-6h",
+          "distance": "9.6km",
+          "altitude": "1951m",
+          "text": "La zona Many Glacier è considerata la gemma più preziosa del Glacier National Park, spesso chiamata la Svizzera d'America per la sua straordinaria concentrazione di ghiacciai, laghi alpini e picchi maestosi. Questa area è accessibile tramite la Sherburne Lake Road da St. Mary, sul versante est del parco, e presenta un paesaggio di bellezza ineguagliabile con cinque importanti ghiacciai visibili, tra cui il famoso Grinnell Glacier. L'area si caratterizza per una topografia spettacolare con valli a U profonde scavate dai ghiacciai, laghi glaciali di un blu intenso circondati da foreste di conifere, e picchi aguzzi che si innalzano verso il cielo. Durante l'estate, i prati alpini esplodono di colori con fiori selvatici variopinti, mentre le cascate alimentate dallo scioglimento della neve glaciale ruggiscono giù per le pendii rocciose.\n\nLa storia geologica della Many Glacier Area è una narrazione affascinante di potenti forze geologiche che hanno plasmato il paesaggio nel corso di milioni di anni. Durante il Pleistocene, numerosi ghiacciai convergevano in questa valle, creando un sistema di glaciazione complesso che ha eroso la roccia in forme straordinarie. I ghiacciai hanno lasciato come eredità un paesaggio di circhi glaciali, morene e laghi alpini che oggi caratterizzano l'area. Nel 1850, si stima che il Glacier National Park ospitasse circa 150 ghiacciai significativi; oggi, a causa del cambiamento climatico, rimangono solo 25, e molti continuano a ridursi di anno in anno. La Many Glacier Area è stata il sito di ricerca intensa per gli scienziati che studiano gli effetti del cambiamento climatico sul paesaggio naturale.\n\nIl sentiero principale è lo Grinnell Glacier Trail, un percorso di 9,6 chilometri che sale 800 metri di dislivello e passa attraverso cinque laghi glaciali differenti (Sherburne, Josephine, Grinnell e Feather Lakes) prima di raggiungere il Grinnell Glacier. Il sentiero è ben mantenuto ma presenta tratti ripidi e un'altitudine significativa; si consiglia di iniziare molto presto al mattino e di portare abbondante acqua e cibo ad alto contenuto energetico. Nel Many Glacier Hotel area, troverete servizi, ristoranti, negozi e opzioni di alloggio. Durante l'estate (luglio e agosto), è fortemente consigliato utilizzare il servizio di navetta gratuito poiché i parcheggi si riempiono entro le 9:00 del mattino. Se intendete fare escursioni, partite almeno due ore prima del tramonto e rimanete vigili nei confronti della fauna selvatica, in particolare degli orsi grizzly.",
+          "tips": [
+            "🚌 Usare navette gratuite (parcheggio limitatissimo)",
+            "🐻 Tenere distanza dagli orsi (min 100 metri)",
+            "⛰️ Uno dei sentieri più belli del parco"
+          ]
+        },
+        {
+          "id": "avalanche_lake_trail",
+          "order": 5,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Avalanche Lake Trail",
+          "subtitle": "Tappa 5 - Sentiero familiare tra cedri e cascate",
+          "icon": "🥾",
+          "color": "#F8F4F0",
+          "lat": 48.4613,
+          "lng": -113.6843,
+          "type": "trail",
+          "difficulty": "facile",
+          "duration": "2h",
+          "distance": "8km",
+          "altitude": "1289m",
+          "text": "L'Avalanche Lake Trail è uno dei sentieri più accessibili e gratificanti del Glacier National Park, perfetto per famiglie con bambini e escursionisti di livello principiante che desiderano sperimentare la bellezza alpina senza sforzi eccessivi. Il percorso inizia dalla Going-to-the-Sun Road presso il parcheggio di Avalanche Creek, circa 4 miglia a nord di Lake McDonald Lodge, e segue un sentiero ben mantenuto per 4 chilometri fino al lago glaciale. La prima metà del sentiero passa attraverso una foresta pluviale temperata con cedri rossi giganti, cicute e altri alberi antichi che creano un'atmosfera quasi preistorica. Durante il percorso, i visitatori incontrano il Avalanche Creek, un ruscello cristallino che scende dalle montagne in una serie di cascate spettacolari. Il paesaggio cambia gradualmente da foresta densa a paesaggio alpino aperto, con fiori selvatici, rocce lisciate dai ghiacciai e viste sempre più ampie delle montagne circostanti.\n\nLa formazione dell'Avalanche Lake è il risultato dei processi glaciali che hanno avuto luogo nel corso di decine di migliaia di anni. Il lago si trova in un circo glaciale, una valle a forma di U creata dallo scorrimento dei ghiacciai. L'acqua del lago, alimentata dallo scioglimento dei ghiacciai e dalle sorgenti sotterranee, mantiene una temperatura costante molto fredda tutto l'anno. Durante la stagione dello scioglimento (maggio-agosto), le cascate che alimentano il lago sono particolarmente imponenti, a volte raggiungendo altezze di 100 piedi o più. Il nome \"Avalanche\" si riferisce alla minaccia di valanghe invernali che scendono dalle pendii ripide che circondano il lago. Durante l'inverno, queste pendii sono estremamente instabili, ma durante l'estate il sentiero è perfettamente sicuro. La geologia locale rivela strati di roccia metamorfica che raccontano una storia di antichi mari e di pressioni tettoniche immense.\n\nIl sentiero dell'Avalanche Lake è uno dei meno affollati del parco nonostante la sua accessibilità, il che lo rende ideale per coloro che cercano un'esperienza più tranquilla. Il parcheggio è più capiente rispetto a Logan Pass, sebbene durante l'alta stagione possa raggiungere la capacità massima. Si consiglia di iniziare il percorso prima delle 10:00 per evitare la maggior parte della folla. Il sentiero non presenta significativi dislivelli fino all'ultimo chilometro, dove sale dolcemente verso il lago. Porta scarpe da trekking con buona trazione, poiché alcune sezioni del sentiero possono essere umide o scivolose, specialmente dopo piogge recenti. Una giacca impermeabile è essenziale, così come protezione solare e repellente per gli insetti, in particolare durante i mesi di giugno e luglio quando le zanzare possono essere fastidiose.",
+          "tips": [
+            "👨‍👩‍👧 Sentiero perfetto per famiglie con bambini",
+            "📷 Cascate spettacolari nel tardo maggio",
+            "🧢 Protezione solare e repellente insetti essenziali"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 48.3844,
+          "lng": -113.9503,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina locale del Montana e della regione glaciale del Glacier National Park si basa su ingredienti freschi, selvaggina locale e ricette tramandate da generazioni di pionieri e nativi americani. I piatti tipici includono il bisonte (bison), l'alce (elk), il cervo (venison) e il pesce d'acqua dolce come il trout, preparati con metodi tradizionali che valorizzano il sapore naturale della carne. Durante l'estate, i ristoranti locali preparano piatti con verdure fresche di stagione coltivate nelle vallate circostanti, mentre durante i mesi più freddi predominano minestre sostanziose, stufati ricchi e piatti al forno che riscaldano l'anima dopo lunghe escursioni in montagna. Non perdete assolutamente le ricette di pesce affumicato (smoked fish), le costolette di bisonte grigliate e i piatti con salsa di mirtilli selvatici che sono una specialità della regione.\n\nTra i ristoranti consigliati, il Lake McDonald Lodge Dining Room è uno dei più rinomati, con un'atmosfera elegante e storica all'interno di una lodge costruita nel 1913. Qui potrete gustare piatti ricercati a base di pesce locale, bisonte e selvaggina, con una fascia di prezzo media-alta (€25-50 a persona). Un'altra eccellente scelta è il Many Glacier Hotel Restaurant, situato in una posizione panoramica straordinaria con vista sul lago Josephine, dove vengono serviti piatti della cucina montana con ingredienti regionali, con prezzi simili (€20-45 a persona). Per un'esperienza più informale e conveniente, visitate il Glacier Park Lodge Restaurant nel East Glacier, dove potrete degustare piatti deliziosi della cucina locale in un'atmosfera rilassata, con prezzi contenuti (€12-25 a persona).\n\nI pasti nel Montana seguono gli orari standard americani: colazione dalle 7:00 alle 11:00, pranzo dalle 11:30 alle 14:00, e cena dalle 17:30 alle 21:00. Molti ristoranti nel parco chiudono tra il pranzo e la cena. Per ordinare, semplicemente dite al cameriere cosa desiderate; non è necessaria alcuna formalità particolare. È comune lasciare una mancia del 15-20% del conto per il servizio, una pratica consolidata negli Stati Uniti. Le zone migliori dove mangiare all'interno del parco sono Lake McDonald Lodge sul versante ovest, Many Glacier Hotel sul versante nord-est, e le aree di picnic designate sparse nel parco. Se preferite un'esperienza culinaria gourmet, West Glacier e Kalispell offrono numerosi ristoranti eccellenti a pochi minuti di auto dall'entrata del parco.",
+          "tips": [
+            "🍖 Piatto tipico: Bisonte alla griglia",
+            "💰 Budget medio: €25-40 per cena nei lodge",
+            "⏰ Cena 18:00-20:00 è orario ideale",
+            "📍 Lake McDonald Lodge per vista spettacolare",
+            "🗣️ Dire 'Thank you!' per ringraziare il cameriere"
           ]
         }
       ]
