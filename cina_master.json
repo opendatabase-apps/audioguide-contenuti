@@ -669,7 +669,7 @@
         "panorama",
         "notte"
       ],
-      "status": "da_fare"
+      "status": "completato"
     },
     {
       "id": "chongqing_centro",
@@ -732,7 +732,7 @@
         "fotografia",
         "UNESCO"
       ],
-      "status": "da_fare"
+      "status": "completato"
     },
     {
       "id": "terrazze_te_chengdu",

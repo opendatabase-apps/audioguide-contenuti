@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.30",
+  "versione": "2.0.32",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -9794,6 +9794,364 @@
             "⏰ Pranzo 11:30-13:30, Cena 17:30-19:30",
             "📍 Wuhua per autentica cucina locale",
             "🗣️ 'Búyào là' = non molto piccante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hong_kong_peak",
+      "nome": "Victoria Peak",
+      "sottotitolo": "Viewpoint - Hong Kong, Cina",
+      "paese": "Cina",
+      "area": "Hong Kong",
+      "icona": "🏔️",
+      "colore": "#DC143C",
+      "coloreSfondo": "#FFF0F5",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "sky_terrace_428",
+          "order": 1,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Sky Terrace 428",
+          "subtitle": "Tappa 1 - La terrazza panoramica più alta",
+          "icon": "🌆",
+          "color": "#FFE4E1",
+          "lat": 22.2758,
+          "lng": 114.1455,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "30-45m",
+          "distance": null,
+          "altitude": 428,
+          "text": "Sky Terrace 428 rappresenta il punto di osservazione più elevato e suggestivo di Victoria Peak, situato a ben 428 metri di altitudine. Da questa terrazza panoramica potrete ammirare uno spettacolo indimenticabile: da un lato Victoria Harbour con i suoi caratteristici star ferry e grattacieli scintillanti, dall'altro le isole di Lantau e il Mar Cinese Meridionale che si estendono all'orizzonte. La vista abbraccia lo skyline di Kowloon con i suoi edifici illuminati, creando un panorama che è stato più volte proclamato uno dei più belli del mondo. Nelle giornate limpide, la visibilità raggiunge anche i 40 chilometri di distanza.\n\nQuesta terrazza fu aperta al pubblico nel 1989 all'interno della Peak Tower, frutto di una visione architettonica audace che ha trasformato il modo in cui i visitatori sperimentano Victoria Peak. La struttura è stata progettata per integrarsi perfettamente con il paesaggio naturale circostante, offrendo ai visitatori una connessione diretta con la natura e la città simultaneamente. Nel corso degli anni, Sky Terrace 428 è diventata il punto di partenza per migliaia di fotografi professionisti e amatori che immortalano i momenti più suggestivi di Hong Kong, specialmente al tramonto quando i colori del cielo si riflettono nei grattacieli.\n\nPer godere pienamente dell'esperienza, vi consigliamo di visitare Sky Terrace nelle prime ore del mattino per evitare la folla oppure al tramonto quando l'atmosfera diventa particolarmente magica. Portate sempre una giacca leggera poiché la temperatura in cima è sempre alcuni gradi inferiore rispetto al livello del mare. Se visitate durante la stagione umida, è possibile che la nebbia ostacoli leggermente la visibilità, ma questo crea comunque un'atmosfera affascinante e misteriosa. Le fotografie scattate al tramonto catturano i colori più vividi e memorabili.",
+          "tips": [
+            "📸 Miglior orario: tramonto o alba",
+            "🌡️ Porta una giacca leggera",
+            "⏰ Visita tra le 7-9 del mattino per meno folla",
+            "🎟️ Biglietto Sky Terrace incluso con Peak Tram",
+            "💡 Photogenic spot: lato est al tramonto"
+          ]
+        },
+        {
+          "id": "peak_tram",
+          "order": 2,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Peak Tram",
+          "subtitle": "Tappa 2 - La funicolare storica",
+          "icon": "🚡",
+          "color": "#FFD4D4",
+          "lat": 22.2866,
+          "lng": 114.1628,
+          "type": "info",
+          "difficulty": null,
+          "duration": "10-15m",
+          "distance": 1.27,
+          "altitude": null,
+          "text": "Il Peak Tram è la prima funicolare d'Asia e rappresenta un capolavoro dell'ingegneria coloniale britannica inaugurato nel 1888. Con una pendenza massima del 48 percento, questo mezzo di trasporto affascinante percorre 1,27 chilometri in soli 10 minuti, regalando ai passeggeri una salita spettacolare attraverso la lussureggiante vegetazione di Hong Kong Island. Il viaggio in funicolare è un'esperienza indimenticabile: man mano che ascendete, l'orizzonte si allarga e la città sottostante si rimpicciolisce, rivelando progressivamente le bellezze panoramiche che rendono Victoria Peak così celebre a livello mondiale.\n\nLa storia del Peak Tram è strettamente intrecciata con lo sviluppo coloniale di Hong Kong: inizialmente fu costruito per permettere al Governatore e all'elite coloniale di risiedere in zone più elevate e fresche durante i mesi estivi umidi. Nel corso del ventesimo secolo, il tram è stato modernizzato più volte mantenendo però il suo fascino originario e la sua importanza storica. Oggi è uno dei principali attrattori turistici della città, con circa sette milioni di visitatori annuali. La stazione inferiore, situata in Central presso Garden Road, è facilmente raggiungibile dalla stazione MTR di Central in appena 15 minuti a piedi.\n\nPer un'esperienza ottimale, acquistate i biglietti in anticipo online per evitare code lunghe, specialmente durante i periodi di picco turistico. Le partenze avvengono ogni 10-15 minuti dalle 7:00 alle 23:00 tutti i giorni. Vi consigliamo di salire al mattino presto quando la visibilità è massima e la folla ancora ridotta. Durante il viaggio, godete della prospettiva unica che solo la funicolare può offrire, con viste laterali sulle foreste di bambù e sulla vegetazione locale.",
+          "tips": [
+            "🎫 Compra online per risparmiare tempo",
+            "⏰ Sali entro le 9:00 per evitare folle",
+            "📱 Usa app MTR per acquistare biglietti",
+            "🚡 Peak Tram Round Trip: circa 55-60 HKD",
+            "🌅 Giallo di mattina per foto nitide"
+          ]
+        },
+        {
+          "id": "lugard_road",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Lugard Road Lookout",
+          "subtitle": "Tappa 3 - Trekking panoramico",
+          "icon": "🥾",
+          "color": "#FFE0D4",
+          "lat": 22.2741,
+          "lng": 114.1433,
+          "type": "trail",
+          "difficulty": "easy",
+          "duration": "1-2h",
+          "distance": 3.5,
+          "altitude": 450,
+          "text": "Lugard Road rappresenta uno dei sentieri escursionistici più suggestivi e accessibili di Hong Kong, frequentato sia da escursionisti esperti che da visitatori occasionali. Questo anello pedonale di 3,5 chilometri circonda la cima di Victoria Peak, passando attraverso due vie parallele: Lugard Road e Harlech Road. Il sentiero è principalmente pianeggiante e ben mantenuto, rendendolo perfetto per chi desidera combinare l'esercizio fisico con l'osservazione paesaggistica. Lungo il percorso, troverete numerosi punti di osservazione che offrono viste spettacolari sul Victoria Harbour, lo skyline di Kowloon e le isole circostanti, con possibilità di fotografare la città da prospettive diverse rispetto a Sky Terrace.\n\nStoricamente, queste strade furono sviluppate durante l'era coloniale come vie di accesso alle residenze dell'elite britannica, e ancora oggi mantengono un'atmosfera tranquilla e esclusiva nonostante la loro vicinanza al centro urbano. Il sentiero attraversa una varietà di ecosistemi, dalla foresta subtropicale a zone aperte, permettendo ai visitatori di osservare la flora locale inclusi alberi di Silk Cotton e diverse specie di uccelli migratori. Durante la stagione primaverile da febbraio ad aprile, il percorso si anima con fiori in fioritura che creano uno sfondo colorato per le fotografie.\n\nPer il massimo godimento del trekking, iniziate il percorso alle 7:30 del mattino quando l'aria è più fresca e la luce è ottimale. Portate una bottiglia d'acqua da almeno 1,5 litri poiché non sono presenti fontanelle lungo il sentiero. Indossate scarpe da trekking comode e un cappello per la protezione solare. Il percorso è aperto tutto l'anno, ma evitate le ore di pioggia intensa poiché il sentiero diventa scivoloso. Alcuni punti offrono panchine dove potete riposare e pranzare con uno dei panorami più straordinari della città.",
+          "tips": [
+            "🥾 Scarpe da trekking consigliate",
+            "💧 Porta almeno 1,5 litri d'acqua",
+            "📍 Comincia da Peak Tower e vai in senso antiorario",
+            "🌤️ Evita giorni di pioggia o nebbia fitta",
+            "📷 Miglior fotografia al tramonto dalle sporgenze"
+          ]
+        },
+        {
+          "id": "peak_tower_shopping",
+          "order": 4,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Peak Tower",
+          "subtitle": "Tappa 4 - Shopping e intrattenimento",
+          "icon": "🏢",
+          "color": "#FFE8D4",
+          "lat": 22.2751,
+          "lng": 114.1453,
+          "type": "culture",
+          "difficulty": null,
+          "duration": "1-3h",
+          "distance": null,
+          "altitude": 396,
+          "text": "La Peak Tower è una struttura iconica progettata dall'architetto britannico Norman Foster, la cui forma inusuale ricorda un wok traditionale cinese visto da sopra. Inaugurata nel 1997, questo complesso moderno si estende su diversi livelli e ospita la famosa piattaforma Sky Terrace 428, il Madame Tussauds Hong Kong Museum, il ripetitore televisivo di Hong Kong e numerosi ristoranti e negozi. L'architettura stessa della torre è un'attrazione, con le sue curve eleganti e la struttura futuristica che contrasta affascinantemente con il paesaggio naturale circostante. All'interno troverete negozi di lusso, boutique internazionali e negozi di souvenir dove potrete acquistare ricordi tipici di Hong Kong.\n\nMadame Tussauds Hong Kong Museum all'interno della Peak Tower è una tappa imprescindibile per chi ama la cultura pop e le celebrità. Con oltre 100 figure di cera realizzate dai maestri artigiani londinesi, il museo presenta personaggi storici, politici, atleti e star del cinema in scene ricreate con straordinaria precisione. Potrete interagire direttamente con le figure, scattando foto divertenti e memorabili. Il museo si divide in diverse zone tematiche inclusa la sezione dedicata alle personalità asiatiche più celebrate e gli sport. L'esperienza è particolarmente apprezzata dalle famiglie con bambini.\n\nNon perdete l'opportunità di visitare i ristoranti e i bar all'interno della Peak Tower, molti dei quali offrono menu internazionali con viste panoramiche mozzafiato. Per una pausa caffè, le numerose caffetterie offrono bevande di qualità e snack leggeri. Consigliamo di dedicare almeno 2-3 ore alla Peak Tower se intendete visitare Madame Tussauds e fare shopping, oppure 45 minuti se preferite solo le terrazze panoramiche e il caffè. I prezzi sono più elevati rispetto al resto della città, quindi pianificate di conseguenza il vostro budget.",
+          "tips": [
+            "🎭 Madame Tussauds: circa 265 HKD (adulto)",
+            "☕ Caffè con vista: ottimo rapporto qualità-prezzo",
+            "🛍️ Negozi chiudono entro le 21:00",
+            "📷 Foto gratis con figure di cera",
+            "💳 Accetta tutte le principali carte di credito"
+          ]
+        },
+        {
+          "id": "peak_circle_walk",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Peak Circle Walk",
+          "subtitle": "Tappa 5 - Passeggiata completa attorno al picco",
+          "icon": "🚶",
+          "color": "#FFD4E0",
+          "lat": 22.275,
+          "lng": 114.145,
+          "type": "trail",
+          "difficulty": "easy",
+          "duration": "1.5-2h",
+          "distance": 4.0,
+          "altitude": 440,
+          "text": "Peak Circle Walk è una passeggiata meravigliosa che forma un anello completo attorno alla cima di Victoria Peak, combinando i tratti di Harlech Road e Lugard Road. Questo percorso di 4 chilometri è totalmente pedonale e dedicato, il che significa che non dovrete mai attraversare strade trafficate. La passeggiata è relativamente facile, con solo lievi dislivelli, rendendola accessibile a visitatori di diverse fasce di età e livelli di fitness. Durante il percorso, sarete immersi nella natura subtropicale di Hong Kong, circondati da vegetazione rigogliosa, alberi maestosi e la costante brezza fresca che caratterizza l'altitudine più elevata.\n\nLungo Peak Circle Walk incontrerete numerosi punti di osservazione strategicamente posizionati che offrono viste sempre diverse su Hong Kong e l'acqua circostante. Ogni curva del sentiero rivela una prospettiva differente, dalle viste sul Victoria Harbour ai panorami verso le Isole Outlying. Nelle giornate particolarmente limpide, la visibilità s'estende fino alle montagne del continente cinese. Il sentiero passa anche attraverso aree coperte di bosco dove potrete osservare la fauna locale inclusi scoiattoli giganti volanti, diverse specie di uccelli e occasionalmente serpenti (generalmente innocui e timidi).\n\nPer godere appieno di Peak Circle Walk, indossate scarpe comode adatte al trekking e portate almeno un litro d'acqua. La passeggiate ideale dura circa 1,5-2 ore se procedete a ritmo rilassato, includendo soste per fotografie e osservazioni. Il sentiero è aperto tutto l'anno e illuminato in alcune sezioni serali, permettendo camminate al tramonto quando l'atmosfera è particolarmente affascinante. Non sono presenti negozi o ristoranti lungo il sentiero, quindi portate snack se desiderate fare una pausa per mangiare. Iniziate la camminata preferibilmente al mattino presto per evitare il caldo pomeridiano.",
+          "tips": [
+            "🥾 Scarpe comode è essenziale",
+            "💧 Porta 1 litro d'acqua minimo",
+            "🌞 Protezione solare e cappello",
+            "🚫 No negozi lungo il sentiero",
+            "🌅 Alba o tramonto per migliore illuminazione"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 22.2751,
+          "lng": 114.1453,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina di Hong Kong rappresenta un affascinante miscuglio di tradizioni culinarie cantonesi, cinesi continentali e influenze internazionali, con un'enfasi particolare sulla freschezza degli ingredienti e tecniche di cottura antiche. I piatti tipici da non perdere includono il dim sum, piccoli piatti tradizionali serviti con il tè, perfetti per il brunch; lo yin yang (caffè con tè), una bevanda caratteristica di Hong Kong; il riso al forno in pentola di terracotta con vari condimenti; gli spaghetti istantanei alle verdure e i noodles alla cantonese. Anche la zuppa è fondamentale nella cucina locale: la zuppa di pesce con germogli di soia, la zuppa di zenzero e pollo, e la zuppa di funghi selvatici sono specialità da provare. I dessert tradizionali come il pudding di riso dolce e la frutta stufata completano l'esperienza culinaria autentica di Hong Kong.\n\nNella zona di Victoria Peak trovate ottimi ristoranti con viste panoramiche. Peak Lookout è un ristorante situato all'interno di Peak Tower che offre cucina internazionale con piatti cantonesi, con prezzi medi di 150-300 HKD per persona (18-36 euro). The Peak Tram Café all'interno della stazione superiore del tram serve snack leggeri e bevande a prezzi ragionevoli (50-100 HKD). Per un'esperienza più raffinata, Cafe Deco offre cucina fusion con viste spettacolari e prenotazione consigliata, con menu principale a 250-400 HKD (30-50 euro). Tutti questi ristoranti accettano carte di credito internazionali e offrono menu in inglese.\n\nI pasti a Hong Kong seguono orari specifici: colazione tra le 7-9, brunch dim sum tra le 10-12, pranzo tra le 12-14, merenda con snack tra le 15-17, cena tra le 18-21. È consigliato ordinare utilizzando gesti o foto se non parlate cantonese, sebbene il personale nei ristoranti turistici parli comunemente l'inglese. Le zone migliori per mangiare sono la base di Victoria Peak a Central e Admiralty, dove trovate una maggiore varietà di opzioni culinarie a prezzi più competitivi rispetto alla cima. Portate contanti poiché alcuni ristoranti più piccoli potrebbero non accettare carte.",
+          "tips": [
+            "🍜 Dim sum per brunch è imprescindibile",
+            "💰 Budget medio: 100-300 HKD (12-36 euro)",
+            "⏰ Miglior ora: 11:00-12:00 per dim sum, 18:00-19:00 per cena",
+            "📍 Peak Tower e Peak Galleria hanno migliori opzioni",
+            "🗣️ Utile: 'yat tsap' (please), 'm goi' (grazie), 'ho sik' (delizioso)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuanyang_terrazze",
+      "nome": "Terrazze di Riso di Yuanyang",
+      "sottotitolo": "Patrimonio UNESCO - Yunnan, Cina",
+      "paese": "Cina",
+      "area": "Yunnan",
+      "icona": "🌾",
+      "colore": "#8B7355",
+      "coloreSfondo": "#FFF9F0",
+      "gratuito": false,
+      "prezzo": 4.99,
+      "stripeLink": "https://buy.stripe.com/placeholder",
+      "pois": [
+        {
+          "id": "duoyishu_viewpoint",
+          "order": 1,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Duoyishu - Punto di Osservazione dell'Alba",
+          "subtitle": "Tappa 1 - Le terrazze più fotografate al mondo",
+          "icon": "🌅",
+          "color": "#FFE4B5",
+          "lat": 23.13,
+          "lng": 103.09,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 1800,
+          "text": "Duoyishu rappresenta il cuore pulsante delle terrazze di riso di Yuanyang, un capolavoro architettonico creato dalla minoranza etnica Hani oltre mille anni fa. Questo paesaggio straordinario si estende su migliaia di ettari, dove le risaie terrazzate si arrampicano sulle pendici montane creando un effetto visivo ipnotizzante. Le terrazze si trasformano costantemente: in primavera brillano di acqua riflettente, in estate si tingono di verde intenso, mentre in autunno assumono sfumature dorate. Duoyishu è circondata da montagne su tre lati e avvolta da nuvole e nebbie durante tutto l'anno, creando un'atmosfera mistica che attrae fotografi da tutto il mondo.\n\nQuesto sito rappresenta un patrimonio culturale immateriale della comunità Hani, costruito attraverso un sofisticato sistema di irrigazione che porta l'acqua dalle vette boscose fino ai campi terrazzati. Nel 2013, le terrazze di riso Honghe Hani sono state riconosciute come Patrimonio dell'Umanità dall'UNESCO grazie al loro valore ecologico, culturale e paesaggistico. La popolazione Hani, che costituisce la maggioranza della zona, ha sviluppato una profonda connessione spirituale con la terra, considerando la natura come entità sacra. Ogni comunità mantiene tradizioni animiste, venerando Angma, lo spirito del villaggio, e Misong, il dio protettore della terra.\n\nPer vivere l'esperienza completa, è consigliato visitare Duoyishu all'alba, quando il sole illumina gradualmente le terrazze creando giochi di luce straordinari. Portate una macchina fotografica o uno smartphone con batteria carica, poiché non ci sono strutture turistiche nelle immediate vicinanze. Indossate abiti a strati perché la temperatura può essere fresca al mattino. È possibile accedere a piedi da diversi sentieri, anche se il terreno può essere fangoso in stagione umida. Un'alternativa è noleggiare un'auto con autista privato per raggiungervi direttamente.",
+          "tips": [
+            "🌅 Visita all'alba per la miglior fotografia",
+            "📸 Porta un treppiede per foto stabili",
+            "🧥 Abiti a strati per il clima montano",
+            "⏰ Arriva 30 minuti prima dell'alba",
+            "🚗 Noleggia auto con autista locale"
+          ]
+        },
+        {
+          "id": "bada_terraces",
+          "order": 2,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Bada - Le Terrazze Monumentali",
+          "subtitle": "Tappa 2 - 3.700 strati di riso sull'altopiano",
+          "icon": "⛰️",
+          "color": "#F0E68C",
+          "lat": 23.1,
+          "lng": 103.04,
+          "type": "viewpoint",
+          "difficulty": "media",
+          "duration": "3-4h",
+          "distance": null,
+          "altitude": 2000,
+          "text": "Bada rappresenta il più spettacolare complesso di terrazze di riso di Yuanyang, con oltre 3.700 strati che si estendono dalle valli fino a un'altitudine superiore ai 2.000 metri. Questo straordinario paesaggio coltivato offre una prospettiva tridimensionale unica, dove ogni terrazza segue meticolosamente i contorni naturali del terreno montano. Le dimensioni monumentali di Bada la rendono un'opera di ingegneria agricola senza pari: gli Hani hanno trasformato pendii impossibili in campi fertili utilizzando solo attrezzi manuali e una conoscenza profonda dell'idraulica. Le terrazze, coperte d'acqua durante la stagione della semina, creano specchi riflettenti che moltiplicano visivamente la grandiosità del paesaggio.\n\nLa costruzione di Bada risale a oltre tredici secoli fa, quando gli Hani iniziarono a domandare questa terra selvaggia. Ogni generazione ha contribuito al mantenimento e all'espansione di questo sistema agricolo, tramandando conoscenze tecniche attraverso la tradizione orale. Il lavoro è stato compiuto manualmente, scavando e livellando il terreno con pazienza incredibile. La comunità Hani che vive attorno a Bada mantiene ancora oggi le pratiche agricole tradizionali, coltivando riso secondo metodi ancestrali che rispettano l'equilibrio ecologico. Le donne indossano ancora abiti tradizionali colorati durante i lavori nei campi, creando scene pittoresche che incantano i visitatori.\n\nPer esplorare Bada, è consigliato intraprendere escursioni guidate che vi porteranno attraverso i sentieri tra le terrazze, permettendovi di interagire con i coltivatori locali. Indossate scarpe da trekking robuste poiché il terreno è irregolare e può essere scivoloso. Le migliori ore di visita sono dalla metà della mattina fino al pomeriggio presto, quando la luce solare illumina i dettagli delle terrazze senza creare troppi contrasti. Portate acqua e snack, poiché non ci sono negozi lungo i sentieri. Se siete interessati alla fotografia, le viste dal punto di vista nord di Bada sono particolarmente suggestive nelle giornate limpide.",
+          "tips": [
+            "🥾 Scarpe da trekking impermeabili obbligatorie",
+            "💧 Porta almeno 2 litri d'acqua",
+            "🎒 Zaino comodo per escursioni prolungate",
+            "📱 GPS o mappa offline della zona",
+            "🧑‍🌾 Rispetta i coltivatori locali al lavoro"
+          ]
+        },
+        {
+          "id": "laohuzui_viewpoint",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Laohuzui - Bocca della Tigre",
+          "subtitle": "Tappa 3 - Forme artistiche della natura",
+          "icon": "🐯",
+          "color": "#FFD700",
+          "lat": 23.04,
+          "lng": 103.14,
+          "type": "photo",
+          "difficulty": "media",
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 1850,
+          "text": "Laohuzui, letteralmente \"Bocca della Tigre\", deve il suo nome affascinante alla forma straordinaria delle sue terrazze che assomigliano al profilo di un felino in corsa. Questo sito rappresenta una celebrazione della geometria naturale e dell'armonia tra uomo e paesaggio, dove le terrazze seguono contorni così perfetti da sembrare dipinte da un artista visionario. La terza dimensione e la complessità cromatica di Laohuzui sono le più intense di tutto Yuanyang, con cambiamenti colore continui che vanno dal blu dell'acqua riflessa al verde brillante dei germogli di riso, fino all'oro della mietitura. Ogni stagione trasforma il paesaggio, creando una tela vivente in costante evoluzione che affascina i visitatori con la sua bellezza mutevole.\n\nLe terrazze di Laohuzui sono il risultato di più di un millennio di lavoro collettivo della comunità Hani, che ha perfezionato l'arte della coltivazione terrazzata fino a raggiungere livelli di perfezione estetica. Il sistema idraulico sottostante è estremamente sofisticato, con canali che distribuiscono l'acqua da una terrazza all'altra in un'affascinante cascata agricola. La popolazione locale ancora oggi mantiene vivo questo patrimonio, praticando ritual e cerimonie legate alla coltivazione del riso. Le case tradizionali con tetto di paglia del villaggio di Mengpin, situato al centro dell'area panoramica di Laohuzui, offrono una finestra autentica sulla vita degli Hani.\n\nPer fotografare Laohuzui nel modo migliore, dirigetevi verso i punti di osservazione ufficiali posizionati strategicamente per catturare l'intera forma della \"tigre\". Le migliori condizioni fotografiche si verificano durante la stagione secca, quando il cielo è limpido e le luci laterali creano contrasti definiti. Durante la stagione umida, le nuvole basse possono coprire le terrazze inferiori, creando effetti fotografici ugualmente suggestivi ma diversi. È possibile scendere a piedi fino ai villaggi sottostanti per un'esperienza più immersiva e per interagire con gli agricoltori locali.",
+          "tips": [
+            "📷 Fotografa da diversi angoli per catturare la forma",
+            "🌤️ Miglior visibilità in stagione secca",
+            "🚶 Sentieri per scendere ai villaggi sottostanti",
+            "🏘️ Visita il villaggio di Mengpin a piedi",
+            "⏱️ Tempo ideale: mattina presto o tardo pomeriggio"
+          ]
+        },
+        {
+          "id": "azheke_village",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Azheke - Villaggio Hani Autentico",
+          "subtitle": "Tappa 4 - Vita tradizionale e cultura locale",
+          "icon": "🏘️",
+          "color": "#E8D4C0",
+          "lat": 23.12,
+          "lng": 103.1,
+          "type": "culture",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 1700,
+          "text": "Azheke è un villaggio Hani straordinario che conserva intatta la tradizione costruttiva e culturale della popolazione locale. Le case tradizionali Hani, caratterizzate da un'architettura unica a forma di fungo con tetti di paglia sporgenti, creano un paesaggio abitativo che sembra sospeso nel tempo. Passeggiando per le strette vie del villaggio, scoprirete donne che tessono cesti di bambù con movimenti fluidi tramandati di generazione in generazione, anziani che lavorano il legno, bambini che corrono tra le case in pietra grigia. Ogni angolo di Azheke racconta una storia di resilienza e di profonda connessione con la terra. Le terrazze di riso che circondano il villaggio sono parte integrante della comunità, alimentando sia l'economia che l'identità culturale degli abitanti.\n\nLa cultura Hani di Azheke è radicata in credenze animiste e in un profondo rispetto per la natura. Le donne indossano abiti tradizionali ricchi di ricami e gioielli d'argento, che rappresentano non solo un'identità estetica ma anche uno status sociale e familiare. Nel villaggio è possibile partecipare a cene comunitarie dove la cucina locale viene preparata usando ingredienti freschi coltivati nelle terrazze circostanti. Le festività tradizionali, come il Festival della Torcia che si celebra in giugno, trasformano Azheke in uno spettacolo di danza, musica e riti pagani. Ospitare turisti consapevoli è divenuto per gli Hani un modo per generare reddito supplementare mantenendo le loro tradizioni vive.\n\nVisitare Azheke richiede sensibilità culturale e rispetto per la privacy degli abitanti. È consigliato prenotare in anticipo tramite agenzie locali che collaborano direttamente con le famiglie del villaggio, garantendo che i vostri soldi vadano direttamente ai residenti. Chiedete sempre il permesso prima di fotografare persone, soprattutto donne intente nel lavoro artigianale. Indossate abiti modesti e calzature comode per camminare su strade in pietra. Portate contanti in yuan cinesi, poiché la maggior parte delle famiglie non accetta carte di credito. Se possibile, acquistate i cesti di bambù e i prodotti artigianali direttamente dai creatori, contribuendo così all'economia locale.",
+          "tips": [
+            "📸 Chiedi permesso prima di fotografare persone",
+            "💵 Porta yuan contanti per acquisti locali",
+            "🧳 Abbigliamento modesto e rispettoso",
+            "🍽️ Prova la cucina tradizionale Hani",
+            "🎓 Prenota con guide locali autentiche"
+          ]
+        },
+        {
+          "id": "shengcun_market",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Shengcun - Mercato Locale e Scambi Tradizionali",
+          "subtitle": "Tappa 5 - Cuore commerciale dei villaggi Hani",
+          "icon": "🏪",
+          "color": "#FFE4B5",
+          "lat": 23.11,
+          "lng": 103.07,
+          "type": "market",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": null,
+          "altitude": 1650,
+          "text": "Shengcun è il mercato tradizionale più animato di Yuanyang, situato a soli 4-5 chilometri da Duoyishu e a circa 700 metri di distanza dalle terrazze di riso Aichun. Ogni giorno di mercato, la popolazione locale dei villaggi Hani e Yi scende dalle montagne indossando i loro abiti tradizionali coloratissimi, portando con sé prodotti artigianali, verdure fresche, frutta esotica e persino bestiame per fare scambi. L'atmosfera del mercato è vibrante e autentica, con l'odore delle spezie locali, il suono delle trattative in lingua Hani e Yi, e il caos affascinante di centinaia di persone riunite in uno spazio relativamente piccolo. È qui che potete osservare l'economia locale che funziona su basi di scambio e commercio a piccola scala, esattamente come è stata per secoli.\n\nIl mercato di Shengcun rappresenta un punto di incontro culturale cruciale per le comunità Hani e Yi della regione. Oltre alle verdure e ai prodotti agricoli, il mercato offre tessuti tradizionali, gioielli d'argento artigianali, cesti di bambù, utensili agricoli e persino animali da allevamento come polli e maiali. Le donne del mercato sono esperti negoziatori e sono orgogliose della loro capacità di ottenere i migliori prezzi e qualità. Il mercato funziona principalmente nei giorni stabiliti dalla tradizione locale, quando le persone dai villaggi circostanti si riuniscono per scambi ed acquisti. È un'opportunità rara per i visitatori stranieri di immergersi in una versione autentica della vita rurale cinese, ancora non completamente commercializzata per il turismo.\n\nPer visitare il mercato di Shengcun al meglio, informatevi sui giorni di mercato presso il vostro hotel o la guida turistica locale. Arrivate presto al mattino quando l'afflusso di persone è al suo massimo e la scelta di prodotti è più varia. Portate contanti in yuan, poiché il mercato è principalmente una transazione in contanti. Siate consapevoli della vostra macchina fotografica: mentre la fotografia è generalmente accettata, è cortese chiedere prima di fotografare le persone, specialmente le donne anziane. Indossate scarpe comode poiché camminare per il mercato può richiedere ore. Se siete interessati ai cesti di bambù, ai tessuti tradizionali o ai gioielli d'argento, potete negoziare i prezzi con i venditori locali.",
+          "tips": [
+            "📅 Informati sui giorni di mercato in anticipo",
+            "💵 Porta yuan contanti per gli scambi",
+            "👟 Scarpe comode per lunghe camminate",
+            "📸 Rispetta i venditori prima di fotografare",
+            "🛍️ Negozia gentilmente per i prezzi locali"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove Mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 23.11,
+          "lng": 103.09,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina di Yuanyang riflette la ricca tradizione culinaria della popolazione Hani, basata su ingredienti freschi coltivati localmente e metodi di preparazione tramandati da generazioni. I piatti tradizionali sono caratterizzati dall'uso abbondante di erbe aromatiche, spezie e verdure di stagione coltivate nelle terrazze di riso circostanti. Uno dei piatti più celebri è il riso in foglie di bambù (zongzi), preparato durante le festività. Potrete assaggiare zuppe di verdure autoctone, frittelle di riso croccanti, pesce d'acqua dolce preparato con tecniche locali, e carne di animali allevati secondo i metodi tradizionali. La pasta locale è spesso condita con brodo ricco di sapore e verdure fresche. Il tè è bevuto quotidianamente e rappresenta un elemento culturale importante della socialità locale. I piatti sono generalmente meno piccanti rispetto ad altre regioni del Yunnan, permettendo di apprezzare i sapori naturali degli ingredienti.\n\nPer vivere un'esperienza autentica, i ristoranti consigliati nel centro di Xinjie includono il Yuanyang Hani Restaurant, specializzato in cucina Hani tradizionale con piatti come riso selvaggio con verdure montane (prezzi circa 8-15 euro a persona), e il Terrace View Restaurant, ubicato con viste panoramiche sulle terrazze, dove potrete degustare pesce di riso in salsa di soia fermentata (12-18 euro a persona). Un'altra eccellente opzione è il Local Family Kitchen nel villaggio di Azheke, dove le famiglie Hani preparano cene comunitarie utilizzando ricette tramandate (10-20 euro a persona, prenotazione consigliata). Questi ristoranti offrono un'autenticità che i grandi hotel non possono eguagliare, permettendovi di conoscere gli abitanti e di gustare la vera essenza culinaria della regione.\n\nI pasti locali seguono generalmente orari diversi da quelli occidentali: la colazione è consumata intorno alle 7-8 del mattino e consiste spesso in riso, zuppa e verdure. Il pranzo principale è tra le 11:30 e le 13:00, quando molti villaggi si fermano dal lavoro nei campi. La cena inizia intorno alle 18:30-19:00. Nei ristoranti locali è possibile ordinare indicando il piatto sul menu visivo o mostrando foto dal vostro telefono. I prezzi sono generalmente molto convenienti: un pasto completo con riso, piatto principale e zuppa costa tra i 5 e i 15 euro a persona, dipendendo dal ristorante e dalla complessità del piatto. È consigliato portare contanti in yuan, poiché molti ristoranti tradizionali non accettano carte di credito. Nella stagione agricola, se siete fortunati, potrete partecipare a cene comunitarie nei villaggi dove la comunità si riunisce per mangiare insieme durante le festività.",
+          "tips": [
+            "🍜 Riso in foglie di bambù (zongzi) - piatto tradizionale",
+            "💰 Budget medio: 8-15 euro a persona per pasto",
+            "⏰ Colazione ore 7-8, pranzo ore 11:30-13:00, cena ore 18:30",
+            "📍 Xinjie ha i migliori ristoranti; Azheke per esperienze autentiche",
+            "🗣️ Parola utile: \"Nǐ hǎo\" (你好) - Ciao; \"Duōshao qián?\" (多少钱?) - Quanto costa?"
           ]
         }
       ]
