@@ -23,6 +23,16 @@ on:
           - '1'
           - '2'
           - '3'
+      modello:
+        description: 'Filtra per tier modello (lascia vuoto = tutti)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - opus
+          - sonnet
+          - haiku
       dry_run:
         description: 'Dry run (mostra cosa genererebbe senza chiamare API)'
         required: false
@@ -71,6 +81,10 @@ jobs:
 
           if [ -n "${{ github.event.inputs.priorita }}" ]; then
             CMD="$CMD --priorita ${{ github.event.inputs.priorita }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.modello }}" ]; then
+            CMD="$CMD --modello ${{ github.event.inputs.modello }}"
           fi
 
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then

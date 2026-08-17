@@ -2,17 +2,25 @@
 """
 Agente generatore di audioguide — versione GitHub Actions.
 
-Legge i file *_master.json, genera le destinazioni "da_fare" non ancora
-presenti in parchi.json, aggiorna parchi.json con versione incrementata
-e aggiorna lo status nei master.
+Legge i file *_master.json, genera le destinazioni "da_fare" e "da_rifare"
+non ancora presenti o da rigenerare in parchi.json.
+
+Modelli per tier:
+  opus   → claude-opus-5      (destinazioni flagship)
+  sonnet → claude-sonnet-5    (destinazioni molto importanti)
+  haiku  → claude-haiku-4-5-20251001  (tutte le altre)
+
+Status:
+  da_fare    → non ancora in parchi.json, da generare
+  da_rifare  → già in parchi.json ma generata con modello inferiore, da sostituire
+  completato → pronta, non toccare
 
 Uso locale:
     python agente/genera_contenuti.py
-    python agente/genera_contenuti.py --master cina_master.json
-    python agente/genera_contenuti.py --master cina_master.json --priorita 1
-    python agente/genera_contenuti.py --dry-run   # mostra cosa farebbe senza generare
-
-In GitHub Actions viene chiamato dal workflow con i parametri passati come input.
+    python agente/genera_contenuti.py --master parchi_master.json
+    python agente/genera_contenuti.py --master parchi_master.json --priorita 1
+    python agente/genera_contenuti.py --modello opus   # solo destinazioni opus
+    python agente/genera_contenuti.py --dry-run
 
 Richiede: ANTHROPIC_API_KEY nella env / GitHub secrets.
 """
@@ -21,15 +29,19 @@ import anthropic, json, sys, re, os, time
 from datetime import datetime
 from pathlib import Path
 
-MODEL     = "claude-haiku-4-5-20251001"
-BASE_DIR  = Path(__file__).parent.parent   # root del repo contenuti
+MODEL_MAP = {
+    "opus":   "claude-opus-5",
+    "sonnet": "claude-sonnet-5",
+    "haiku":  "claude-haiku-4-5-20251001",
+}
+DEFAULT_MODEL = "haiku"
+
+BASE_DIR    = Path(__file__).parent.parent
 PARCHI_JSON = BASE_DIR / "parchi.json"
 
-# Tutti i master file presenti nel repo
 MASTER_FILES = [
     BASE_DIR / "parchi_master.json",
-    BASE_DIR / "cina_master.json",
-    # aggiungere qui: europa_master.json, giappone_master.json, ecc.
+    # cina_master.json escluso — verrà ripreso in futuro
 ]
 
 TIPI_POI = ["viewpoint","trail","oasis","water","culture","geology",
@@ -37,7 +49,7 @@ TIPI_POI = ["viewpoint","trail","oasis","water","culture","geology",
 
 SCHEMA = """{
   "id":"snake_case_id","nome":"Nome","sottotitolo":"Tipo - Paese/Citta",
-  "paese":"Cina","area":"beijing","icona":"emoji",
+  "paese":"USA","area":"southwest","icona":"emoji",
   "colore":"#C8102E","coloreSfondo":"#FFF5F5","gratuito":false,"prezzo":4.99,
   "stripeLink":"https://buy.stripe.com/placeholder",
   "pois":[
@@ -54,8 +66,8 @@ SCHEMA = """{
       "name":"Dove mangiare","subtitle":"Cucina locale e ristoranti consigliati","icon":"🍜",
       "color":"#FFF8E8","lat":39.9,"lng":116.4,"type":"restaurant",
       "difficulty":null,"duration":"1-2h","distance":null,"altitude":null,
-      "text":"Par1: descrizione della cucina locale e piatti tipici da provare assolutamente, min 80 parole.\\n\\nPar2: 2-3 ristoranti specifici consigliati con nome reale, specialita e fascia di prezzo, min 80 parole.\\n\\nPar3: consigli pratici su orari pasti, come ordinare, etichetta locale, zone dove mangiare, min 80 parole.",
-      "tips":["🍜 Piatto tipico da non perdere","💰 Budget medio per pasto","⏰ Orario migliore","📍 Zona migliore dove mangiare","🗣️ Parola utile in lingua locale"]
+      "text":"Par1: descrizione della cucina locale e piatti tipici, min 80 parole.\\n\\nPar2: 2-3 ristoranti specifici con nome reale, specialita e fascia di prezzo, min 80 parole.\\n\\nPar3: consigli pratici su orari, etichetta, zone dove mangiare, min 80 parole.",
+      "tips":["🍜 Piatto tipico da non perdere","💰 Budget medio per pasto","⏰ Orario migliore","📍 Zona migliore","🗣️ Parola utile in lingua locale"]
     }
   ]
 }"""
@@ -78,7 +90,6 @@ def salva_parchi_json(dati):
 
 
 def bump_versione(versione_str):
-    """1.0.5 -> 1.0.6"""
     parti = versione_str.split(".")
     try:
         parti[-1] = str(int(parti[-1]) + 1)
@@ -93,22 +104,22 @@ def ids_presenti(dati):
 
 # ─── Agent Claude ──────────────────────────────────────────────────────────────
 
-def cerca_informazioni(client, nome):
-    print(f"  [SEARCH] {nome}")
+def cerca_informazioni(client, nome, model_id):
+    print(f"  [SEARCH] {nome} ({model_id})")
     prompt = (
         f'Informazioni turistiche complete su "{nome}" per turisti italiani:\n'
         "1. Posizione geografica, come arrivare, trasporti\n"
         "2. Storia, cultura, significato del luogo\n"
         "3. 8-10 punti di interesse principali con coordinate GPS lat/lng precise\n"
         "4. Orari di apertura, prezzi, prenotazioni necessarie\n"
-        "5. RISTORANTI E CIBO LOCALE: 3-5 ristoranti consigliati nelle vicinanze con nome, specialità, "
+        "5. RISTORANTI E CIBO LOCALE: 3-5 ristoranti consigliati con nome, specialità, "
         "fascia di prezzo, indirizzo o zona. Specialità gastronomiche locali da non perdere.\n"
         "6. ALLOGGI: tipologie di alloggio consigliate nella zona\n"
         "7. Consigli pratici: periodo migliore, abbigliamento, sicurezza, fuso orario, valuta\n"
-        "8. Itinerari consigliati: tour breve (2-3h), completo (mezza giornata), esteso (giornata intera)"
+        "8. Itinerari: tour breve (2-3h), completo (mezza giornata), esteso (giornata intera)"
     )
     r = client.messages.create(
-        model=MODEL, max_tokens=2000,
+        model=model_id, max_tokens=2000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}]
     )
@@ -128,8 +139,8 @@ def pulisci_json(testo):
     return testo
 
 
-def genera_json(client, nome, info, paese=""):
-    print(f"  [GEN] Generazione JSON...")
+def genera_json(client, nome, info, paese, model_id):
+    print(f"  [GEN] Generazione JSON con {model_id}...")
     ctx = f" La destinazione e' in {paese}." if paese else ""
     prompt = (
         f'Crea JSON audioguida italiana per "{nome}".{ctx}\n'
@@ -142,7 +153,7 @@ def genera_json(client, nome, info, paese=""):
         f"Dati:\n{info}"
     )
     r = client.messages.create(
-        model=MODEL, max_tokens=6000,
+        model=model_id, max_tokens=6000,
         messages=[{"role": "user", "content": prompt}]
     )
     testo = pulisci_json(r.content[0].text.strip())
@@ -222,30 +233,32 @@ def aggiorna_status_master(master_path, att_id, nuovo_status="completato"):
 
 # ─── Pipeline principale ───────────────────────────────────────────────────────
 
-def carica_da_fare(master_path, filtro_priorita=None):
-    """Restituisce lista di destinazioni da_fare dal master."""
+def carica_da_processare(master_path, filtro_priorita=None, filtro_modello=None):
+    """Restituisce destinazioni da_fare e da_rifare dal master."""
     if not master_path.exists():
-        return []
+        return [], ""
     with open(master_path, encoding="utf-8") as f:
         master = json.load(f)
     chiave = "parchi" if "parchi" in master else "destinazioni"
-    dest = [d for d in master.get(chiave, []) if d.get("status") == "da_fare"]
+    dest = [d for d in master.get(chiave, []) if d.get("status") in ("da_fare", "da_rifare")]
     if filtro_priorita is not None:
         dest = [d for d in dest if d.get("priorita") == filtro_priorita]
+    if filtro_modello is not None:
+        dest = [d for d in dest if d.get("modello", DEFAULT_MODEL) == filtro_modello]
     return dest, master.get("paese", "")
 
 
-def run(master_filter=None, filtro_priorita=None, dry_run=False):
+def run(master_filter=None, filtro_priorita=None, filtro_modello=None, dry_run=False):
     dati_json = leggi_parchi_json()
     presenti   = ids_presenti(dati_json)
     client     = anthropic.Anthropic() if not dry_run else None
 
-    # Seleziona master da processare
     masters = MASTER_FILES
     if master_filter:
         masters = [BASE_DIR / master_filter]
 
     totale_generati = 0
+    totale_sostituiti = 0
     totale_saltati  = 0
 
     for master_path in masters:
@@ -253,42 +266,45 @@ def run(master_filter=None, filtro_priorita=None, dry_run=False):
             print(f"[SKIP] {master_path.name} non trovato")
             continue
 
-        da_fare, paese_master = carica_da_fare(master_path, filtro_priorita)
-        print(f"\n[MASTER] {master_path.name} — {len(da_fare)} da fare" +
-              (f" (priorita={filtro_priorita})" if filtro_priorita else ""))
+        da_fare, paese_master = carica_da_processare(master_path, filtro_priorita, filtro_modello)
+        print(f"\n[MASTER] {master_path.name} — {len(da_fare)} da processare" +
+              (f" (priorita={filtro_priorita})" if filtro_priorita else "") +
+              (f" (modello={filtro_modello})" if filtro_modello else ""))
 
         for i, dest in enumerate(da_fare, 1):
-            att_id   = dest.get("id")
-            nome     = dest.get("nome_completo", dest.get("nome", "?"))
-            paese    = dest.get("paese", paese_master)
+            att_id    = dest.get("id")
+            nome      = dest.get("nome_completo", dest.get("nome", "?"))
+            paese     = dest.get("paese", paese_master)
+            status    = dest.get("status", "da_fare")
+            tier      = dest.get("modello", DEFAULT_MODEL)
+            model_id  = MODEL_MAP.get(tier, MODEL_MAP[DEFAULT_MODEL])
+            is_rifare = status == "da_rifare"
 
-            print(f"\n[{i}/{len(da_fare)}] {nome} (id={att_id})")
-
-            # Gia' presente -> aggiorna solo status
-            if att_id in presenti:
-                print(f"  [SKIP] Gia' in parchi.json")
-                aggiorna_status_master(master_path, att_id, "completato")
-                totale_saltati += 1
-                continue
+            print(f"\n[{i}/{len(da_fare)}] {nome} (id={att_id}, modello={tier}, status={status})")
 
             if dry_run:
-                print(f"  [DRY-RUN] Verrebbe generato")
+                azione = "Sostituirebbe" if is_rifare else "Genererebbe"
+                print(f"  [DRY-RUN] {azione} con {model_id}")
                 continue
 
             try:
-                info  = cerca_informazioni(client, nome)
+                info = cerca_informazioni(client, nome, model_id)
                 pausa()
-                att   = valida(genera_json(client, nome, info, paese), paese)
-
-                # Assicura che l'id corrisponda a quello del master
+                att  = valida(genera_json(client, nome, info, paese, model_id), paese)
                 att["id"] = att_id
 
-                dati_json["parchi"].append(att)
-                presenti.add(att_id)
-                aggiorna_status_master(master_path, att_id, "completato")
-                totale_generati += 1
+                if is_rifare and att_id in presenti:
+                    # Sostituisce la versione esistente
+                    dati_json["parchi"] = [p if p["id"] != att_id else att
+                                           for p in dati_json["parchi"]]
+                    totale_sostituiti += 1
+                    print(f"  [REPLACE] {att_id} sostituito")
+                else:
+                    dati_json["parchi"].append(att)
+                    presenti.add(att_id)
+                    totale_generati += 1
 
-                # Salva dopo ogni generazione (sicurezza se il workflow si interrompe)
+                aggiorna_status_master(master_path, att_id, "completato")
                 dati_json["versione"] = bump_versione(dati_json["versione"])
                 salva_parchi_json(dati_json)
 
@@ -296,12 +312,11 @@ def run(master_filter=None, filtro_priorita=None, dry_run=False):
                 print(f"  [ERR] {e}")
                 continue
 
-            # Pausa extra tra destinazioni successive
             if i < len(da_fare):
                 pausa(70)
 
     print(f"\n{'='*50}")
-    print(f"[DONE] Generati: {totale_generati} | Saltati: {totale_saltati}")
+    print(f"[DONE] Nuovi: {totale_generati} | Sostituiti: {totale_sostituiti} | Saltati: {totale_saltati}")
     print(f"[DONE] parchi.json versione: {dati_json['versione']} | totale: {len(dati_json['parchi'])}")
     print(f"{'='*50}")
 
@@ -312,6 +327,7 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     master_filter   = None
     filtro_priorita = None
+    filtro_modello  = None
     dry_run         = "--dry-run" in args
 
     for i, a in enumerate(args):
@@ -322,5 +338,7 @@ if __name__ == "__main__":
                 filtro_priorita = int(args[i + 1])
             except ValueError:
                 pass
+        if a == "--modello" and i + 1 < len(args):
+            filtro_modello = args[i + 1]
 
-    run(master_filter, filtro_priorita, dry_run)
+    run(master_filter, filtro_priorita, filtro_modello, dry_run)
