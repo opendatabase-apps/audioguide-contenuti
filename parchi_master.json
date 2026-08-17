@@ -104,8 +104,7 @@
         "trekking",
         "fotografia"
       ],
-      "status": "da_rifare",
-      "modello": "opus"
+      "status": "in_sviluppo"
     },
     {
       "id": "zion",
@@ -127,8 +126,7 @@
         "angels_landing",
         "fotografia"
       ],
-      "status": "da_rifare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "yellowstone",
@@ -150,8 +148,7 @@
         "old_faithful",
         "bison"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "yosemite",
@@ -174,8 +171,7 @@
         "sequoie",
         "fotografia"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "rocky_mountain",
@@ -197,8 +193,7 @@
         "alci",
         "fiori_alpini"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "acadia",
@@ -220,8 +215,7 @@
         "tide_pools",
         "ciclismo"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "olympic",
@@ -242,8 +236,7 @@
         "montagna",
         "diversita_ecosistemi"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "grand_teton",
@@ -265,8 +258,7 @@
         "fauna",
         "jackson_hole"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "glacier",
@@ -288,8 +280,7 @@
         "orsi",
         "montagna"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "great_smoky_mountains",
@@ -311,8 +302,7 @@
         "cascate",
         "autunno"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "joshua_tree",
@@ -334,8 +324,7 @@
         "cielo_stellato",
         "cactus"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "bryce_canyon",
@@ -357,8 +346,7 @@
         "astronomia",
         "fotografia"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "arches",
@@ -380,8 +368,7 @@
         "tramonto",
         "geologia"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "canyonlands",
@@ -403,8 +390,7 @@
         "trekking",
         "4x4"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "capitol_reef",
@@ -425,8 +411,7 @@
         "frutteti",
         "petroglifi"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "monument_valley",
@@ -448,8 +433,7 @@
         "fotografia",
         "tramonto"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "antelope_canyon",
@@ -471,8 +455,7 @@
         "navajo",
         "arenaria"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "horseshoe_bend",
@@ -493,8 +476,7 @@
         "tramonto",
         "geologia"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "lake_powell",
@@ -516,8 +498,7 @@
         "canyon",
         "acqua"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "death_valley",
@@ -539,8 +520,7 @@
         "caldo_estremo",
         "zabriskie_point"
       ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "sequoia_kings_canyon",
@@ -561,8 +541,7 @@
         "canyon",
         "foresta"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "redwood",
@@ -583,8 +562,7 @@
         "nebbia",
         "costa"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "channel_islands",
@@ -605,8 +583,7 @@
         "fauna_marina",
         "kayak"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "crater_lake",
@@ -627,8 +604,7 @@
         "wizard_island",
         "neve"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "mount_rainier",
@@ -650,8 +626,7 @@
         "paradise",
         "trekking"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "north_cascades",
@@ -672,8 +647,7 @@
         "wilderness",
         "remoto"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "mount_st_helens",
@@ -695,8 +669,7 @@
         "geologia",
         "crater"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "mesa_verde",
@@ -717,8 +690,7 @@
         "archeologia",
         "storia_nativa"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "great_sand_dunes",
@@ -740,8 +712,7 @@
         "unico",
         "sandboarding"
       ],
-      "status": "da_fare",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "black_canyon_gunnison",
@@ -762,8 +733,7 @@
         "buio",
         "trekking"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "everglades",
@@ -785,8 +755,7 @@
         "canoa",
         "acqua"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "dry_tortugas",
@@ -808,8 +777,7 @@
         "ferry",
         "storia"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "shenandoah",
@@ -831,8 +799,7 @@
         "cascate",
         "fauna"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "mammoth_cave",
@@ -853,8 +820,7 @@
         "sistema_piu_lungo",
         "tour_guidato"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "great_smoky_mountains",
@@ -877,8 +843,7 @@
         "autunno",
         "appalachian"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "da_fare"
     },
     {
       "id": "cape_cod",
@@ -900,8 +865,7 @@
         "whale_watching",
         "estate"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "statue_of_liberty",
@@ -923,8 +887,7 @@
         "immigrazione",
         "ferry"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "niagara_falls",
@@ -945,8 +908,7 @@
         "maid_of_the_mist",
         "confine_canada"
       ],
-      "status": "da_fare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "mount_rushmore",
@@ -968,8 +930,7 @@
         "storia",
         "america"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "badlands",
@@ -991,8 +952,7 @@
         "prateria",
         "bison"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "wind_cave",
@@ -1013,8 +973,7 @@
         "bison",
         "tour_guidato"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "isle_royale",
@@ -1023,7 +982,7 @@
       "stato": "Michigan",
       "area": "midwest",
       "tipo": "national_park",
-      "lat": 48,
+      "lat": 48.0,
       "lng": -88.834,
       "visitatori_2024": 25000,
       "priorita": 3,
@@ -1036,8 +995,7 @@
         "lupi",
         "remoto"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "hawaii_volcanoes",
@@ -1058,8 +1016,7 @@
         "kilauea",
         "chain_of_craters"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "completato"
     },
     {
       "id": "haleakala",
@@ -1081,8 +1038,7 @@
         "maui",
         "astronomia"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "denali",
@@ -1104,8 +1060,7 @@
         "aurora_boreale",
         "bus_tour"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "kenai_fjords",
@@ -1127,8 +1082,7 @@
         "puffin",
         "barca"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "sedona",
@@ -1150,8 +1104,7 @@
         "trekking",
         "fotografia"
       ],
-      "status": "da_rifare",
-      "modello": "opus"
+      "status": "completato"
     },
     {
       "id": "petrified_forest",
@@ -1172,8 +1125,7 @@
         "fossili",
         "route66"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "saguaro",
@@ -1194,8 +1146,7 @@
         "deserto_sonora",
         "tramonto"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "white_sands",
@@ -1217,8 +1168,7 @@
         "tramonto",
         "sledding"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "carlsbad_caverns",
@@ -1239,8 +1189,7 @@
         "stalattiti",
         "big_room"
       ],
-      "status": "da_fare",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "guadalupe_mountains",
@@ -1261,8 +1210,7 @@
         "trekking",
         "remoto"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "big_bend",
@@ -1284,8 +1232,7 @@
         "remoto",
         "dark_sky"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "new_river_gorge",
@@ -1307,8 +1254,7 @@
         "roccia",
         "gorge"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "gettysburg",
@@ -1330,8 +1276,7 @@
         "lincoln",
         "memorial"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "independence_hall",
@@ -1353,8 +1298,7 @@
         "philadelphia",
         "storia"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "lassen_volcanic",
@@ -1375,8 +1319,7 @@
         "lago",
         "meno_visitato"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "pinnacles",
@@ -1397,8 +1340,7 @@
         "caverne",
         "trekking"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "lake_mead",
@@ -1420,8 +1362,7 @@
         "acqua",
         "barca"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "hoover_dam",
@@ -1443,8 +1384,7 @@
         "las_vegas",
         "storia"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "grand_staircase_escalante",
@@ -1466,8 +1406,7 @@
         "remoto",
         "fotografia"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "natural_bridges",
@@ -1488,8 +1427,7 @@
         "astronomia",
         "canyon"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "rainbow_bridge",
@@ -1510,8 +1448,7 @@
         "barca",
         "lake_powell"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "canyon_de_chelly",
@@ -1533,8 +1470,7 @@
         "white_house",
         "guida_obbligatoria"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "wupatki",
@@ -1555,8 +1491,7 @@
         "campi_lavici",
         "storia_nativa"
       ],
-      "status": "da_fare",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "montezuma_castle",
@@ -1577,8 +1512,7 @@
         "archeologia",
         "verde_valley"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "muir_woods",
@@ -1599,8 +1533,7 @@
         "foresta",
         "silenzio"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "point_reyes",
@@ -1622,8 +1555,7 @@
         "spiaggia",
         "nebbia"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "sleeping_bear_dunes",
@@ -1644,8 +1576,7 @@
         "spiaggia",
         "vista_panoramica"
       ],
-      "status": "da_fare",
-      "modello": "sonnet"
+      "status": "da_fare"
     },
     {
       "id": "apostle_islands",
@@ -1666,8 +1597,7 @@
         "kayak",
         "lago_superiore"
       ],
-      "status": "completato",
-      "modello": "haiku"
+      "status": "da_fare"
     },
     {
       "id": "voyageurs",
@@ -1688,30 +1618,7 @@
         "houseboat",
         "canada_confine"
       ],
-      "status": "completato",
-      "modello": "haiku"
-    },
-    {
-      "id": "las_vegas",
-      "nome": "Las Vegas Strip",
-      "nome_completo": "Las Vegas Strip",
-      "stato": "Nevada",
-      "area": "southwest",
-      "tipo": "citta",
-      "lat": 36.1147,
-      "lng": -115.1728,
-      "visitatori_2024": 42000000,
-      "priorita": 1,
-      "gratuito": false,
-      "prezzo": 4.99,
-      "tag": [
-        "strip",
-        "casinò",
-        "spettacolo",
-        "neon"
-      ],
-      "status": "da_rifare",
-      "modello": "sonnet"
+      "status": "da_fare"
     }
   ]
 }
