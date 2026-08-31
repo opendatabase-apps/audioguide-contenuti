@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.32",
+  "versione": "2.0.33",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -10152,6 +10152,177 @@
             "⏰ Colazione ore 7-8, pranzo ore 11:30-13:00, cena ore 18:30",
             "📍 Xinjie ha i migliori ristoranti; Azheke per esperienze autentiche",
             "🗣️ Parola utile: \"Nǐ hǎo\" (你好) - Ciao; \"Duōshao qián?\" (多少钱?) - Quanto costa?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_smoky_mountains",
+      "nome": "Great Smoky Mountains National Park",
+      "sottotitolo": "Parco Nazionale - Tennessee / North Carolina, USA",
+      "paese": "USA",
+      "area": "southeast",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F3",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "clingmans_dome",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Clingmans Dome",
+          "subtitle": "Tappa 1 - Il punto più alto del parco a 2024 metri",
+          "icon": "⛰️",
+          "color": "#E8F4E0",
+          "lat": 35.56289,
+          "lng": -83.49849,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "0.8 km",
+          "altitude": 2024,
+          "text": "Il Clingmans Dome, noto anche come Kuwohi nella lingua Cherokee, rappresenta il picco più alto di tutto il Great Smoky Mountains National Park con un'altitudine di 2024 metri. Dalla piattaforma circolare in cemento costruita sulla vetta, è possibile godere di una visuale straordinaria a 360 gradi che spesso si estende al di sopra delle nuvole, creando un'esperienza quasi surreale. Nelle giornate limpide, la vista si protende per chilometri in tutte le direzioni, permettendo di ammirare le catene montuose che si succedono all'orizzonte come onde azzurre.\n\nQuesto sito è strettamente legato alla storia e alla cultura del popolo Cherokee che abitava queste terre per millenni prima dell'arrivo degli europei. Per gli indigeni, la montagna rappresentava un luogo sacro e di grande importanza spirituale. La strada che conduce alla vetta, la Clingmans Dome Road, percorre uno dei tracciati storici più importanti del parco, seguendo antichi sentieri utilizzati dalle tribù Native American per secoli. Il parco stesso, istituito nel 1934, nacque dalla visione di preservare questa straordinaria ricchezza naturale e culturale per le generazioni future.\n\nPrima di visitare il Clingmans Dome, preparatevi a temperature significativamente più fredde rispetto alle zone circostanti, con una media di 8-10 gradi inferiore rispetto a valle. Portatevi strati di abbigliamento e una giacca impermeabile anche in estate, poiché il clima in quota è estremamente variabile. La strada di accesso è chiusa da dicembre a marzo a causa della neve, quindi verificate prima della visita. Si consiglia di arrivarvi al tramonto o all'alba per fotografare i panorami più spettacolari e per avere meno affollamento.",
+          "tips": [
+            "🌅 Visita al tramonto o all'alba per panorami spettacolari",
+            "🧥 Porta sempre una giacca, fa freddo anche in estate",
+            "❄️ Strada chiusa da dicembre a marzo per neve"
+          ]
+        },
+        {
+          "id": "cades_cove",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Cades Cove",
+          "subtitle": "Tappa 2 - Valle storica con insediamenti dell'800",
+          "icon": "🏘️",
+          "color": "#FFF5E6",
+          "lat": 35.55197,
+          "lng": -83.80456,
+          "type": "culture",
+          "difficulty": "facile",
+          "duration": "3-4h",
+          "distance": "11 km",
+          "altitude": 600,
+          "text": "Cades Cove rappresenta uno dei più affascinanti e visitati siti del Great Smoky Mountains National Park, una valle rinchiusa dalle montagne dove è possibile ammirare autentici insediamenti del diciannovesimo secolo. All'interno di questa suggestiva conca naturale si trovano edifici storici perfettamente conservati tra cui capanne di legno, granai tradizionali, chiese coloniali e strutture agricole che raccontano la vita dei pionieri americani. La strada ad anello di 11 chilometri che percorre la valle consente di visitare questi siti storici da un'auto o a piedi, con numerosi parcheggi e punti di osservazione strategicamente posizionati.\n\nLa storia di Cades Cove è profondamente legata al popolo Cherokee che originariamente abitava questa valle fertile e abbondante di risorse naturali. Nel 1800, dopo l'espropriazione sistematica delle terre indigene e la forzata marcia del Trail of Tears, coloni europei si stabilirono in queste aree precedentemente occupate dai nativi americani. La comunità che si sviluppò costruì chiese metodiste, fattorie prospere e una vera e propria società rurale. Questi edifici rimasti intatti offrono una finestra affascinante su come vivevano gli americani delle montagne, con le loro lotte, i loro valori e la loro resilienza di fronte alla natura selvaggia.\n\nCades Cove è il luogo ideale per avvistare la fauna selvatica del parco, specialmente al tramonto o all'alba quando gli animali sono più attivi. Cervi dalla coda bianca, tacchini selvatici, castori e occasionalmente orsi neri frequentano questa valle. Portate binocoli per un'osservazione migliore e restate a distanza di sicurezza dagli animali. La strada ad anello è aperta al traffico veicolare durante i giorni feriali e alle biciclette nelle prime ore del mattino nei fine settimana. Si consiglia di portare acqua, protezione solare e scarpe comode per le escursioni ai singoli edifici storici.",
+          "tips": [
+            "🦌 Migliore osservazione faunistica al tramonto",
+            "🚴 Percorribile anche in bicicletta al mattino",
+            "📸 Edifici storici perfetti per fotografie"
+          ]
+        },
+        {
+          "id": "laurel_falls",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Laurel Falls",
+          "subtitle": "Tappa 3 - Cascata accessibile su sentiero pavimentato",
+          "icon": "💧",
+          "color": "#E0F4FF",
+          "lat": 35.67817,
+          "lng": -83.5803,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "2.3 km",
+          "altitude": 730,
+          "text": "Laurel Falls è una delle cascate più facilmente accessibili e affascinanti del Great Smoky Mountains National Park, una meta perfetta per famiglie e visitatori di ogni livello di abilità. L'acqua cade da un'altezza di circa 15 metri, creando uno spettacolo naturale di bellezza sorprendente, specialmente durante la primavera quando il flusso d'acqua è massimo grazie allo scioglimento delle nevi e alle piogge stagionali. Il sentiero che conduce alla cascata è lungo 2,3 chilometri ed è completamente pavimentato, rendendolo accessibile anche a persone con difficoltà di mobilità. Durante il percorso si attraversano boschi di abeti rossi e hemlock, attraversandosi su un ponte pittoresco sul Little River.\n\nLa cascata di Laurel Falls è stata plasmata dalla geologia affascinante delle Smoky Mountains, catene montuose tra le più antiche del Nord America con un'età stimata di 200-300 milioni di anni. A differenza delle montagne giovani e aguzze dell'Ovest americano, le Smokies mostrano forme arrotondate e dolci dovute all'erosione plurimillenaria. Il flusso costante dell'acqua che crea la cascata ha scavato nella roccia calcarea e arenaria per migliaia di anni, formando una vasca profonda alla base dove l'acqua ricade in uno spettacolo ipnotico. L'ecosistema intorno alla cascata ospita una ricca biodiversità, con muschi, felci e piante rare che prosperano nell'ambiente umido e fresco.\n\nIl sentiero è percorribile tutto l'anno, ma le migliori condizioni si hanno da maggio a ottobre quando il tempo è più stabile. In inverno, il ghiaccio può rendere il sentiero pavimentato scivoloso e pericoloso, quindi indossate scarpe con buon grip. Portate una macchina fotografica per catturare la bellezza della cascata, soprattutto nelle ore mattutine quando la luce è morbida e i riflessi sull'acqua sono particolarmente suggestivi. Arrivate presto al trailhead per trovare parcheggio, specialmente nei fine settimana estivi quando la zona è molto affollata.",
+          "tips": [
+            "📸 Migliore luce fotografica al mattino",
+            "👟 Sentiero pavimentato ma potrebbe essere scivoloso",
+            "⏰ Arrivate presto, parcheggio limitato nei weekend"
+          ]
+        },
+        {
+          "id": "newfound_gap_road",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Newfound Gap Road",
+          "subtitle": "Tappa 4 - Strada panoramica storica tra Tennessee e North Carolina",
+          "icon": "🛣️",
+          "color": "#F0E8FF",
+          "lat": 35.60111,
+          "lng": -83.42806,
+          "type": "photo",
+          "difficulty": null,
+          "duration": "2-3h",
+          "distance": "35 km",
+          "altitude": 1600,
+          "text": "La Newfound Gap Road è la strada principale che attraversa il Great Smoky Mountains National Park da sud a nord, collegando Gatlinburg in Tennessee a Cherokee in North Carolina. Questa affascinante arteria stradale percorre 35 chilometri attraverso il cuore del parco, salendo da 430 metri fino a 1600 metri di altitudine presso il Newfound Gap stesso. Lungo il tragitto si incontrano numerosi punti di osservazione panoramici dove è possibile fermarsi per ammirare le montagne che si estendono a perdita d'occhio, in particolare nelle giornate limpide quando la visibilità è eccezionale. La strada attraversa diverse zone vegetazionali, dai boschi di latifoglie alle foreste di conifere di alta montagna.\n\nLa storia della Newfound Gap Road è affascinante e risale agli anni Trenta del ventesimo secolo, quando il presidente Franklin D. Roosevelt autorizzò la costruzione di questa importante arteria viaria. La strada fu completata nel 1934, nello stesso anno in cui il parco nazionale fu ufficialmente istituito. La sua costruzione richiese un impegno straordinario, poiché gli ingegneri dovettero affrontare il terreno montagnoso e accidentato, creando curve eleganti e dossi ingegnosi che si adattano al paesaggio naturale. Nel 1940, il presidente Roosevelt stesso tornò al parco per partecipare alla cerimonia di dedicazione del parco, passando per questa strada che rimane un monumento ai progressi tecnici e alla visione conservazionista dell'era del New Deal.\n\nPercorrere la Newfound Gap Road richiede circa due o tre ore se vi fermate regolarmente ai punti di osservazione. Si consiglia di guidare con cautela, poiché la strada è sinuosa con curve strette e pendenze ripide, soprattutto nelle sezioni di montagna. Nei mesi invernali, la neve e il ghiaccio possono rendere la guida difficile e talvolta la strada viene chiusa temporaneamente. Portate una macchina fotografica e scarpe comode per le brevi escursioni ai vari punti panoramici. I tramonti lungo questa strada sono particolarmente spettacolari, offrendo colori dorati e azzurri che illuminano le montagne circostanti.",
+          "tips": [
+            "🛣️ Guida lentamente per curve strette e vista panoramica",
+            "📷 Numerosi pullout fotografici lungo il percorso",
+            "❄️ Può chiudersi in inverno per neve e ghiaccio"
+          ]
+        },
+        {
+          "id": "abrams_falls",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Abrams Falls",
+          "subtitle": "Tappa 5 - Escursione moderata a spettacolare cascata",
+          "icon": "🥾",
+          "color": "#FFE8E0",
+          "lat": 35.52889,
+          "lng": -83.81417,
+          "type": "trail",
+          "difficulty": "moderato",
+          "duration": "2-3h",
+          "distance": "7.7 km",
+          "altitude": 800,
+          "text": "L'Abrams Falls Trail è uno dei sentieri più affascinanti e gratificanti del Great Smoky Mountains National Park, percorrendo 7,7 chilometri attraverso boschi rigogliosi fino a una cascata spettacolare di 20 metri. Questo sentiero offre una esperienza intermedia che richiede una buona preparazione fisica ma rientra nel range accessibile per molti escursionisti. Il percorso segue il corso dell'Abrams Creek, un ruscello cristallino che serpeggia attraverso la foresta di latifoglie, passando per ponti in legno suggestivi e attraversando il letto del torrente in più punti. La cascata finale, con il suo fragore potente e la vasca azzurra alla base, ripaga completamente lo sforzo della salita.\n\nAbrams Falls prende il nome da Abraham, un capo Cherokee che abitava questa valle fertile prima dell'espropriazione delle terre. La storia di questa cascata è intrecciata con quella del popolo Cherokee e dei coloni europei che in seguito si insediarono nella zona. La valle di Abrams Creek rappresentava una delle aree più produttive del parco, con terreni ricchi e acqua abbondante, risorse che attiravano sia i nativi americani che i pionieri. L'ecosistema intorno alla cascata rimane uno dei più incontaminati del parco, con una ricca varietà di piante, funghi e animali che vivono nel microclima umido creato dalla cascata. Gli strati di roccia visibili nel letto del ruscello raccontano la storia geologica di milioni di anni di erosione e sedimentazione.\n\nIl sentiero presenta un dislivello di circa 370 metri ed è meglio affrontato con scarpe da trekking con buon grip, poiché il terreno può essere fangoso e scivoloso, specialmente dopo piogge. Portate abbondante acqua, almeno due litri per persona, e snack energetici. Le stagioni migliori sono la primavera inoltrata e l'autunno, quando le temperature sono moderate e la vegetazione è particolarmente bella. La vasca d'acqua alla base della cascata è perfetta per un tuffo rinfrescante nei mesi estivi, ma fate attenzione alle correnti. Arrivate al trailhead molto presto per garantire il parcheggio, poiché il sentiero è popolare e i posti sono limitati.",
+          "tips": [
+            "💧 Vasca d'acqua rinfrescante alla base della cascata",
+            "🥾 Scarpe robuste essenziali per il terreno fangoso",
+            "💧 Porta almeno 2 litri d'acqua per l'escursione"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 35.71111,
+          "lng": -83.38333,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina locale del Great Smoky Mountains è profondamente radicata nella tradizione culinaria degli Appalachi e rappresenta una fusione di influenze europee, africane e Native American sviluppatasi nei secoli. I piatti tipici sono caratterizzati da ingredienti semplici ma gustosi: mais, fagioli, maiale, selvaggina e verdure fresche coltivate negli orti montani. La trota d'acqua dolce affumicata è una specialità locale imprescindibile, servita sia come piatto principale che come snack. I biscotti agli accompagnamenti di burro, il pane di granturco, le zuppe abbondanti e il famoso fried chicken della regione rappresentano il comfort food autentico della montagna.\n\nTra i ristoranti consigliati a Gatlinburg, la città principale ai piedi del parco, spicca The Peddler Steakhouse, situato sulle rive del Pigeon River, che offre carni di qualità eccellente e una vista incantevole sulla natura circostante, con prezzi nella fascia media-alta (entrate 30-50 dollari). Un'altra eccellente scelta è Crockett's Breakfast Camp, un ristorante tematico che serve un colazione abbondante e informale in un'atmosfera rustica autentica, perfetto per iniziare la giornata di escursioni, con prezzi moderati (10-20 dollari). Per chi desidera autenticità locale, The Peddler Riverside Pizza & Grill offre piatti della cucina regionale in una cornice informale e familiare, con prezzi accessibili (15-25 dollari per piatto).\n\nI ristoranti nel parco e nelle immediate vicinanze osservano orari principalmente diurni, aperti dalle 7 del mattino fino a sera, anche se alcuni chiudono più presto durante i mesi invernali. Si consiglia di arrivare presto a pranzo per evitare code lunghe, specialmente durante i fine settimana e l'alta stagione estiva. Nella maggior parte dei ristoranti non è richiesto abbigliamento formale, ma comunque evitate abbigliamento troppo sporco dalle escursioni. Nel parco stesso non ci sono ristoranti, quindi portate uno zaino con snack e acqua per la giornata. Alcuni negozi e aree picnic all'interno del parco offrono mini-market con alimenti confezionati.",
+          "tips": [
+            "🐟 Trota affumicata specialità locale da non perdere",
+            "💰 Budget medio 20-35 dollari per pasto principale",
+            "⏰ Arrivate presto a pranzo per evitare code",
+            "🍗 Fried chicken autentico specialità regionale",
+            "🗣️'Biscuit' per il pane salato, 'y'all' forma colloquiale plurale"
           ]
         }
       ]
