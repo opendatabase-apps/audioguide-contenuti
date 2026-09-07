@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.33",
+  "versione": "2.0.34",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -10323,6 +10323,178 @@
             "⏰ Arrivate presto a pranzo per evitare code",
             "🍗 Fried chicken autentico specialità regionale",
             "🗣️'Biscuit' per il pane salato, 'y'all' forma colloquiale plurale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_smoky_mountains",
+      "nome": "Great Smoky Mountains National Park",
+      "sottotitolo": "Parco Nazionale - Tennessee / North Carolina, USA",
+      "paese": "USA",
+      "area": "southeast",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5FBF5",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "clingmans_dome",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Clingmans Dome",
+          "subtitle": "Tappa 1 - La vetta più alta del parco a 2.024 metri",
+          "icon": "⛰️",
+          "color": "#E8F4E8",
+          "lat": 35.2433,
+          "lng": -83.49,
+          "type": "viewpoint",
+          "difficulty": "moderato",
+          "duration": "1-2h",
+          "distance": "2 km",
+          "altitude": 2024,
+          "text": "Clingmans Dome rappresenta la vetta più alta delle Great Smoky Mountains, raggiungendo i 2.024 metri di altitudine e dominando lo skyline del parco. Dalla piattaforma osservativa circolare costruita sulla sommità, è possibile godere di una vista a 360 gradi che, nei giorni limpidi, si estende fino a otto stati della regione. Questa posizione privilegiata consente di osservare il magnifico paesaggio montano degli Appalachi meridionali, con i suoi pendii ricoperti di fitte foreste decidue e conifere che si perdono nell'orizzonte.\n\nIl nome della vetta ha radici profonde nella storia del luogo. Durante l'epoca dei primi coloni, la zona era frequentata dai Cherokee e dai loro predecessori per secoli. Il monte fu successivamente studiato da naturalisti e geologi che riconoscevano l'importanza scientifica di questa posizione privilegiata per osservare i fenomeni meteorologici e la flora alpine. La foschia caratteristica che avvolge le montagne, visibile anche dalla vetta, è dovuta ai terpeni rilasciati dalla vegetazione e rimane uno dei misteri affascinanti del parco.\n\nPer raggiungere la piattaforma, si percorre un sentiero lineare di soli 2 chilometri con circa 100 metri di dislivello, relativamente accessibile rispetto all'altitudine finale. È consigliabile arrivare al tramonto per ammirare i colori cangianti del cielo e rimanere fino al crepuscolo, quando le luci riflesse sulle nuvole creano effetti spettacolari. Portate sempre una giacca, poiché in quota fa significativamente più freddo che a valle. Il parcheggio è ampio ma può riempirsi rapidamente durante l'alta stagione, specialmente nei fine settimana.",
+          "tips": [
+            "🌅 Visita al tramonto per effetti spettacolari",
+            "🧥 Porta una giacca anche in estate",
+            "📸 Porta un grandangolo per le foto panoramiche"
+          ]
+        },
+        {
+          "id": "cades_cove_loop",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Cades Cove Loop Road",
+          "subtitle": "Tappa 2 - Anello panoramico storico con fauna selvatica",
+          "icon": "🦌",
+          "color": "#F0F8E8",
+          "lat": 35.547,
+          "lng": -83.807,
+          "type": "trail",
+          "difficulty": "facile",
+          "duration": "2-4h",
+          "distance": "17.6 km",
+          "altitude": null,
+          "text": "Cades Cove rappresenta uno degli anelli stradali più affascinanti del parco, percorrendo circa 17,6 chilometri di strada asfaltata immersa in una valle storica circondata da montagne. Questo percorso ad anello è rinomato per l'eccezionale concentrazione di fauna selvatica, inclusi cervi dalla coda bianca, orsi neri, procioni, volpi e occasionalmente puma. La varietà di habitat, dalle praterie alle foreste decidue, attrae una biodiversità straordinaria che rende Cades Cove il luogo ideale per osservazioni naturalistiche e fotografia. La strada rimane aperta tutto l'anno, offrendo panorami stagionali magnifici: fiori selvatici in primavera, verde lussureggiante in estate, fogliame incandescente in autunno e paesaggi innevati in inverno.\n\nLa storia di Cades Cove affonda le radici nel XVIII secolo, quando i primi coloni europei si stabilirono in questa valle fertile. Il parco conserva numerosi edifici storici perfettamente restaurati che raccontano la vita dei pionieri degli Appalachi: case in tronchi d'abete rosso, fienili in pietra, vecchie chiese metodiste e battiste ancora in piedi dopo due secoli. L'Abrams Church e la Primitive Baptist Church rappresentano importanti testimonianze del patrimonio religioso e culturale locale. Questi insediamenti storici, combinati con la bellezza naturale della valle, creano un'esperienza unica di viaggio nel tempo attraverso la vita di frontiera americana.\n\nÈ fortemente consigliato girare lentamente e fermarsi frequentemente ai parcheggi designati per osservazioni naturalistiche. I migliori orari per avvistamenti di fauna sono l'alba e il tramonto, quando gli animali sono più attivi. La strada è chiusa alle auto ogni mercoledì da maggio a settembre, durante le quali è accessibile solo a piedi e in bicicletta, offrendo un'esperienza ancora più tranquilla. Parcheggi di origine sono disponibili, ma si riempiono rapidamente nei fine settimana estivi. Portate binocoli e macchina fotografica con zoom per osservazioni sicure della fauna a distanza.",
+          "tips": [
+            "🌅 Visita all'alba o al tramonto per avvistamenti",
+            "🚴 Mercoledì da maggio a settembre solo pedoni e bici",
+            "📷 Porta zoom per foto di animali da distanza sicura"
+          ]
+        },
+        {
+          "id": "newfound_gap_road",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Newfound Gap Road",
+          "subtitle": "Tappa 3 - Strada panoramica principale tra Tennessee e North Carolina",
+          "icon": "🛣️",
+          "color": "#F5EDE8",
+          "lat": 35.6028,
+          "lng": -83.4292,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": "35 km",
+          "altitude": null,
+          "text": "La Newfound Gap Road è la principale arteria stradale che attraversa il parco da nord a sud, collegando Gatlinburg in Tennessee a Cherokee in North Carolina, percorrendo 35 chilometri di scenari montani spettacolari. Questa strada panoramica rappresenta il percorso più celebre del parco, salendo gradualmente da 650 metri fino al Newfound Gap a 1.603 metri, attraversando diversi ecosistemi di foresta. Durante il percorso si passa da fitte foreste di latifoglie degli Appalachi a foreste di conifere alpine, osservando la transizione ecologica caratteristica delle montagne dell'est americano. Numerosi pullout panoramici lungo il percorso consentono di scattare fotografie memorabili e apprezzare il paesaggio montano dal comfort della propria auto.\n\nLa strada stessa è ricca di significato storico e culturale. Costruita negli anni trenta come parte del New Deal rooseveltiano, Newfound Gap Road rappresenta uno dei grandi progetti infrastrutturali del XX secolo in Appalachia. La strada fu finanziata come mezzo per aprire il parco ai visitatori e per stimolare lo sviluppo economico della regione. Nel 1940, il presidente Franklin D. Roosevelt si fermò a Newfound Gap per l'inaugurazione ufficiale del parco, un evento ancora commemorato con un monumento in pietra. Lungo il percorso sono presenti punti informativi che raccontano la geologia delle Smokies, la storia della costruzione stradale e l'importanza conservazionistica del parco.\n\nQuando si guida sulla Newfound Gap Road, è essenziale procedere lentamente e con cautela, specialmente durante l'inverno quando la strada può diventare scivolosa. I numerosi tornanti richiedono attenzione costante. È fortemente consigliato fermarsi ai vari pullout e aree di sosta per apprezzare pienamente i paesaggi e per scattare fotografie. Il percorso richiede circa 1-2 ore di guida, ma aggiungete ulteriori ore se desiderate fermarvi frequentemente. Durante i fine settimana estivi e in autunno, il traffico può essere intenso; considerate di viaggiare all'alba o in giorni infrasettimanali.",
+          "tips": [
+            "🚗 Guida lenta e attenta nei tornanti",
+            "📸 Fermati ai pullout per le foto migliori",
+            "❄️ Attenzione su neve/ghiaccio in inverno"
+          ]
+        },
+        {
+          "id": "laurel_falls",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Laurel Falls",
+          "subtitle": "Tappa 4 - Cascata accessibile immersa nella foresta",
+          "icon": "💧",
+          "color": "#E8F5F8",
+          "lat": 35.665,
+          "lng": -83.4817,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "4.8 km",
+          "altitude": null,
+          "text": "Laurel Falls è una delle cascate più famose e accessibili del Great Smoky Mountains National Park, raggiungibile tramite un sentiero ben mantenuto di 4,8 chilometri con una pendenza moderata e costante. La cascata cade da un'altezza di circa 20 metri, creando uno spettacolo acquatico suggestivo circondato da rocce ricoperte di muschio e dal verde lussureggiante della foresta decidua. Durante tutto l'anno, la cascata scorre con magnificenza, anche se la portata varia stagionalmente: è più robusta in primavera quando lo scioglimento della neve alimenta i ruscelli montani, mentre in estate può diventare più modesta. La base della cascata forma una piscina naturale profonda dove l'acqua fredda cristallina si posa prima di continuare il suo corso a valle.\n\nIl paesaggio circostante Laurel Falls è ricco di biodiversità e fascino botanico. Il sentiero passa attraverso foreste antiche dove si trovano hemlock orientali giganti, aceri dai quali, in autunno, cadono foglie dai colori infuocati che ricoprono il sentiero. In primavera, il sottobosco si anima con fiori selvatici colorati come trillium, fegato-di-uccello e orchidee indigene. Durante il cammino si incontrano ruscelli cristallini dove l'acqua scava formazioni rocciose affascinanti. Numerose specie di uccelli abitano la foresta, dalle cocorite dai petti gialli ai picchi che tambureggiare sui tronchi antichi. Questa ricchezza naturale rende il percorso a Laurel Falls un'esperienza completamente immersiva nella natura selvaggia degli Appalachi.\n\nIl sentiero è aperto tutto l'anno ed è relativamente ben mantenuto, rendendolo adatto a escursionisti di livello principiante e intermedio. Portate scarpe da trekking con buona aderenza poiché il sentiero può diventare scivoloso, specialmente dopo piogge. Durante i mesi estivi e autunnali, il sentiero può essere affollato durante il fine settimana; considerate una partenza all'alba o un giorno infrasettimanale. È importante portare acqua sufficiente (almeno 1 litro per persona), protezione solare e un impermeabile leggero. La sosta alla cascata è perfetta per una pausa ristoratrice prima del ritorno, offrendo foto memorabili con la cascata sullo sfondo.",
+          "tips": [
+            "👟 Scarpe da trekking con buona aderenza",
+            "💧 Porta almeno 1 litro d'acqua per persona",
+            "🌅 Parti all'alba per evitare affollamenti"
+          ]
+        },
+        {
+          "id": "oconaluftee_visitor_center",
+          "order": 5,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Oconaluftee Visitor Center",
+          "subtitle": "Tappa 5 - Centro informazioni e museo storico",
+          "icon": "ℹ️",
+          "color": "#F8F5E8",
+          "lat": 35.47,
+          "lng": -83.315,
+          "type": "info",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "L'Oconaluftee Visitor Center è il principale centro informazioni del parco situato sul versante nord-carolinese, posizionato strategicamente vicino a Cherokee. Questo moderno centro benvenuto offre una porta d'accesso perfetta per i visitatori che desiderano comprendere appieno la storia naturale e culturale del Great Smoky Mountains National Park. All'interno del centro, allestito su più livelli, sono presenti esposizioni interattive che descrivono la geologia delle montagne, la flora e la fauna caratteristica del parco, e la storia dei popoli Cherokee e dei coloni europei che abitavano queste terre. Gli exhibit digitali e i diorami realistici permettono ai visitatori di tutto il mondo, indipendentemente dall'età, di apprendere gli aspetti fondamentali dell'ecosistema montano.\n\nIl centro svolge un ruolo cruciale nel fornire ai visitatori informazioni pratiche essenziali per pianificare la loro visita al parco. Lo staff esperto del visitor center può fornire consigli sulle migliori escursioni in base al livello di fitness e agli interessi personali, informazioni sulle condizioni attuali dei sentieri, sull'accesso stradale e sugli avvistamenti di fauna recenti. Inoltre, il centro distribuisce mappe dettagliate, guide stampate e opuscoli informativi in inglese e altre lingue. Un negozio specializzato all'interno vende libri sulla storia naturale, guide per l'identificazione di uccelli e piante, mappe topografiche e souvenir del parco. Il centro organizza anche presentazioni educative durante i mesi estivi, offrendo opportunità di apprendimento diretto da ranger esperti.\n\nL'Oconaluftee Visitor Center è facilmente accessibile ed è il primo luogo da visitare per chiunque entri nel parco da nord Carolina. L'accesso al centro è gratuito e l'ingresso al parco segue immediatamente. Si consiglia di dedicare almeno un'ora all'esplorazione delle esposizioni, specialmente se è la vostra prima volta al parco. Il centro dispone di servizi igienici puliti, fontane d'acqua potabile e un'ampia area parcheggio. Durante i mesi estivi, le aree picnic adiacenti sono ideali per un pranzo al sacco. Il personale del ranger può anche fornire informazioni sulla ricca storia Cherokee della regione e su come visitare rispettosamente i siti culturali indigeni.",
+          "tips": [
+            "🗺️ Prendi mappe dettagliate gratuite al desk",
+            "🎥 Guarda il film introduttivo di 20 minuti",
+            "👨‍💼 Chiedi ai ranger le migliori escursioni"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale degli Appalachi e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 35.7147,
+          "lng": -83.377,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina tradizionale degli Appalachi rappresenta l'essenza del patrimonio culinario del Tennessee e della North Carolina, caratterizzata da piatti robusti e autentici sviluppati dai coloni scozzesi e dai nativi americani. I piatti tipici includono il barbecue affumicato lentamente per ore, la trota di fiume fritta, il pollo arrosto con salsa di burro, e il pane di mais dolce fatto in casa. Le verdure locali stagionali come i fagioli verdi, le patate dolci e il cavolo sono protagonisti di molti pasti tradizionali. Il whisky di montagna, storicamente distillato clandestinamente durante il Proibizionismo, rimane un elemento celebre della cultura locale, sebbene oggi prodotto legalmente. Molti ristoranti della zona offrono tour di distillerie artigianali dove è possibile degustare e acquistare questi spiriti regionali. La cucina locale enfatizza ingredienti freschi e ricette tramandate da generazioni, riflettendo l'isolamento geografico e l'ingegno culinario dei pionieri montani.\n\nA Gatlinburg, a pochi chilometri dall'ingresso nord del parco, The Peddler Steakhouse è rinomato per i suoi bistecche di qualità premium e l'atmosfera rustica autentica, con una fascia di prezzo media-alta (30-50 euro a persona). Nella stessa area, Pancake House offre un'esperienza colazione memorabile con enormi stack di frittelle, uova e bacon di qualità, a prezzi accessibili (10-15 euro). Per un'esperienza completamente autentica della cucina appalachiana, visitare Mama's Pizzeria e Callaloo Restaurant a Pigeon Forge, dove potrete assaggiare il famoso barbecue smokies con tecniche tradizionali di affumicatura, con menu a prezzo moderato (15-25 euro). A Cherokee, sul versante nord-carolinese, il Chateau Restaurant offre cucina francese raffinata con ingredienti locali in un ambiente elegante, rappresentando un'alternativa sofisticata (35-55 euro per persona).\n\nGli orari di apertura dei ristoranti variano stagionalmente: durante l'alta stagione (giugno-ottobre) molti rimangono aperti dalle 11:00 alle 22:00, mentre nei mesi invernali gli orari si riducono e alcuni locali chiudono completamente. È consigliabile prenotare nei fine settimana, specialmente durante il foliage autunnale quando i ristoranti sono stracolmi. L'abbigliamento casual è accettato ovunque; il dress code semi-formale è richiesto solo nei ristoranti più sofisticati. Una mancia del 15-20% è standard negli Stati Uniti, sommata al conto finale. Per un'esperienza autentica, visitate i tavoli di legno all'aperto durante i mesi estivi, dove potrete mangiare circondata dall'aria di montagna. I ristoranti della zona accettano principalmente pagamenti con carte di credito, anche se alcuni locali tradizionali accettano solo contanti.",
+          "tips": [
+            "🍖 Ordina il barbecue smokies affumicato lentamente",
+            "💰 Budget medio 20-30 euro a persona",
+            "⏰ Cena ore 17:30-19:00 per meno code",
+            "📍 Gatlinburg ha più opzioni di Cherokee",
+            "🥃 Parola locale: 'y'all' (voi tutti/siamo) è usata comunemente"
           ]
         }
       ]
