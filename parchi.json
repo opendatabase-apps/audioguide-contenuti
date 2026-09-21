@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.35",
+  "versione": "2.0.36",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -10664,6 +10664,177 @@
             "🍖 Il barbecue affumicato è la specialità locale",
             "💰 Budget medio di $20-30 per pasto",
             "🕐 Arrivate presto nei giorni di punta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_smoky_mountains",
+      "nome": "Great Smoky Mountains National Park",
+      "sottotitolo": "Parco Nazionale - Tennessee e Nord Carolina, USA",
+      "paese": "USA",
+      "area": "southeast",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F3",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "https://www.nps.gov/grsm",
+      "pois": [
+        {
+          "id": "kuwohi_clingmans_dome",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Kuwohi (Clingmans Dome)",
+          "subtitle": "Tappa 1 - La vetta più alta del parco a 2.025 metri",
+          "icon": "⛰️",
+          "color": "#E8F4F8",
+          "lat": 35.5627,
+          "lng": -83.4983,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "0,8 km andata e ritorno",
+          "altitude": 2025,
+          "text": "Kuwohi, precedentemente conosciuta come Clingmans Dome, è la vetta più alta dei Great Smoky Mountains a 6.643 piedi (2.025 metri) di altitudine, rendendola la terza montagna più alta a est del Mississippi. Dalla cima si gode una vista panoramica spettacolare che abbraccia gli Smokies in tutte le direzioni, con la possibilità di scorgere il Tennessee, la Nord Carolina e oltre nelle giornate serene. La torre a spirale costruita negli anni '60 offre protezione dal freddo e dal vento mentre si ammira uno dei panorami più affascinanti dell'intero parco nazionale, con nuvole che si formano drammaticamente attorno ai picchi circostanti.\n\nLa storia di questa montagna affonda le radici nella geologia antica, con rocce risalenti a oltre 200 milioni di anni fa. Il nome Kuwohi proviene dalla lingua Cherokee e significa \"mulberry place\" (luogo dei gelsi). Durante l'epoca della Grande Depressione, la torre panoramica venne costruita come parte di un progetto di lavoro pubblico, rappresentando il genio ingegneristico dell'epoca. Gli alberi di abete rosso e abete balsamo che dominano la cima creano un ecosistema unico simile a quello trovato molto più a nord, testimonianza della diversità biologica del parco.\n\nPer raggiungere la cima, percorrere il sentiero asfaltato di soli 400 metri che si snoda dolcemente verso l'alto, adatto a visitatori di tutte le età e abilità. Portare una giacca leggera anche in estate, poiché la temperatura diminuisce significativamente in altitudine e il vento può essere forte. Il periodo migliore per visitare è da maggio a settembre, quando la strada di accesso è completamente aperta; la strada può chiudersi durante l'inverno a causa della neve. Arrivare al tramonto per un'esperienza indimenticabile, quando il cielo si tinge di colori dorati e arancioni.",
+          "tips": [
+            "🌅 Visita al tramonto per colori spettacolari",
+            "🧥 Porta sempre una giacca anche d'estate",
+            "📸 Migliore per fotografie al mattino presto"
+          ]
+        },
+        {
+          "id": "cades_cove",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Cades Cove",
+          "subtitle": "Tappa 2 - Valle storica con chiese e case coloniali",
+          "icon": "🏡",
+          "color": "#FFF0E0",
+          "lat": 35.5547,
+          "lng": -83.7583,
+          "type": "culture",
+          "difficulty": "facile",
+          "duration": "2-4h",
+          "distance": "17,7 km anello ciclabile e pedonale",
+          "altitude": 600,
+          "text": "Cades Cove è una delle attrazioni più iconiche dei Great Smoky Mountains, una splendida valle circondata da montagne boscose che ospita una delle più importanti concentrazioni di strutture storiche del parco. Fondata nel 1818 come comunità agricola isolata, la cove prosperò come insediamento autosufficiente per oltre un secolo, sviluppando una propria cultura e tradizioni uniche. Oggi il percorso ad anello di 11 miglia consente ai visitatori di attraversare più di due secoli di storia americana, fermandosi presso case di tronchi originali, mulini storici, chiese di pietra e cimiteri ben conservati che raccontano la storia della vita di frontiera nei monti Appalachi.\n\nLa Valle di Cades Cove rappresenta un museo vivente della cultura degli Appalachi del sud, preservando in maniera eccezionale l'architettura e lo stile di vita dei pionieri che si stabilirono qui nel XIX secolo. La Abrams Creek scorre placidamente attraverso la cove, creando opportunità per pesca e nuoto durante i mesi più caldi. La fauna selvatica è abbondante: cervi dalla coda bianca pascolano nei prati al tramonto, mentre il tubo di riserva Abrams Creek è noto per avvistamenti di castori e lontre. Quattro chiese storiche rimangono intatte, inclusa la Primitive Baptist Church, ancora utilizzata per funzioni speciali, rappresentando il ruolo centrale della religione nella vita della comunità pioniera.\n\nIl percorso anello è percorribile sia in auto (lentamente con soste frequenti) che in bicicletta (circa 2-3 ore per il circuito completo) che a piedi per sezioni specifiche. Da metà maggio a settembre, il lunedì e i mercoledì mattina la strada è chiusa al traffico motorizzato, riservata ai soli pedoni e ciclisti, offrendo un'esperienza più tranquilla e priva di automobile. Il centro visitatori di Cades Cove fornisce mappe dettagliate e informazioni interpretative sui siti numerati lungo il percorso. Visitare all'alba o al tramonto per le migliori opportunità di avvistamento della fauna selvatica e condizioni fotografiche ottimali.",
+          "tips": [
+            "🚴 Perfetto per ciclisti, affittare biciclette a Townsend",
+            "🦌 Migliore al tramonto per avvistamenti di cervi",
+            "🗺️ Ritirare mappa al centro visitatori all'ingresso"
+          ]
+        },
+        {
+          "id": "newfound_gap",
+          "order": 3,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Newfound Gap e Rockefeller Memorial",
+          "subtitle": "Tappa 3 - Punto panoramico al confine tra stati a 1.544 metri",
+          "icon": "🏛️",
+          "color": "#F0E8FF",
+          "lat": 35.6022,
+          "lng": -83.4656,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "30-45min",
+          "distance": "150 m pedonale",
+          "altitude": 1544,
+          "text": "Newfound Gap si trova a 5.046 piedi di altitudine lungo la Newfound Gap Road (US Route 441), che attraversa lo spartiacque principale delle montagne Smoky, fungendo da confine naturale tra Tennessee e Nord Carolina. Questo affascinante valico montano offre viste panoramiche in entrambe le direzioni lungo la catena montuosa, permettendo ai visitatori di osservare strati di montagne blu che si estendono verso l'orizzonte, creando l'effetto nebuloso che ha dato il nome alle Smoky Mountains. Il punto di sosta include ampi parcheggi, aree picnic, servizi igienici e l'iconico Rockefeller Memorial, un monumento commemorativo che celebra l'importanza storica di questo luogo nel parco nazionale.\n\nIl Rockefeller Memorial fu eretto per onorare una donazione cruciale di 5 milioni di dollari dalla Rockefeller Foundation, che ha giocato un ruolo fondamentale nell'acquisizione e nella creazione del Great Smoky Mountains National Park negli anni '30. È stato proprio a Newfound Gap che il Presidente Franklin Delano Roosevelt dedicò ufficialmente il parco il 2 settembre 1940, un momento storico che ha segnato il riconoscimento federale di questo patrimonio naturale straordinario. La posizione geografica di questo valico lo rende uno dei luoghi più importanti dal punto di vista sia storico che naturalistico del parco, servendo come sentiero di migrazione per la fauna selvatica e come corridoio climatico tra i diversi ecosistemi.\n\nLa visita a Newfound Gap è ideale per chi è a corto di tempo ma vuole catturare l'essenza panoramica del parco senza impegnare molte ore in escursionismo. Il breve sentiero che sale dolcemente al monumento è accessibile a tutti, compresi anziani e bambini, e offre opportunità fotografiche straordinarie in qualsiasi stagione. Durante l'inverno, la strada può chiudersi a causa del ghiaccio e della neve, quindi verificare le condizioni prima di recarsi lì. Il tramonto crea condizioni di illuminazione drammatiche che rendono questo uno dei migliori punti fotografici dell'intero parco.",
+          "tips": [
+            "📸 Migliore al tramonto per foto di montagne stratificate",
+            "❄️ Può chiudersi in inverno, controllare condizioni",
+            "⏰ Stop perfetto di 30-45 minuti lungo Newfound Gap Road"
+          ]
+        },
+        {
+          "id": "grotto_falls",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Grotto Falls",
+          "subtitle": "Tappa 4 - Cascata incantevole nascosta nella foresta",
+          "icon": "💧",
+          "color": "#E0F4FF",
+          "lat": 35.6358,
+          "lng": -83.4483,
+          "type": "water",
+          "difficulty": "moderata",
+          "duration": "2-3h",
+          "distance": "5,6 km andata e ritorno",
+          "altitude": 640,
+          "text": "Grotto Falls è una delle cascate più affascinanti e accessibili dei Great Smoky Mountains, caratterizzata da un'altezza impressionante di 25 metri che precipita in una piscina di smeraldo circondato da rocce levigate dal tempo. Ciò che rende questa cascata particolarmente straordinaria è la possibilità di camminare dietro il velo d'acqua, un'esperienza che pochi sentieri nel parco offrono; dai sassi piatti alla base della cascata, i visitatori possono posizionarsi direttamente dietro il flusso d'acqua e guardare verso l'esterno attraverso il velo liquido, creando una prospettiva unica sulla natura. Il sentiero che conduce alle cascate attraversa la Roaring Fork, una splendida corrente di montagna che muove dolcemente attraverso una foresta di pini, tigli e aceri, offrendo un'esperienza multisensoriale della wilderness Appalachiana.\n\nLa geologia intorno a Grotto Falls rappresenta un capitolo affascinante nella storia della formazione della Terra, con rocce sedimentarie antiche risalenti al Precambriano che creano le pareti della valle attraverso cui scorre l'acqua. La cascata stessa è stata scolpita nel corso di milioni di anni dall'azione erosiva dell'acqua che scorre dalla Roaring Fork, un processo continuo che continua ancora oggi. Durante i mesi primaverili, quando la neve si scioglie dalle montagne più alte, il flusso d'acqua aumenta drammaticamente, trasformando Grotto Falls in uno spettacolo ancora più impressionante di potenza acquatica. La vegetazione lussureggiante che circonda la cascata prospera grazie all'umidità costante e alla nebbia che sale dal velo d'acqua, creando un microclima unico che supporta muschi, felci e piante rare.\n\nIl sentiero verso Grotto Falls è considerato una delle escursioni più piacevoli e ricompensanti della zona di Gatlinburg, adatto a escursionisti di moderata abilità senza richiedere attrezzature tecniche o estreme. Il percorso di 5,6 km andata e ritorno presenta una pendenza modesta e consente ai visitatori di immergersi completamente nella foresta di vecchia crescita. Portare scarpe da escursione con buona aderenza, poiché le rocce bagnate intorno alla base della cascata sono scivolose. Visitare nelle prime ore del mattino o nei giorni infrasettimanali per evitare le folle; i weekend e le vacanze possono essere molto affollati. La stagione migliore è da maggio a ottobre, quando il sentiero è asciutto e le condizioni sono piacevoli.",
+          "tips": [
+            "💦 Porta abiti impermeabili se vuoi stare dietro la cascata",
+            "👟 Scarpe da escursione con buona aderenza essenziale",
+            "📷 Cascata più fotografica al mattino con luce settentrionale"
+          ]
+        },
+        {
+          "id": "roaring_fork_motor_nature_trail",
+          "order": 5,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Roaring Fork Motor Nature Trail",
+          "subtitle": "Tappa 5 - Strada panoramica nella foresta di vecchia crescita",
+          "icon": "🚗",
+          "color": "#F5E8D8",
+          "lat": 35.645,
+          "lng": -83.465,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "11,2 km strada panoramica a una sola corsia",
+          "altitude": 600,
+          "text": "Roaring Fork Motor Nature Trail è una strada panoramica a una sola corsia di 11,2 chilometri che serpeggia attraverso una delle foreste di vecchia crescita più impressionanti dei Great Smoky Mountains, offrendo ai visitatori un'esperienza intima della wilderness Appalachiana dal comfort della propria auto. Questo affascinante percorso è accessibile solo durante i mesi da aprile a novembre ed è riservato a veicoli lunghi meno di 6 metri, il che significa che gli autobus e i camper devono utilizzare l'accesso alternativo più largo. Lungo il percorso, gli alberi giganteschi che raggiungono altezze di 40 metri o più creano una cattedrale naturale di legno e foglie, fornendo un'ombra rinfrescante e un senso di scala che mette in prospettiva l'importanza della conservazione della natura primordiale.\n\nLa storia ecologica di Roaring Fork Motor Nature Trail rappresenta uno dei successi più significativi della ricerca di ripristino ambientale nel parco. Molti di questi alberi monumentali sono sopravvissuti alla razzìa di asportazione di legname della fine del XIX e inizio XX secolo, quando gran parte dei Great Smoky Mountains fu sottoposta a raccolta commerciale intensiva. Il fatto che questa valle sia rimasta relativamente intatta consente ai visitatori di osservare ciò che la foresta primordiale e incontaminata avrebbe potuto sembrare prima dell'arrivo dei coloni europei. Il Roaring Fork Creek scorre costantemente lungo il sentiero, creando un'atmosfera sonora della natura che maschera i rumori del traffico stradale e immergere completamente il visitatore nell'esperienza naturale. Le strutture storiche, incluse case di tronchi restaurate e un antico mulino, costeggiano il sentiero, fornendo finestre sulla vita dei pionieri che vivevano in armonia con questa foresta.\n\nRoaring Fork è l'ideale per i visitatori che desiderano un'esperienza naturale profonda senza fare escursionismo estenuante, rendendolo perfetto per famiglie con bambini piccoli, persone con mobilità ridotta o coloro che preferiscono esplorare a passo lento dal veicolo. Portare una guida interpretativa disponibile all'ingresso o scaricare l'app del parco per leggere informazioni su punti numerati lungo il sentiero. Il percorso unidirezionale di sola andata significa che non puoi tornare indietro, quindi pianificare di conseguenza. Il mattino presto offre le migliori opportunità per osservare la fauna selvatica, inclusi orsi neri, cervi e procioni. Visitare durante i mesi di foliage da metà ottobre a fine novembre per colori autunnali spettacolari, sebbene le giornate più miti da maggio a settembre siano anche molto piacevoli.",
+          "tips": [
+            "🍂 Foliage spettacolare da metà ottobre a fine novembre",
+            "🚗 Solo veicoli sotto 6 m, chiuso novembre-marzo",
+            "🦌 Visita all'alba per avvistamenti di fauna selvatica"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 35.713,
+          "lng": -83.485,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina locale degli Appalachi è caratterizzata da piatti semplici ma sostanziosi che riflettono la storia dei coloni e dei nativi americani che vivevano in queste montagne, con un forte accento su ingredienti locali, verdure, carni affumicate e ricette tramandate di generazione in generazione. I piatti tradizionali includono il \"biscuits and gravy\" (biscotti e sugo di carne), la \"fried chicken\" (pollo fritto), il \"cornbread\" (pane di mais), i \"beans and greens\" (fagioli e verdure verdi), e diverse varianti regionali di stufati e zuppe. La regione è particolarmente nota per l'affumicatura di carni, con il \"pulled pork\" (maiale sfilacciato) e il \"brisket\" (petto di manzo) che rimangono piatti fondamentali della cucina del Tennessee e della Nord Carolina. I ristoranti locali hanno elevato questi piatti tradizionali a livelli gourmet, combinando sapori tradizionali con tecniche culinarie contemporanee, sebbene molti stabilimenti mantengono ancora ricette autentiche tramandate per generazioni.\n\nTra i ristoranti più rinomati nella zona di Gatlinburg, The Peddler Steakhouse (1143 Parkway) offre un'eccellente selezione di bistecche di alta qualità, carni affumicate e frutti di mare in un'atmosfera rustica e accogliente, con una fascia di prezzo media di $20-35 per portata principale. Crockett's Breakfast Camp (1508 Parkway) è leggendario per i suoi colossali pancake, waffle e il celebre bacon di 3 libbre, con prezzi ragionevoli ($10-18 per colazione). The Old Mill Restaurant (7135 Mill Avenue a Pigeon Forge) è situato all'interno di un autentico mulino del 1830 e serve cucina Appalachiana tradizionale con piatti come le \"country fried specialties\" (specialità fritte della campagna) e le \"homemade sides\" (contorni fatti in casa), con un prezzo medio di $12-22. Anche Pancho Villa's Cantina offre opzioni autentiche di cucina messicana, che è diventata incredibilmente popolare in Tennessee negli ultimi decenni, con prezzi accessibili ($8-18).\n\nMost restaurants in the Gatlinburg area have similar operating hours, typically opening for breakfast around 7-8 AM and serving until 10-11 PM, with lunch service starting around 11 AM. Etiquette-wise, casual attire is perfectly acceptable throughout the region—the mountain communities embrace a relaxed dress code, and even nicer establishments don't require formal clothing. Per mangiare autentica cucina Appalachiana, visitare i ristoranti situati nei piccoli paesi come Pigeon Forge, Townsend e Bryson City piuttosto che nei centri turistici principali di Gatlinburg; questi stabilimenti più piccoli offrono spesso piatti più autentici e prezzi leggermente inferiori. Se cerchi opzioni vegetariane o esigenze dietetiche speciali, comunicare in anticipo, poiché la cucina tradizionale degli Appalachi è prevalentemente a base di carne e latticini.",
+          "tips": [
+            "🥞 Biscuits and gravy colazione classica degli Appalachi",
+            "💰 Budget medio $15-25 per pasto completo",
+            "⏰ Colazione dalle 7-8 AM, cena fino alle 10-11 PM",
+            "📍 Pigeon Forge e Townsend per autentici piatti regionali",
+            "🗣️ Pronuncia 'Gatlinburg' come 'GAT-lin-burg' non 'GAT-ling-burg'"
           ]
         }
       ]
