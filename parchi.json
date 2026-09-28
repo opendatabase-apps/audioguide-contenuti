@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.36",
+  "versione": "2.0.37",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -10835,6 +10835,175 @@
             "⏰ Colazione dalle 7-8 AM, cena fino alle 10-11 PM",
             "📍 Pigeon Forge e Townsend per autentici piatti regionali",
             "🗣️ Pronuncia 'Gatlinburg' come 'GAT-lin-burg' non 'GAT-ling-burg'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_smoky_mountains",
+      "nome": "Great Smoky Mountains National Park",
+      "sottotitolo": "Parco Nazionale - Tennessee e Carolina del Nord, USA",
+      "paese": "USA",
+      "area": "southeast",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F5",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "clingmans_dome",
+          "order": 1,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Clingmans Dome",
+          "subtitle": "Tappa 1 - La vetta più alta del parco a 2.025 metri",
+          "icon": "⛰️",
+          "color": "#E8F5E9",
+          "lat": 35.6118,
+          "lng": -83.4897,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "1-2h",
+          "distance": "1.6 km",
+          "altitude": 2025,
+          "text": "Clingmans Dome rappresenta il punto più elevato dei Great Smoky Mountains a 2.025 metri di altitudine, offrendo una vista spettacolare che nelle giornate serene si estende per decine di chilometri in tutte le direzioni. La torre di osservazione in cemento costruita negli anni Trenta consente ai visitatori di godere di panorami indimenticabili sulle montagne circondate dalla caratteristica nebbia che dà nome al parco. Il sentiero asfaltato e ben mantenuto rende questa destinazione accessibile a persone di varie abilità fisiche, rendendola una delle attrazioni più apprezzate dell'intera area protetta.\n\nLa vetta riveste grande significato culturale per il popolo Cherokee, che la considera una delle montagne sacre della regione. Storicamente, la torre di osservazione è stata un capolavoro dell'ingegneria del periodo della Grande Depressione, costruita dal CCC (Civilian Conservation Corps) come progetto di lavoro pubblico. Nel corso degli anni, la cima è diventata un simbolo iconico dei Monti Appalachi e del patrimonio naturale americano, attirando milioni di visitatori desiderosi di toccare la vetta più alta della regione.\n\nPer raggiungere la cima, parcheggiate presso il Clingmans Dome Parking Area dove solitamente trovate spazi disponibili nelle prime ore del mattino o in tarda pomeriggio. Portate abbigliamento a strati poiché in altitudine fa significativamente più fresco rispetto alle vallate sottostanti. La visibilità è migliore al tramonto e nelle prime ore mattutine, quindi pianificate di conseguenza. Non dimenticate di portare acqua e protezione solare, specialmente se le nuvole si disperdono.",
+          "tips": [
+            "🌅 Visita al tramonto per colori spettacolari",
+            "🧥 Porta layers, fa freddo in quota",
+            "📸 Migliore ora: mattina presto per evitare folle"
+          ]
+        },
+        {
+          "id": "laurel_falls",
+          "order": 2,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Laurel Falls",
+          "subtitle": "Tappa 2 - La cascata più fotografata del parco",
+          "icon": "💧",
+          "color": "#E0F2F1",
+          "lat": 35.6289,
+          "lng": -83.4844,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "4.2 km",
+          "altitude": 1280,
+          "text": "Laurel Falls è la cascata più iconica e fotografata dell'intero Great Smoky Mountains National Park, celebre per la sua bellezza serena e l'accessibilità. Le cascate si precipitano per oltre 24 metri creando uno spettacolo acquatico che cambia aspetto secondo le stagioni e le condizioni meteorologiche. Il sentiero asfaltato ben curato consente anche ai visitatori meno allenati di raggiungere la base della cascata, rendendola una meta ideale per famiglie con bambini e persone di diverse abilità motorie.\n\nIl nome della cascata deriva dalla fioritura della laurea di montagna che rigogliosa cresce lungo il sentiero, creando nel mese di maggio uno spettacolo floreale magnifico con fiori rosa e bianchi. Storicamente, questa zona era abitata dai coloni delle Appalachi che utilizzavano il territorio per il pascolo e l'agricoltura. La cascata è stata documentata fin dal XIX secolo come meta escursionistica preferita. Il sentiero stesso ricalca in parte le vecchie strade utilizzate dai coloni per attraversare le montagne durante i secoli passati.\n\nParcheggiate presso il Laurel Falls Trailhead che dispone di ampi spazi anche se tendono a riempirsi rapidamente durante i fine settimana. Il sentiero è progressivamente ascendente ma mai eccessivamente impegnativo. Portate scarpe da trekking con buona aderenza poiché il terreno può risultare bagnato e scivoloso, specialmente vicino alle cascate. L'acqua è molto fredda quindi non cercate di bagnarvi. Visitate preferibilmente a metà mattina o nel tardo pomeriggio per evitare le folle.",
+          "tips": [
+            "📸 Porta cavalletto per foto professionali",
+            "👟 Scarpe antiscivolo essenziali",
+            "🚫 Non tuffarti, l'acqua è gelida"
+          ]
+        },
+        {
+          "id": "cades_cove",
+          "order": 3,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Cades Cove",
+          "subtitle": "Tappa 3 - Valle storica con architettura coloniale",
+          "icon": "🏘️",
+          "color": "#FFF3E0",
+          "lat": 35.6381,
+          "lng": -83.0906,
+          "type": "culture",
+          "difficulty": "facile",
+          "duration": "3-5h",
+          "distance": "18 km",
+          "altitude": 610,
+          "text": "Cades Cove è una delle valli più affascinanti e storicamente significative dell'intero parco, circondata da maestose montagne e ricca di edifici storici perfettamente conservati. Questa valle verdeggiante offre un'esperienza autentica della vita rurale degli Appalachi del diciannovesimo secolo, con case in legno, chiese storiche, fattorie e mulini ad acqua sparsi nel paesaggio naturale. La strada panoramica ad anello di 18 chilometri consente ai visitatori di esplorare la valle comodamente in auto, fermandosi ai numerosi punti di interesse senza necessità di lunghe escursioni.\n\nLa storia di Cades Cove affonda le radici nel Settecento quando i Cherokee utilizzavano la valle come terreno di caccia. Nel 1818, i primi coloni europei iniziarono a stabilirsi in questa area fertile, costruendo comunità prospere che hanno mantenuto uno stile di vita tradizionale per oltre un secolo. L'Abney Hall del 1864, la Chiesa Metodista di Cades Cove del 1855 e l'Abrams Mill rappresentano testimonianze importanti di questa eredità culturale. Quando il parco fu istituito nel 1934, alcuni residenti scelsero di rimanere, creando una straordinaria finestra su un'epoca passata.\n\nPercorrite lentamente la strada panoramica fermandovi ai vari punti di parcheggio e interpretivi lungo il percorso ad anello. La domenica mattina il primo terzo della strada è chiuso al traffico motorizzato, permettendo un'esperienza più tranquilla a piedi o in bicicletta. Portatevi una guida al parco che identifica i principali edifici storici. Cercate di visitare all'alba o al tramonto per avvistare cervi e altri animali selvatici. Non mancate di visitare il Visitor Center di Cades Cove per ulteriori informazioni storiche.",
+          "tips": [
+            "🦌 Alba o tramonto per avvistare fauna",
+            "🚴 Domenica mattina: strada chiusa ai veicoli",
+            "📍 18 km: calcola almeno 3-4 ore"
+          ]
+        },
+        {
+          "id": "newfound_gap_road",
+          "order": 4,
+          "tours": [
+            "half",
+            "full",
+            "extended"
+          ],
+          "name": "Newfound Gap Road",
+          "subtitle": "Tappa 4 - Strada panoramica attraverso il parco",
+          "icon": "🛣️",
+          "color": "#F3E5F5",
+          "lat": 35.6007,
+          "lng": -83.3744,
+          "type": "photo",
+          "difficulty": null,
+          "duration": "2-4h",
+          "distance": "48 km",
+          "altitude": 1600,
+          "text": "La Newfound Gap Road è la principale arteria di attraversamento del Great Smoky Mountains National Park, estendendosi per 48 chilometri da Gatlinburg nel Tennessee a Cherokee nella Carolina del Nord. Questa strada storica rappresenta uno dei percorsi panoramici più affascinanti della costa orientale americana, offrendo visuali mozzafiato su valli, foreste e montagne mentre sale gradualmente verso il Newfound Gap a 1.600 metri di altitudine. La strada è interamente asfaltata, ben mantenuta e aperta durante tutto l'anno, anche se occasionalmente si verificano chiusure temporanee durante condizioni meteo avverse invernali.\n\nLa Newfound Gap Road ha una storia affascinante che risale agli anni Venti e Trenta del Novecento, quando fu costruita dal governo federale come progetto per collegare il Tennessee e la Carolina del Nord attraverso il parco. Fu ufficialmente inaugurata nel 1938 alla presenza del presidente Franklin Delano Roosevelt. La costruzione richiese ingegneria innovativa per superare le difficili condizioni topografiche delle montagne. Lungo il percorso si incontrano numerosi punti di interesse storico-naturalistico, tra cui il Rockefeller Memorial che segna il punto di confine tra i due stati al Newfound Gap.\n\nParcheggiate presso i numerosi pullout lungo la strada per godere di vedute panoramiche eccezionali. Il punto di vista più celebre è il Newfound Gap Overlook alla sommità, dove nelle giornate limpide si gode di una visione incredibile di creste e valli sovrapposte. Guidate lentamente mantenendo una velocità prudente poiché la strada è tortuosa con numerose curve strette. Portatevi una fotocamera per catturare i panorami più spettacolari. Durante l'autunno, la strada offre un'esplosione di colori mentre il fogliame cambia colore, rendendola ancora più affascinante.",
+          "tips": [
+            "🍂 Autunno: colori incredibili su tutta la strada",
+            "📸 Fermati ai pullout ufficiali per foto sicure",
+            "❄️ Inverno: verifica condizioni strada prima di partire"
+          ]
+        },
+        {
+          "id": "cataloochee_valley",
+          "order": 5,
+          "tours": [
+            "extended"
+          ],
+          "name": "Cataloochee Valley",
+          "subtitle": "Tappa 5 - Valle remota con alci selvaggi",
+          "icon": "🦌",
+          "color": "#E8F5E9",
+          "lat": 35.7181,
+          "lng": -82.9089,
+          "type": "viewpoint",
+          "difficulty": "moderato",
+          "duration": "4-6h",
+          "distance": "25 km",
+          "altitude": 800,
+          "text": "Cataloochee Valley è una delle aree più remote e meno affollate del Great Smoky Mountains National Park, offrendo un'esperienza autentica di wilderness lontano dalle folle di turisti. Questa valle isolata nella Carolina del Nord è celebre per la popolazione di alci reintrodotti, animali maestosi e impressionanti che i visitatori hanno eccellenti probabilità di avvistare specialmente al tramonto e all'alba. La valle combina storia coloniale con spettacoli naturali, con edifici storici perfettamente conservati dispersi nel paesaggio insieme a boschi incontaminati e prati aperti dove pascolano gli alci.\n\nLa storia di Cataloochee risale alle tribù Cherokee che originariamente abitavano la valle prima dell'arrivo dei coloni europei nel XVIII secolo. Durante il XIX secolo, la valle ospitò una comunità agricola prospera con diverse fattorie e scuole. Nel 1934, quando il parco fu istituito, molti residenti furono sfollati, ma alcuni edifici storici come la Palmer House e la Rough Ridge Cabin rimangono come testimonianze tangibili di questa eredità. Negli ultimi anni, il parco ha attuato un ambizioso progetto di reintroduzione degli alci, che erano stati estirpati dalla regione nel corso dell'Ottocento, ripristinando così un elemento cruciale dell'ecosistema naturale.\n\nPer raggiungere Cataloochee Valley, percorrete la strada tortuosa che si dirama dalla U.S. 321 nella Carolina del Nord, accettando che il viaggio richiede tempo e pazienza. I migliori orari per l'avvistamento degli alci sono le prime ore del mattino da maggio a settembre e nel tardo pomeriggio tutto l'anno. Portate un binocolo e pazienza, poiché gli alci sono animali selvatici e il loro avvistamento non è garantito. Restante a una distanza sicura di almeno 50 metri. Il sentiero ad anello di Cataloochee è leggermente impegnativo ma gratificante per coloro che cercano solitudine e natura incontaminata.",
+          "tips": [
+            "🌅 Alba e tramonto: migliori per avvistamenti alci",
+            "🔭 Binocolo essenziale per osservazioni",
+            "🚗 Strada tortuosa: guida attentamente"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale e ristoranti consigliati",
+          "icon": "🍽️",
+          "color": "#FFF8E8",
+          "lat": 35.7142,
+          "lng": -83.4294,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina della regione degli Smoky Mountains riflette la ricca eredità culinaria degli Appalachi, caratterizzata da piatti tradizionali che affondano le radici nella cucina dei coloni europei adattata alle ingredienti locali disponibili. I piatti tipici includono il famoso 'country fried chicken', la trota affumicata dai torrenti locali, il 'biscuits and gravy', il 'cornbread' e vari stufati rustici. La cucina sottolinea ingredienti semplici, freschi e spesso provenienti da fattorie locali, preparati seguendo ricette tramandate da generazioni. Le porzioni sono generose e i sapori autentici e robusti, perfetti per soddisfare l'appetito dopo una lunga giornata di escursioni nel parco.\n\nTra i ristoranti più rinomati della zona figura il The Peddler Steakhouse a Gatlinburg, specializzato in carni di alta qualità servite in un'atmosfera accogliente con viste sulle montagne, con prezzo medio di 20-35 euro a persona. Il Pancake House di Gatlinburg è leggendario per le colazioni abbondanti e le frittelle fatte in casa, ideale per iniziare la giornata prima di esplorare il parco, con costi molto contenuti intorno a 8-12 euro. Per un'esperienza autentica, il Cherokee Grill a Cherokee offre specialità della cucina dei Cherokee e piatti regionali in un'atmosfera culturale autentica, con prezzi moderati di 15-25 euro. Il Crockett's Breakfast Camp a Gatlinburg combina colazione abbondante e spettacolo dal vivo, creando un'esperienza memorabile anche se turistica.\n\nI migliori orari per mangiare sono dalle 7 alle 9 del mattino per la colazione e dalle 12 alle 14 per il pranzo, evitando le ore di picco dalle 18 alle 20 quando le file possono essere lunghe. Molti ristoranti locali accettano prenotazioni telefoniche che sono consigliate soprattutto nei fine settimana e durante la stagione estiva. L'etichetta è informale negli Smoky Mountains, con abbigliamento casual completamente accettato. Nel parco stesso non ci sono ristoranti completi, ma solo piccoli snack bar, quindi pianificate i pasti nel vicino Gatlinburg o nelle altre cittadine circostanti. Le opzioni vegetariane sono disponibili ma l'attenzione principale rimane sulla cucina a base di carne.",
+          "tips": [
+            "🥞 Colazione: essenziale prima dell'escursione",
+            "🍗 Trota affumicata: specialità locale imperdibile",
+            "⏰ Cenare prima delle 18 per evitare lunghe code",
+            "📍 Gatlinburg: miglior offerta ristorativa della zona",
+            "🗣️ 'Y'all' - saluto amichevole locale tradizionale"
           ]
         }
       ]
