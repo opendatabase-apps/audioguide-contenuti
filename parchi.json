@@ -1,5 +1,5 @@
 {
-  "versione": "2.0.37",
+  "versione": "2.0.38",
   "aggiornato": "2026-06-06",
   "parchi": [
     {
@@ -11004,6 +11004,186 @@
             "⏰ Cenare prima delle 18 per evitare lunghe code",
             "📍 Gatlinburg: miglior offerta ristorativa della zona",
             "🗣️ 'Y'all' - saluto amichevole locale tradizionale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_smoky_mountains",
+      "nome": "Great Smoky Mountains National Park",
+      "sottotitolo": "Parco Nazionale - Tennessee e North Carolina, USA",
+      "paese": "USA",
+      "area": "southeast",
+      "icona": "🏔️",
+      "colore": "#2D5016",
+      "coloreSfondo": "#F5F9F5",
+      "gratuito": true,
+      "prezzo": 0,
+      "stripeLink": "",
+      "pois": [
+        {
+          "id": "clingmans_dome",
+          "order": 1,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Clingmans Dome",
+          "subtitle": "Tappa 1 - Il picco più alto del parco a 2.025 metri",
+          "icon": "⛰️",
+          "color": "#E8F5E9",
+          "lat": 35.6117,
+          "lng": -83.4897,
+          "type": "viewpoint",
+          "difficulty": "moderata",
+          "duration": "2-3h",
+          "distance": "3.2 km",
+          "altitude": 2025,
+          "text": "Clingmans Dome è il punto culminante del Great Smoky Mountains National Park e il terzo picco più alto degli Appalachi orientali. La vetta si raggiunge attraverso un sentiero pavimentato di circa 1,6 chilometri che sale con una pendenza costante tra foreste di abeti e faggi. Sulla cima sorge una caratteristica torre di osservazione a forma di disco costruita negli anni Trenta dalla Civilian Conservation Corps, dalla quale si godono viste panoramiche straordinarie che, nelle giornate limpide, si estendono per oltre cento chilometri in tutte le direzioni. La strada per raggiungere il parcheggio segue la Clingmans Dome Road, una delle strade più alte del parco con numerosi tornanti affascinanti.\n\nIl nome della montagna deriva dal colonnello Thomas Clingman, un esploratore e politico del diciannovesimo secolo che studiò estensamente la geologia della regione. Il picco ha grande significato storico e culturale per la comunità locale, essendo stato un punto di riferimento importante per gli esploratori e i coloni degli Appalachi. Le rocce presenti sulla vetta risalgono a oltre 200 milioni di anni fa e rappresentano alcune delle più antiche formazioni rocciose del Nord America orientale. La nebbia frequente che avvolge il picco è all'origine del nome \"Smokies\" del parco, anche se non è fumo bensì una nube di umidità naturale.\n\nIl periodo migliore per visitare è da aprile a ottobre, quando la strada è completamente aperta. Durante l'inverno le condizioni meteorologiche possono essere estremamente difficili con neve, ghiaccio e venti forti superiori a 100 chilometri orari. È essenziale portare giacche impermeabili poiché il tempo cambia rapidamente. Arrivate al parcheggio nel primo mattino per evitare la congestione pomeridiana. Non dimenticate acqua e snack, in quanto non ci sono strutture sulla cima. La visibilità varia notevolmente in base alle condizioni atmosferiche, quindi controllate le previsioni meteo locali prima della visita.",
+          "tips": [
+            "🌤️ Visibilità migliore al tramonto",
+            "☁️ Nebbia frequente al mattino",
+            "❄️ Strada chiusa in inverno",
+            "📸 Foto spettacolari a 360°",
+            "🥾 Sentiero ben mantenuto"
+          ]
+        },
+        {
+          "id": "cades_cove",
+          "order": 2,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Cades Cove",
+          "subtitle": "Tappa 2 - Valle storica con fauna selvatica e edifici antichi",
+          "icon": "🦌",
+          "color": "#FFF3E0",
+          "lat": 35.5333,
+          "lng": -83.7167,
+          "type": "viewpoint",
+          "difficulty": "facile",
+          "duration": "3-5h",
+          "distance": "17.7 km",
+          "altitude": 610,
+          "text": "Cades Cove è una delle destinazioni più visitate del Great Smoky Mountains National Park, una splendida valle circondata da montagne coperte di foresta vergine che offre uno dei paesaggi più iconici dell'America orientale. La valle è caratterizzata da un anello stradale circolare di 17,7 chilometri che serpeggia attraverso prati aperti, boschi decidui e lungo il ruscello Abrams che scorre placidamente. Questo paesaggio mosaico di prati e foresta è il risultato di secoli di agricoltura e gestione del territorio da parte degli insediamenti umani, creando un ambiente ideale per osservare la fauna selvatica. Durante i mesi primaverili ed estivi, la valle è ricoperta di fiori selvatici brillanti come margherite gialle, bocche di leone e lupini blu.\n\nLa storia di Cades Cove risale a migliaia di anni fa quando il popolo Cherokee utilizzava la valle come territorio di caccia e insediamento stagionale. Nel diciannovesimo secolo, coloni scozzesi-irlandesi costruirono comunità prospere nella valle con circa duemila abitanti nel suo apogeo. Oggi rimangono circa dieci edifici storici ben preservati, incluse chiese, baite in tronchi, mulini a grano e recinti in pietra. Tra le strutture più importanti ci sono la Abrams cabin (1807), la Cades Cove Primitive Baptist Church (1839) e il mulino John Oliver. Questi edifici offrono una finestra affascinante sulla vita cotidiana dei pionieri appalachiani durante i secoli diciottesimo e diciannovesimo. La valle è stata anche sede di attività indigene prima della colonizzazione europea.\n\nPer visitare Cades Cove è consigliabile arrivare al mattino presto, preferibilmente tra le 7 e le 8 del mattino, per evitare la congestione veicolare che aumenta significativamente nel pomeriggio. Martedì e mercoledì sono generalmente i giorni meno affollati. Portate binocoli per l'osservazione della fauna selvatica, soprattutto per cercare cervi dalla coda bianca, orsetti lavatori, castori e occasionalmente orsi neri. Leggete sempre le avvertenze del parco prima della visita. Non fermatevi lungo la strada per fotografare gli animali, parcheggiate in aree designate. La strada è chiusa i mercoledì e giovedì mattina da metà maggio a fine settembre per permettere ai pedoni e ai ciclisti di godere della valle. I picnic sono permessi in aree designate e ci sono servizi igienici al visitor center.",
+          "tips": [
+            "🦌 Osservazione fauna al tramonto",
+            "📸 Fotografare i cervi",
+            "🚴 Martedì e mercoledì meno affollati",
+            "🌅 Arrivare alle 7 del mattino",
+            "🗺️ Ottimo per famiglie"
+          ]
+        },
+        {
+          "id": "grotto_falls",
+          "order": 3,
+          "tours": [
+            "short",
+            "full",
+            "extended"
+          ],
+          "name": "Grotto Falls",
+          "subtitle": "Tappa 3 - Cascata affascinante con passaggio dietro il velo d'acqua",
+          "icon": "💧",
+          "color": "#E0F2F1",
+          "lat": 35.6183,
+          "lng": -83.5133,
+          "type": "water",
+          "difficulty": "facile",
+          "duration": "2-3h",
+          "distance": "4.8 km",
+          "altitude": 730,
+          "text": "Grotto Falls è una delle cascate più affascinanti e accessibili del Great Smoky Mountains National Park, famosa per la particolarità che consente ai visitatori di camminare dietro il velo d'acqua senza bagnarsi completamente. La cascata precipita da un'altezza di venti metri creando una splendida cortina d'acqua che scende dalla roccia rossa-brunastra. Il sentiero che porta a Grotto Falls segue il ruscello Trillium attraverso una foresta di hemlocks giganti, bettaglie e faggi, un percorso affascinante fiancheggiato da rocce lisce e muschiose. Durante la primavera l'area circostante si trasforma in un tappeto di triglium bianco e altri fiori selvatici, mentre l'autunno offre colori vivaci e una vegetazione lussureggiante.\n\nIl nome \"Grotto Falls\" fa riferimento alla caverna naturale sotto la cascata dove l'acqua scava la roccia nel corso dei millenni, creando un affascinante spazio ombreggiato e fresco dietro il flusso d'acqua. Geomorfologicamente, la cascata rappresenta un eccellente esempio di erosione fluviale e di come l'acqua continua a modellare il paesaggio montuoso appalachiano. La roccia visibile attorno alla cascata è parte della formazione di Cades Cove, risalente al Precambriano, e mostra i segni di antiche attività glaciali e tettoniche. Il ruscello Trillium è stato importante per le comunità storiche locali come fonte di acqua pulita e per il funzionamento dei mulini a grano costruiti lungo il suo corso nei secoli passati.\n\nIl sentiero Grotto Falls è uno dei più percorribili nel parco ed è adatto a quasi tutti i livelli di fitness, incluse famiglie con bambini e visitatori anziani, anche se la discesa di ritorno può essere impegnativa per le ginocchia. Indossate scarponi da escursione con buon grip poiché le rocce sono scivolose, specialmente quando bagnate dalla nebbia e dall'umidità. Portate un impermeabile leggero perché la nebbia e gli spruzzi d'acqua creano un'atmosfera umida. La migliore ora per visitare è al mattino presto quando il sole illumina la cascata creando bellissimi arcobaleni e la folla è ancora ridotta. Durante i mesi estivi la cascata è solitamente più forte a causa dei flussi d'acqua aumentati dalle piogge primaverili.",
+          "tips": [
+            "💦 Portare cambio di vestiti",
+            "🥾 Scarpe con buon grip",
+            "🌈 Arcobaleni al mattino presto",
+            "📸 Foto perfette nel primo pomeriggio",
+            "☔ Impermeabile consigliato"
+          ]
+        },
+        {
+          "id": "newfound_gap_road",
+          "order": 4,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Newfound Gap Road",
+          "subtitle": "Tappa 4 - Strada panoramica principale che attraversa il parco",
+          "icon": "🛣️",
+          "color": "#F3E5F5",
+          "lat": 35.6067,
+          "lng": -83.4333,
+          "type": "viewpoint",
+          "difficulty": null,
+          "duration": "4-6h",
+          "distance": "53.2 km",
+          "altitude": 1615,
+          "text": "Newfound Gap Road è l'arteria principale del Great Smoky Mountains National Park, una strada affascinante di 53,2 chilometri che collega Gatlinburg, Tennessee a Cherokee, North Carolina, attraversando il cuore selvaggio del parco. La strada è designata come US Highway 441 ed è l'unica strada che attraversa completamente il parco da nord a sud. Durante i 53 chilometri il percorso sale e scende più volte, attraversando diversi ecosistemi forestali e offrendo accessi a molti dei sentieri escursionistici più popolari del parco. La strada raggiunge un'altitudine massima di 1.615 metri al Newfound Gap, un valico di montagna con viste panoramiche straordinarie. Lungo il percorso si incontrano numerosi pull-out panoramici dove è possibile fermarsi per ammirare i paesaggi, fotografare e leggere i cartelli informativi sulla geologia e la flora della regione.\n\nNewfound Gap Road ha una ricca storia legata all'esplorazione e allo sviluppo della regione appalachiana. La strada fu costruita tra il 1931 e il 1935 durante l'amministrazione del presidente Franklin Delano Roosevelt come parte dei progetti di sviluppo infrastrutturale. L'apertura della strada nel 1935 fu un evento storico cruciale che facilitò l'accesso al parco e il suo utilizzo ricreativo. Il Gap stesso prende il nome dalla scoperta di questo valico naturale attraverso la montagna, noto ai Cherokee e agli esploratori europei fin dal diciottesimo secolo. La strada ha svolto un ruolo importante nella storia del parco anche durante il periodo della Civilian Conservation Corps, quando giovani lavoratori costruirono infrastrutture lungo il percorso.\n\nLa guida attraverso Newfound Gap Road richiede da quattro a sei ore a causa dei numerosi pull-out e dei limiti di velocità ridotti nei tratti con curve strette. È consigliabile guidare con prudenza, soprattutto nei mesi autunnali quando il fogliame cambia e attira folle di visitatori. Alcune sezioni della strada, in particolare nei tornanti, richiedono grande attenzione con veicoli grandi o roulotte. I vari pull-out offrono opportunità eccellenti per fotografia, picnic e osservazione della fauna selvatica. Controllate le condizioni della strada prima di partire, poiché durante i mesi invernali il ghiaccio e la neve possono causare chiusure temporanee. Portate una mappa del parco e guidate durante le ore diurne per sicurezza massima.",
+          "tips": [
+            "🛣️ Guida lenta e attenta",
+            "📸 Pull-out panoramici ogni km",
+            "🌅 Tramonto spettacolare",
+            "❄️ Ghiaccio in inverno",
+            "🗺️ Fermarsi ai visitor center"
+          ]
+        },
+        {
+          "id": "appalachian_trail",
+          "order": 5,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Appalachian Trail",
+          "subtitle": "Tappa 5 - Il celebre sentiero che attraversa le montagne",
+          "icon": "🥾",
+          "color": "#F1F8E9",
+          "lat": 35.6117,
+          "lng": -83.4897,
+          "type": "trail",
+          "difficulty": "difficile",
+          "duration": "variabile",
+          "distance": "20 km nel parco",
+          "altitude": 650,
+          "text": "L'Appalachian Trail è uno dei sentieri escursionistici più iconici e celebri del Nord America, un cammino storico e leggendario che si estende per 3.500 chilometri dalla Georgia al Maine attraversando le montagne orientali. Nel Great Smoky Mountains National Park il sentiero corre per circa venti chilometri lungo la cresta principale della catena montuosa, rappresentando uno dei tratti più spettacolari dell'intero tracciato. Il sentiero attraversa ecosistemi variati da foreste decidue a boschi di abeti subalpini, offrendo agli escursionisti viste panoramiche straordinarie dalle creste e dalle vette. Molti sezioni del sentiero nel parco raggiungono altitudini superiori ai 1.800 metri, dove le temperature sono significativamente più fredde e la vegetazione è adattata alle condizioni montuose rigorose. Il sentiero è ben mantenuto dai volontari e dall'Appalachian Trail Conservancy ed è marcato da bande bianche dipinte sulla corteccia degli alberi e sulle rocce.\n\nL'Appalachian Trail ha una storia affascinante che risale al 1921 quando Benton MacKaye, un pianificatore regionale e naturalista, concepì l'idea di un sentiero continuo lungo le montagne Appalache. La costruzione del sentiero iniziò nel 1923 e fu completata nel 1937, rappresentando uno straordinario sforzo collaborativo di migliaia di volontari e organizzazioni locali. Nel Great Smoky Mountains il sentiero segue la cresta della catena montuosa, passando per picchi famosi come Mount Clingmans e Mount Le Conte. Il sentiero ha acquisito enorme significato culturale nella storia dell'escursionismo americano, attirando migliaia di \"thru-hikers\" ogni anno che tentano di completare l'intero tracciato in una sola stagione. Nel parco, il sentiero rappresenta uno dei percorsi più impegnativi ma gratificanti disponibili.\n\nEscursioni sull'Appalachian Trail nel parco dovrebbero essere pianificate con estrema cura. I visitatori devono ottenere un permesso di campeggio dal parco se intendono pernottare lungo il sentiero, disponibili presso i visitor center e online. Portate mappe topografiche, bussola o GPS, poiché sezioni del sentiero possono essere confuse nei tratti con nebbia densa. L'acqua è scarsa in alcune sezioni, quindi portate una capacità sufficiente di liquidi e metodi di purificazione. Le condizioni meteorologiche possono cambiare rapidamente, specialmente ad altitudini elevate dove tempeste violente possono svilupparsi senza preavviso. Indossate abbigliamento in strati e impermeabili robusti. Informate qualcuno del vostro itinerario e data di ritorno prevista. Il sentiero è solo per escursionisti esperti con buona forma fisica.",
+          "tips": [
+            "🥾 Escursionisti esperti consigliati",
+            "🗺️ Mappa e bussola essenziali",
+            "💧 Portare 2-3 litri d'acqua",
+            "⛺ Permesso campeggio obbligatorio",
+            "🌩️ Tempeste improvvise frequent"
+          ]
+        },
+        {
+          "id": "dove_mangiare",
+          "order": 6,
+          "tours": [
+            "full",
+            "extended"
+          ],
+          "name": "Dove mangiare",
+          "subtitle": "Cucina locale appalachiana e ristoranti consigliati",
+          "icon": "🍜",
+          "color": "#FFF8E8",
+          "lat": 35.7131,
+          "lng": -83.3905,
+          "type": "restaurant",
+          "difficulty": null,
+          "duration": "1-2h",
+          "distance": null,
+          "altitude": null,
+          "text": "La cucina locale della regione intorno al Great Smoky Mountains National Park riflette l'eredità culturale appalachiana dei coloni scozzesi-irlandesi, caratterizzata da piatti robusti e sostanziosi preparati con ingredienti locali tradizionali. I piatti tipici includono pollo fritto in stile Appalachi, bistecca di mucca, maiale arrosto, minestre di verdure fresche, cornbread dorato, biscotti fatti in casa e molti piatti a base di trota d'acqua dolce. Una specialità locale amata è il \"biscuits and gravy\", biscotti fatti in casa serviti con salsa di salsiccia e un liquido denso e saporito. Un altro piatto iconico è lo \"chicken and dumplings\", uno stufato di pollo con gnocchi fatti in casa cotti nel brodo, perfetto per le fredde giornate montane. I ristoranti locali spesso servono \"sweet tea\", tè dolce freddo che è una bevanda popolare nel sud degli Stati Uniti, e zuppa di fagioli neri con maiale affumicato.\n\nNella città di Gatlinburg, il principale gateway del parco, si trovano numerosi ristoranti che servono cucina appalachiana autentica accanto a opzioni culinarie più cosmopolite. \"The Peddler Steakhouse\" offre ottimi tagli di carne di qualità superiore e piatti locali in un'atmosfera rustica con vista sulle montagne, con prezzi medi intorno ai 20-35 euro per piatto principale. \"Pancake House\" è famoso per la colazione abbondante e i pancake preparati secondo ricette familiari tradizionali, con budget medio di 8-12 euro. \"The Melting Pot\" serve fondute di formaggi e carne in salsa brodo, piatto interattivo e divertente, con costi di 18-25 euro a persona. A Cherokee, North Carolina, \"Fading Voices\" offre cucina appalachiana autentica con ingredienti biologici locali e piatti preparati da ricette familiari tramandate di generazione in generazione, prezzi medi 15-22 euro.\n\nI ristoranti nella regione di solito aprono alle 7-8 del mattino per la colazione e rimangono aperti fino alle 21-22 per la cena. Il periodo di picco è da maggio a ottobre e durante i weekend, quando i tempi di attesa possono raggiungere 45-90 minuti nei ristoranti più popolari. Si consiglia di andare prima delle 18 o dopo le 19 per evitare le ore di punta. Molti ristoranti accettano prenotazioni durante i mesi estivi. L'etichetta locale prevede di essere cortesi e amichevoli con il personale. Una mancia del 15-20% è standard negli Stati Uniti. Gatlinburg ha più opzioni di ristoranti ma spesso più affollato, mentre Cherokee offre più autenticità culturale. Per picnic nel parco, portatevi panini, frutta e snack da negozi locali.",
+          "tips": [
+            "🍗 Pollo fritto locale imperdibile",
+            "💰 Budget medio 15-25 euro",
+            "⏰ Pranzo 12-14, cena 18-20",
+            "📍 Gatlinburg più opzioni, Cherokee autentico",
+            "🗣️ \"Y'all come back\" è un saluto locale amichevole"
           ]
         }
       ]
